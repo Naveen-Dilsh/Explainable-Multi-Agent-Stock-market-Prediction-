@@ -18,6 +18,7 @@ is this screen's own copy, deliberately gentler than the phrasing agents.py uses
 for the printed cards. It is presentation, so it lives with the presentation.
 """
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -36,7 +37,8 @@ STOCKS = cfg.STOCKS
 THRESHOLD, SEALED_FROM = cfg.THRESHOLD, cfg.SEALED_FROM
 FRESH_DAYS, MIN_FRESH, N_HEADLINES = cfg.FRESH_DAYS, cfg.MIN_FRESH, cfg.N_HEADLINES
 
-st.set_page_config(page_title="Regime + News Demo", page_icon="📊", layout="wide")
+st.set_page_config(page_title="Explainable Multi-Agent Trading Demo",
+                   page_icon="📊", layout="wide")
 
 st.markdown("""<style>
   .agent-hd{display:flex;align-items:baseline;gap:.6rem;flex-wrap:wrap;
@@ -51,6 +53,35 @@ st.markdown("""<style>
 </style>""", unsafe_allow_html=True)
 
 REGIME_C, NEWS_C, RISK_C, COORD_C = "#3D7BE0", "#D08B2C", "#2E9E5B", "#8B5CF6"
+
+
+@st.cache_resource
+def llm_key_available():
+    """True when a Gemini key is configured, by .env, environment or secret.
+
+    A deployed copy has no .env file: the key, if there is one, comes from the
+    host's secrets. Without a key the demo runs entirely from cache, which is
+    what a public deployment wants anyway - a visitor cannot spend the quota.
+    """
+    if cfg.ENV_FILE.exists():
+        try:
+            from dotenv import load_dotenv
+            load_dotenv(cfg.ENV_FILE)
+        except ImportError:
+            pass
+    if os.environ.get("GEMINI_API_KEY"):
+        return True
+    try:                                    # st.secrets raises if no secrets file
+        key = st.secrets.get("GEMINI_API_KEY")
+    except Exception:
+        return False
+    if key:
+        os.environ["GEMINI_API_KEY"] = key  # agents.call_llm reads the environment
+        return True
+    return False
+
+
+LLM_READY = llm_key_available()
 
 
 def agent_header(icon, name, role, color, tag=""):
@@ -274,8 +305,13 @@ with c1:
                               value=dates[len(dates) // 2],
                               format_func=lambda d: d.strftime("%d %b %Y"))
 with c2:
-    live = st.checkbox("Call the LLM for news", value=False,
-                       help="Uncached dates need a Gemini call (a few seconds per stock).")
+    if LLM_READY:
+        live = st.checkbox("Call the LLM for news", value=False,
+                           help="Uncached dates need a Gemini call (a few seconds per stock).")
+    else:
+        live = False
+        st.checkbox("Call the LLM for news", value=False, disabled=True,
+                    help="No Gemini key is configured here, so this copy reads the cache only.")
 with c3:
     st.metric("Days available", f"{len(dates)}")
 
@@ -768,7 +804,9 @@ with st.container(border=True):
                            "this agent only writes the explanation, it never changes the decision"))
     elif src == "pending":
         st.info(f'**{pick}** on {picked:%d %b %Y} has not been narrated yet. '
-                'Tick **“Call the LLM for news”** above to generate it.')
+                + ('Tick **“Call the LLM for news”** above to generate it.' if LLM_READY
+                   else 'This copy reads the cache only, so pick a day that is already '
+                        'narrated - most days in the first half of 2025 are.'))
     else:
         st.warning(f'Nothing to narrate for **{pick}** - {badge}.')
 

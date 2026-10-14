@@ -1,0 +1,455 @@
+[
+  {
+    "stock": "IOC",
+    "action": "HOLD",
+    "conviction": 0.0,
+    "direction": "NEUTRAL",
+    "regime": "SIDEWAYS",
+    "rules_fired": [
+      {
+        "rule": "C1_NO_DIRECTION",
+        "detail": "Sentiment Agent returned NEUTRAL (the agent abstained - too little fresh news) - nothing to act on."
+      }
+    ],
+    "sentiment_source": "REAL",
+    "date": "2025-01-02",
+    "card_text": "==============================================================================\n  IOC   \u2014   HOLD   (conviction 0.00)\n  2025-01-02\n==============================================================================\n  NEWS AGENT\n    says     : NEUTRAL  (confidence 0.00, read 2 headlines)\n    because  : Only 2 headline(s) in the last 7 days - not enough fresh news to form an honest view.\n\n  REGIME AGENT\n    says     : SIDEWAYS  (stable)\n    because  : SIDEWAYS \u2014 conditions are stable (4% chance of change against a 53% threshold), because this regime is 15 days old, and it has been 65 days since the last high, and the fear index is at 13.7. So today's regime carries forward.\n\n  HOW THEY WERE COMBINED\n    [C1_NO_DIRECTION] Sentiment Agent returned NEUTRAL (the agent abstained - too little fresh news) - nothing to act on.\n\n  DECISION : HOLD   conviction 0.00\n=============================================================================="
+  },
+  {
+    "stock": "BHARTIARTL",
+    "action": "HOLD",
+    "conviction": 0.0,
+    "direction": "NEUTRAL",
+    "regime": "SIDEWAYS",
+    "rules_fired": [
+      {
+        "rule": "C1_NO_DIRECTION",
+        "detail": "Sentiment Agent returned NEUTRAL (the news is mixed or immaterial) - nothing to act on."
+      }
+    ],
+    "sentiment_source": "REAL",
+    "date": "2025-01-02",
+    "card_text": "==============================================================================\n  BHARTIARTL   \u2014   HOLD   (conviction 0.00)\n  2025-01-02\n==============================================================================\n  NEWS AGENT\n    says     : NEUTRAL  (confidence 0.80, read 3 headlines)\n    because  : The recent news for Bharti Airtel consists of a routine year-end summary, a report on service disruptions, and a personal interest story regarding the chairman's family. None of these updates suggest a material change in the company's financial outlook, profit margins, or competitive standing. Consequently, the information provided is insufficient to justify a directional move for the stock.\n      [neutral ] \"Bharti Airtel Year-End Review: Key Milestones and Developmen\"\n                 It is a retrospective summary without forward-looking financial guidance.\n      [negative] \"Bharti Airtel users face disruptions to mobile, broadband se\"\n                 Temporary service outages can lead to customer frustration, though they are usually not material to long-term earnings.\n      [neutral ] \"Airtel Sunil Mittal's son Shravin and daughter Eiesha live a\"\n                 This is personal interest news that does not impact company fundamentals.\n\n  REGIME AGENT\n    says     : SIDEWAYS  (stable)\n    because  : SIDEWAYS \u2014 conditions are stable (4% chance of change against a 53% threshold), because this regime is 15 days old, and it has been 65 days since the last high, and the fear index is at 13.7. So today's regime carries forward.\n\n  HOW THEY WERE COMBINED\n    [C1_NO_DIRECTION] Sentiment Agent returned NEUTRAL (the news is mixed or immaterial) - nothing to act on.\n\n  DECISION : HOLD   conviction 0.00\n=============================================================================="
+  },
+  {
+    "stock": "ASHOKLEY",
+    "action": "HOLD",
+    "conviction": 0.0,
+    "direction": "NEUTRAL",
+    "regime": "SIDEWAYS",
+    "rules_fired": [
+      {
+        "rule": "C1_NO_DIRECTION",
+        "detail": "Sentiment Agent returned NEUTRAL (the agent abstained - too little fresh news) - nothing to act on."
+      }
+    ],
+    "sentiment_source": "REAL",
+    "date": "2025-01-02",
+    "card_text": "==============================================================================\n  ASHOKLEY   \u2014   HOLD   (conviction 0.00)\n  2025-01-02\n==============================================================================\n  NEWS AGENT\n    says     : NEUTRAL  (confidence 0.00, read 1 headlines)\n    because  : Only 1 headline(s) in the last 7 days - not enough fresh news to form an honest view.\n\n  REGIME AGENT\n    says     : SIDEWAYS  (stable)\n    because  : SIDEWAYS \u2014 conditions are stable (4% chance of change against a 53% threshold), because this regime is 15 days old, and it has been 65 days since the last high, and the fear index is at 13.7. So today's regime carries forward.\n\n  HOW THEY WERE COMBINED\n    [C1_NO_DIRECTION] Sentiment Agent returned NEUTRAL (the agent abstained - too little fresh news) - nothing to act on.\n\n  DECISION : HOLD   conviction 0.00\n=============================================================================="
+  },
+  {
+    "stock": "ADANIPORTS",
+    "action": "BUY",
+    "conviction": 0.525,
+    "direction": "UP",
+    "regime": "SIDEWAYS",
+    "regime_stable": true,
+    "rules_fired": [
+      {
+        "rule": "C3_NO_CONTEXT",
+        "detail": "the market is drifting sideways - no support either way; confidence 0.75 x 0.70 = 0.52"
+      }
+    ],
+    "sentiment_source": "REAL",
+    "date": "2025-01-02",
+    "card_text": "==============================================================================\n  ADANIPORTS   \u2014   BUY   (conviction 0.53)\n  2025-01-02\n==============================================================================\n  NEWS AGENT\n    says     : UP  (confidence 0.75, read 11 headlines)\n    because  : Adani Ports shows strong positive momentum, with recent news highlighting both sustained share price appreciation and active capital investment in infrastructure. The commitment of Rs 450 crore for new harbor tugs indicates clear capacity expansion plans, which should support long-term cargo handling efficiency. The stock has consistently performed as a top gainer in the group, reflecting positive investor sentiment.\n      [positive] \"Adani Ports places order worth Rs 450-cr from Cochin Shipyar\"\n                 Demonstrates active investment in infrastructure and port expansion.\n      [positive] \"Adani Enterprises' share price jumps nearly 5 pc, Adani Port\"\n                 Reflects strong market demand and price appreciation.\n      [positive] \"10 Adani Group Stocks Settle Higher; Adani Ports Jumps Over \"\n                 Highlights positive trading momentum for the stock.\n\n  REGIME AGENT\n    says     : SIDEWAYS  (stable)\n    because  : SIDEWAYS \u2014 conditions are stable (4% chance of change against a 53% threshold), because this regime is 15 days old, and it has been 65 days since the last high, and the fear index is at 13.7. So today's regime carries forward.\n\n  HOW THEY WERE COMBINED\n    [C3_NO_CONTEXT] the market is drifting sideways - no support either way; confidence 0.75 x 0.70 = 0.52\n\n  DECISION : BUY   conviction 0.53\n=============================================================================="
+  },
+  {
+    "stock": "INDHOTEL",
+    "action": "BUY",
+    "conviction": 0.525,
+    "direction": "UP",
+    "regime": "SIDEWAYS",
+    "regime_stable": true,
+    "rules_fired": [
+      {
+        "rule": "C3_NO_CONTEXT",
+        "detail": "the market is drifting sideways - no support either way; confidence 0.75 x 0.70 = 0.52"
+      }
+    ],
+    "sentiment_source": "REAL",
+    "date": "2025-01-02",
+    "card_text": "==============================================================================\n  INDHOTEL   \u2014   BUY   (conviction 0.53)\n  2025-01-02\n==============================================================================\n  NEWS AGENT\n    says     : UP  (confidence 0.75, read 3 headlines)\n    because  : Indian Hotels Company is aggressively expanding its portfolio with new property signings in Gwalior and Kochi, which signals strong management confidence in rising tourism and business travel demand. These additions broaden their reach in key growth markets, likely supporting higher occupancy and long-term revenue growth. The overall positive economic outlook for India's manufacturing and travel sectors further reinforces a favorable environment for luxury hospitality.\n      [positive] \"IHCL SIGNS GATEWAY RESORT IN GWALIOR, BOOSTING CENTRAL INDIA\"\n                 Expansion of property footprint increases future revenue potential.\n      [positive] \"IHCL LAUNCHES TAJ COCHIN INTERNATIONAL AIRPORT\"\n                 New location in a high-traffic travel hub directly boosts occupancy opportunities.\n      [positive] \"Tata Group chairman Chandrasekaran's year-end note sees 'new\"\n                 Positive macroeconomic outlook suggests increased business travel and hospitality spending.\n\n  REGIME AGENT\n    says     : SIDEWAYS  (stable)\n    because  : SIDEWAYS \u2014 conditions are stable (4% chance of change against a 53% threshold), because this regime is 15 days old, and it has been 65 days since the last high, and the fear index is at 13.7. So today's regime carries forward.\n\n  HOW THEY WERE COMBINED\n    [C3_NO_CONTEXT] the market is drifting sideways - no support either way; confidence 0.75 x 0.70 = 0.52\n\n  DECISION : BUY   conviction 0.53\n=============================================================================="
+  },
+  {
+    "stock": "IOC",
+    "action": "HOLD",
+    "conviction": 0.0,
+    "direction": "NEUTRAL",
+    "regime": "SIDEWAYS",
+    "rules_fired": [
+      {
+        "rule": "C1_NO_DIRECTION",
+        "detail": "Sentiment Agent returned NEUTRAL (the news is mixed or immaterial) - nothing to act on."
+      }
+    ],
+    "sentiment_source": "REAL",
+    "date": "2025-04-28",
+    "card_text": "==============================================================================\n  IOC   \u2014   HOLD   (conviction 0.00)\n  2025-04-28\n==============================================================================\n  NEWS AGENT\n    says     : NEUTRAL  (confidence 0.70, read 6 headlines)\n    because  : The recent headlines are almost exclusively focused on a pilot project for hydrogen fuel cell vehicles with Hyundai. While this demonstrates forward-looking innovation, it is an experimental initiative that will not materially impact Indian Oil Corporation's near-term earnings or profit margins. There is no significant news regarding core refinery margins, crude oil price fluctuations, or government fuel pricing policies, which are the primary drivers for this stock.\n      [neutral ] \"Hydrogen cars? Hyundai and IndianOil to begin big trials\"\n                 Experimental trial with no immediate financial impact.\n      [positive] \"Indian Oil plans to operate Gujarat refinery at higher capac\"\n                 Long-term capacity expansion is constructive but far from impacting immediate quarterly earnings.\n      [neutral ] \"Hyundai ties up with IndianOil to check viability of hydroge\"\n                 Focuses on long-term technological viability rather than current operational profitability.\n\n  REGIME AGENT\n    says     : SIDEWAYS  (change expected)\n    because  : SIDEWAYS \u2014 a change is coming (76% chance of change against a 53% threshold), because the stocks are moving together at 0.38 correlation, and it has been 141 days since the last high, and we are currently in a bear regime. So the arithmetic rule was applied.\n\n  HOW THEY WERE COMBINED\n    [C1_NO_DIRECTION] Sentiment Agent returned NEUTRAL (the news is mixed or immaterial) - nothing to act on.\n\n  DECISION : HOLD   conviction 0.00\n=============================================================================="
+  },
+  {
+    "stock": "BHARTIARTL",
+    "action": "BUY",
+    "conviction": 0.448,
+    "direction": "UP",
+    "regime": "SIDEWAYS",
+    "regime_stable": false,
+    "rules_fired": [
+      {
+        "rule": "C3_NO_CONTEXT",
+        "detail": "the market is drifting sideways - no support either way; confidence 0.80 x 0.70 = 0.56"
+      },
+      {
+        "rule": "C5_REGIME_UNSTABLE",
+        "detail": "the Regime Agent expects a change (76% vs 53%) - conviction cut to 0.45"
+      }
+    ],
+    "sentiment_source": "REAL",
+    "date": "2025-04-28",
+    "card_text": "==============================================================================\n  BHARTIARTL   \u2014   BUY   (conviction 0.45)\n  2025-04-28\n==============================================================================\n  NEWS AGENT\n    says     : UP  (confidence 0.80, read 15 headlines)\n    because  : Bharti Airtel is showing strong momentum through the acquisition of Adani's spectrum, which bolsters its 5G capabilities, and recent subscriber data showing it is outperforming its main rival, Reliance Jio. While there is regulatory scrutiny regarding the conversion of dues into equity, the company's aggressive expansion in services and market share gains support a positive outlook for future profitability.\n      [positive] \"Bharti Airtel gains significantly more active users than Rel\"\n                 Indicates market share growth over its primary competitor.\n      [positive] \"Bharti Airtel inks pact to acquire 400 MHz in 26 GHz band fr\"\n                 Enhances 5G spectrum holdings and network capacity.\n      [neutral ] \"Bharti Airtel\u2019s AGR Dues to Be Scrutinised by DoT for Equity\"\n                 Represents regulatory uncertainty despite the company's efforts to manage debt.\n\n  REGIME AGENT\n    says     : SIDEWAYS  (change expected)\n    because  : SIDEWAYS \u2014 a change is coming (76% chance of change against a 53% threshold), because the stocks are moving together at 0.38 correlation, and it has been 141 days since the last high, and we are currently in a bear regime. So the arithmetic rule was applied.\n\n  HOW THEY WERE COMBINED\n    [C3_NO_CONTEXT] the market is drifting sideways - no support either way; confidence 0.80 x 0.70 = 0.56\n    [C5_REGIME_UNSTABLE] the Regime Agent expects a change (76% vs 53%) - conviction cut to 0.45\n\n  DECISION : BUY   conviction 0.45\n=============================================================================="
+  },
+  {
+    "stock": "ASHOKLEY",
+    "action": "HOLD",
+    "conviction": 0.0,
+    "direction": "NEUTRAL",
+    "regime": "SIDEWAYS",
+    "rules_fired": [
+      {
+        "rule": "C1_NO_DIRECTION",
+        "detail": "Sentiment Agent returned NEUTRAL (the agent abstained - too little fresh news) - nothing to act on."
+      }
+    ],
+    "sentiment_source": "REAL",
+    "date": "2025-04-28",
+    "card_text": "==============================================================================\n  ASHOKLEY   \u2014   HOLD   (conviction 0.00)\n  2025-04-28\n==============================================================================\n  NEWS AGENT\n    says     : NEUTRAL  (confidence 0.00, read 0 headlines)\n    because  : Only 0 headline(s) in the last 7 days - not enough fresh news to form an honest view.\n\n  REGIME AGENT\n    says     : SIDEWAYS  (change expected)\n    because  : SIDEWAYS \u2014 a change is coming (76% chance of change against a 53% threshold), because the stocks are moving together at 0.38 correlation, and it has been 141 days since the last high, and we are currently in a bear regime. So the arithmetic rule was applied.\n\n  HOW THEY WERE COMBINED\n    [C1_NO_DIRECTION] Sentiment Agent returned NEUTRAL (the agent abstained - too little fresh news) - nothing to act on.\n\n  DECISION : HOLD   conviction 0.00\n=============================================================================="
+  },
+  {
+    "stock": "ADANIPORTS",
+    "action": "BUY",
+    "conviction": 0.476,
+    "direction": "UP",
+    "regime": "SIDEWAYS",
+    "regime_stable": false,
+    "rules_fired": [
+      {
+        "rule": "C3_NO_CONTEXT",
+        "detail": "the market is drifting sideways - no support either way; confidence 0.85 x 0.70 = 0.59"
+      },
+      {
+        "rule": "C5_REGIME_UNSTABLE",
+        "detail": "the Regime Agent expects a change (76% vs 53%) - conviction cut to 0.48"
+      }
+    ],
+    "sentiment_source": "REAL",
+    "date": "2025-04-28",
+    "card_text": "==============================================================================\n  ADANIPORTS   \u2014   BUY   (conviction 0.48)\n  2025-04-28\n==============================================================================\n  NEWS AGENT\n    says     : UP  (confidence 0.85, read 6 headlines)\n    because  : Adani Ports is showing strong positive momentum driven by its strategic acquisition of the Abbot Point Port (NQXT), which analysts view as a significant step toward global diversification. Multiple brokerage firms have expressed bullish sentiments regarding these expansion efforts. While there is a minor legal headline regarding a legacy case, the core business news focusing on growth and international expansion significantly outweighs it.\n      [positive] \"Fitch Ratings Sees Adani Ports\u2019 NQXT Acquisition as Positive\"\n                 Validates the strategic long-term value of the acquisition.\n      [positive] \"Adani Ports to acquire Abbot Point Port for $2.54bn\"\n                 Major expansion move expected to drive future revenue growth.\n      [positive] \"Brokerages stay bullish on Adani Ports\u2019 NQXT deal\"\n                 Market experts demonstrate confidence in the company's growth strategy.\n\n  REGIME AGENT\n    says     : SIDEWAYS  (change expected)\n    because  : SIDEWAYS \u2014 a change is coming (76% chance of change against a 53% threshold), because the stocks are moving together at 0.38 correlation, and it has been 141 days since the last high, and we are currently in a bear regime. So the arithmetic rule was applied.\n\n  HOW THEY WERE COMBINED\n    [C3_NO_CONTEXT] the market is drifting sideways - no support either way; confidence 0.85 x 0.70 = 0.59\n    [C5_REGIME_UNSTABLE] the Regime Agent expects a change (76% vs 53%) - conviction cut to 0.48\n\n  DECISION : BUY   conviction 0.48\n=============================================================================="
+  },
+  {
+    "stock": "INDHOTEL",
+    "action": "BUY",
+    "conviction": 0.42,
+    "direction": "UP",
+    "regime": "SIDEWAYS",
+    "regime_stable": false,
+    "rules_fired": [
+      {
+        "rule": "C3_NO_CONTEXT",
+        "detail": "the market is drifting sideways - no support either way; confidence 0.75 x 0.70 = 0.52"
+      },
+      {
+        "rule": "C5_REGIME_UNSTABLE",
+        "detail": "the Regime Agent expects a change (76% vs 53%) - conviction cut to 0.42"
+      }
+    ],
+    "sentiment_source": "REAL",
+    "date": "2025-04-28",
+    "card_text": "==============================================================================\n  INDHOTEL   \u2014   BUY   (conviction 0.42)\n  2025-04-28\n==============================================================================\n  NEWS AGENT\n    says     : UP  (confidence 0.75, read 8 headlines)\n    because  : IHCL is aggressively expanding its portfolio through new luxury brands like 'The Claridges Collection' and strategic hotel openings in key tourism markets like Goa, Karnataka, and the UAE. Despite a recent temporary dip in hotel stocks likely tied to market-wide volatility, the company's consistent focus on scaling its footprint and investing in hospitality education indicates strong long-term operational growth.\n      [positive] \"IHCL UNVEILS CLARIDGES COLLECTION\u2013 A NEW ERA OF BOUTIQUE LUX\"\n                 Diversifies revenue streams with a new premium brand.\n      [positive] \"BNW Developments & IHCL Unveil Taj Wellington Mews, UAE\u2019s Fa\"\n                 Successful international expansion into high-demand luxury real estate.\n      [negative] \"Hotel stocks slide, IHCL, Lemon Tree, ITC Hotels down up to \"\n                 Reflects short-term market sentiment rather than underlying business weakness.\n\n  REGIME AGENT\n    says     : SIDEWAYS  (change expected)\n    because  : SIDEWAYS \u2014 a change is coming (76% chance of change against a 53% threshold), because the stocks are moving together at 0.38 correlation, and it has been 141 days since the last high, and we are currently in a bear regime. So the arithmetic rule was applied.\n\n  HOW THEY WERE COMBINED\n    [C3_NO_CONTEXT] the market is drifting sideways - no support either way; confidence 0.75 x 0.70 = 0.52\n    [C5_REGIME_UNSTABLE] the Regime Agent expects a change (76% vs 53%) - conviction cut to 0.42\n\n  DECISION : BUY   conviction 0.42\n=============================================================================="
+  },
+  {
+    "stock": "IOC",
+    "action": "HOLD",
+    "conviction": 0.0,
+    "direction": "NEUTRAL",
+    "regime": "BULL",
+    "rules_fired": [
+      {
+        "rule": "C1_NO_DIRECTION",
+        "detail": "Sentiment Agent returned NEUTRAL (the agent abstained - too little fresh news) - nothing to act on."
+      }
+    ],
+    "sentiment_source": "REAL",
+    "date": "2025-08-13",
+    "card_text": "==============================================================================\n  IOC   \u2014   HOLD   (conviction 0.00)\n  2025-08-13\n==============================================================================\n  NEWS AGENT\n    says     : NEUTRAL  (confidence 0.00, read 0 headlines)\n    because  : Only 0 headline(s) in the last 7 days - not enough fresh news to form an honest view.\n\n  REGIME AGENT\n    says     : BULL  (stable)\n    because  : BULL \u2014 conditions are stable (2% chance of change against a 53% threshold), because recent volatility is 0.58% daily, and this regime is 23 days old, and two-month volatility is 0.58% daily. So today's regime carries forward.\n\n  HOW THEY WERE COMBINED\n    [C1_NO_DIRECTION] Sentiment Agent returned NEUTRAL (the agent abstained - too little fresh news) - nothing to act on.\n\n  DECISION : HOLD   conviction 0.00\n=============================================================================="
+  },
+  {
+    "stock": "BHARTIARTL",
+    "action": "HOLD",
+    "conviction": 0.34,
+    "direction": "DOWN",
+    "regime": "BULL",
+    "regime_stable": true,
+    "rules_fired": [
+      {
+        "rule": "C4_OPPOSED",
+        "detail": "news says DOWN but the market is BULL - fighting the market; confidence 0.85 x 0.40 = 0.34"
+      },
+      {
+        "rule": "C6_TOO_WEAK",
+        "detail": "conviction 0.34 is below the 0.35 minimum"
+      }
+    ],
+    "sentiment_source": "REAL",
+    "date": "2025-08-13",
+    "card_text": "==============================================================================\n  BHARTIARTL   \u2014   HOLD   (conviction 0.34)\n  2025-08-13\n==============================================================================\n  NEWS AGENT\n    says     : DOWN  (confidence 0.85, read 15 headlines)\n    because  : The recent massive sell-off of shares by the company's promoter entity (totaling over $2 billion) exerts significant downward pressure on the stock price in the near term. While operational metrics like data usage growth remain positive, the market is currently reacting negatively to the large block deals and the resulting supply of shares in the secondary market.\n      [negative] \"Mittal-led promoter entity offloads Airtel shares worth $1.2\"\n                 Large scale promoter divestment signals lack of short-term upside.\n      [negative] \"Bharti Airtel shares drop 3% amid reports of promoter stake \"\n                 Direct market reaction to the massive block deals.\n      [positive] \"Bharti Airtel Sees 21% Growth in Mobile Data Usage in Q1FY26\"\n                 Strong underlying business performance metrics.\n\n  REGIME AGENT\n    says     : BULL  (stable)\n    because  : BULL \u2014 conditions are stable (2% chance of change against a 53% threshold), because recent volatility is 0.58% daily, and this regime is 23 days old, and two-month volatility is 0.58% daily. So today's regime carries forward.\n\n  HOW THEY WERE COMBINED\n    [C4_OPPOSED] news says DOWN but the market is BULL - fighting the market; confidence 0.85 x 0.40 = 0.34\n    [C6_TOO_WEAK] conviction 0.34 is below the 0.35 minimum\n\n  DECISION : HOLD   conviction 0.34\n=============================================================================="
+  },
+  {
+    "stock": "ASHOKLEY",
+    "action": "HOLD",
+    "conviction": 0.0,
+    "direction": "NEUTRAL",
+    "regime": "BULL",
+    "rules_fired": [
+      {
+        "rule": "C1_NO_DIRECTION",
+        "detail": "Sentiment Agent returned NEUTRAL (the news is mixed or immaterial) - nothing to act on."
+      }
+    ],
+    "sentiment_source": "REAL",
+    "date": "2025-08-13",
+    "card_text": "==============================================================================\n  ASHOKLEY   \u2014   HOLD   (conviction 0.00)\n  2025-08-13\n==============================================================================\n  NEWS AGENT\n    says     : NEUTRAL  (confidence 0.60, read 4 headlines)\n    because  : While recent news includes a positive corporate restructuring development and minor stock price gains, the outlook remains cautious pending the release of Q1 results. The market is currently in a wait-and-see mode until actual earnings performance is confirmed, making a definitive directional call premature. The recent retail sales data provides context but does not clearly indicate a strong breakout trend for the stock.\n      [positive] \"Ashok Leyland Gets RBI Nod To Merge Hinduja Leyland Finance \"\n                 Strategic corporate restructuring is generally viewed as beneficial for long-term value.\n      [neutral ] \"Q1 Results This Week From 11 to 14 August: ONGC, Ashok Leyla\"\n                 Imminent earnings announcements create market uncertainty until results are disclosed.\n      [positive] \"Ashok Leyland shares rise 2.75% in morning trade\"\n                 Reflects immediate positive market momentum and investor interest.\n\n  REGIME AGENT\n    says     : BULL  (stable)\n    because  : BULL \u2014 conditions are stable (2% chance of change against a 53% threshold), because recent volatility is 0.58% daily, and this regime is 23 days old, and two-month volatility is 0.58% daily. So today's regime carries forward.\n\n  HOW THEY WERE COMBINED\n    [C1_NO_DIRECTION] Sentiment Agent returned NEUTRAL (the news is mixed or immaterial) - nothing to act on.\n\n  DECISION : HOLD   conviction 0.00\n=============================================================================="
+  },
+  {
+    "stock": "ADANIPORTS",
+    "action": "HOLD",
+    "conviction": 0.0,
+    "direction": "NEUTRAL",
+    "regime": "BULL",
+    "rules_fired": [
+      {
+        "rule": "C1_NO_DIRECTION",
+        "detail": "Sentiment Agent returned NEUTRAL (the news is mixed or immaterial) - nothing to act on."
+      }
+    ],
+    "sentiment_source": "REAL",
+    "date": "2025-08-13",
+    "card_text": "==============================================================================\n  ADANIPORTS   \u2014   HOLD   (conviction 0.00)\n  2025-08-13\n==============================================================================\n  NEWS AGENT\n    says     : NEUTRAL  (confidence 0.70, read 15 headlines)\n    because  : The sentiment is balanced between strong operational performance and leadership transitions. While Q1 revenue hitting $1 billion is a positive indicator of business health, the transition of Gautam Adani to a non-executive role and a year-over-year decline in standalone June sales create uncertainty, leading to mixed market reactions.\n      [positive] \"Adani Ports revenue hits $1 billion in Q1 2025\"\n                 Demonstrates strong financial growth and operational scale.\n      [neutral ] \"Gautam Adani\u2019s transition to Non-Executive Chairman role at \"\n                 A significant leadership change that investors are still processing.\n      [negative] \"Adani Ports Standalone June 2025 Net Sales at Rs 1,838.85 cr\"\n                 Highlights a slight decline in year-over-year standalone sales performance.\n\n  REGIME AGENT\n    says     : BULL  (stable)\n    because  : BULL \u2014 conditions are stable (2% chance of change against a 53% threshold), because recent volatility is 0.58% daily, and this regime is 23 days old, and two-month volatility is 0.58% daily. So today's regime carries forward.\n\n  HOW THEY WERE COMBINED\n    [C1_NO_DIRECTION] Sentiment Agent returned NEUTRAL (the news is mixed or immaterial) - nothing to act on.\n\n  DECISION : HOLD   conviction 0.00\n=============================================================================="
+  },
+  {
+    "stock": "INDHOTEL",
+    "action": "BUY",
+    "conviction": 0.9,
+    "direction": "UP",
+    "regime": "BULL",
+    "regime_stable": true,
+    "rules_fired": [
+      {
+        "rule": "C2_ALIGNED",
+        "detail": "news says UP and the market is BULL - they agree; confidence 0.90 x 1.00 = 0.90"
+      }
+    ],
+    "sentiment_source": "REAL",
+    "date": "2025-08-13",
+    "card_text": "==============================================================================\n  INDHOTEL   \u2014   BUY   (conviction 0.90)\n  2025-08-13\n==============================================================================\n  NEWS AGENT\n    says     : UP  (confidence 0.90, read 15 headlines)\n    because  : Indian Hotels Company (IHCL) has announced a major strategic expansion, adding over 150 hotels to its portfolio through the acquisition of Clarks Hotels and majority stakes in ANK Hotels and Pride Hospitality. This move significantly strengthens their market position in the high-growth mid-scale segment and is expected to drive long-term revenue growth. The market has already responded positively to these aggressive expansion plans.\n      [positive] \"IHCL\u2019s biggest expansion: 150+ hotels added overnight\"\n                 Significant and immediate increase in operational scale.\n      [positive] \"INDHOTEL: Acquisition of Clarks hotels propels Ginger to mid\"\n                 Strengthens competitive positioning in the underserved mid-market sector.\n      [positive] \"Indian Hotels shares jump nearly 2% on acquiring majority st\"\n                 Reflects immediate investor optimism regarding the acquisition strategy.\n\n  REGIME AGENT\n    says     : BULL  (stable)\n    because  : BULL \u2014 conditions are stable (2% chance of change against a 53% threshold), because recent volatility is 0.58% daily, and this regime is 23 days old, and two-month volatility is 0.58% daily. So today's regime carries forward.\n\n  HOW THEY WERE COMBINED\n    [C2_ALIGNED] news says UP and the market is BULL - they agree; confidence 0.90 x 1.00 = 0.90\n\n  DECISION : BUY   conviction 0.90\n=============================================================================="
+  },
+  {
+    "stock": "IOC",
+    "action": "HOLD",
+    "conviction": 0.0,
+    "direction": "NEUTRAL",
+    "regime": "SIDEWAYS",
+    "rules_fired": [
+      {
+        "rule": "C1_NO_DIRECTION",
+        "detail": "Sentiment Agent returned NEUTRAL (the news is mixed or immaterial) - nothing to act on."
+      }
+    ],
+    "sentiment_source": "REAL",
+    "date": "2025-12-04",
+    "card_text": "==============================================================================\n  IOC   \u2014   HOLD   (conviction 0.00)\n  2025-12-04\n==============================================================================\n  NEWS AGENT\n    says     : NEUTRAL  (confidence 0.70, read 15 headlines)\n    because  : The news presents a mix of operational progress balanced against significant macroeconomic headwinds. While increased crude processing and new infrastructure investments are positive for growth, the record-low rupee poses a direct threat to balance-sheet stability and import costs for a company that purchases crude oil in dollars.\n      [negative] \"Rupee At Record Low: Here's how oil and gas companies are im\"\n                 Higher import costs squeeze margins for oil refiners.\n      [positive] \"Indian refiners' October crude processing rises 6.8% from mo\"\n                 Indicates strong operational throughput and demand.\n      [positive] \"IndianOil Total opens greenfield bitumen derivatives plant n\"\n                 Represents strategic expansion into higher-margin products.\n\n  REGIME AGENT\n    says     : SIDEWAYS  (stable)\n    because  : SIDEWAYS \u2014 conditions are stable (3% chance of change against a 53% threshold), because this regime is 15 days old, and recent volatility is 0.45% daily, and two-month volatility is 0.48% daily. So today's regime carries forward.\n\n  HOW THEY WERE COMBINED\n    [C1_NO_DIRECTION] Sentiment Agent returned NEUTRAL (the news is mixed or immaterial) - nothing to act on.\n\n  DECISION : HOLD   conviction 0.00\n=============================================================================="
+  },
+  {
+    "stock": "BHARTIARTL",
+    "action": "HOLD",
+    "conviction": 0.0,
+    "direction": "NEUTRAL",
+    "regime": "SIDEWAYS",
+    "rules_fired": [
+      {
+        "rule": "C1_NO_DIRECTION",
+        "detail": "Sentiment Agent returned NEUTRAL (the news is mixed or immaterial) - nothing to act on."
+      }
+    ],
+    "sentiment_source": "REAL",
+    "date": "2025-12-04",
+    "card_text": "==============================================================================\n  BHARTIARTL   \u2014   HOLD   (conviction 0.00)\n  2025-12-04\n==============================================================================\n  NEWS AGENT\n    says     : NEUTRAL  (confidence 0.70, read 15 headlines)\n    because  : The sentiment for Bharti Airtel is mixed, as strong ARPU growth expectations are countered by consistent market share losses to competitor Reliance Jio. While the company is securing capital for future expansion, recent reports of subscriber trends and institutional stake sales suggest a period of consolidation rather than a clear upward or downward trajectory.\n      [negative] \"\u2018Jio adds more active subs than Airtel for eighth straight m\"\n                 Highlights ongoing market share loss to primary competitor.\n      [neutral ] \"Bharti Airtel\u2019s home broadband, data centre, 5G spends may d\"\n                 Higher capital expenditure is necessary for growth but pressures immediate cash flow.\n      [neutral ] \"Key facts: Indian Continent Investment sells 0.6% stake in B\"\n                 Balancing institutional selling with positive revenue per user projections.\n\n  REGIME AGENT\n    says     : SIDEWAYS  (stable)\n    because  : SIDEWAYS \u2014 conditions are stable (3% chance of change against a 53% threshold), because this regime is 15 days old, and recent volatility is 0.45% daily, and two-month volatility is 0.48% daily. So today's regime carries forward.\n\n  HOW THEY WERE COMBINED\n    [C1_NO_DIRECTION] Sentiment Agent returned NEUTRAL (the news is mixed or immaterial) - nothing to act on.\n\n  DECISION : HOLD   conviction 0.00\n=============================================================================="
+  },
+  {
+    "stock": "ASHOKLEY",
+    "action": "BUY",
+    "conviction": 0.63,
+    "direction": "UP",
+    "regime": "SIDEWAYS",
+    "regime_stable": true,
+    "rules_fired": [
+      {
+        "rule": "C3_NO_CONTEXT",
+        "detail": "the market is drifting sideways - no support either way; confidence 0.90 x 0.70 = 0.63"
+      }
+    ],
+    "sentiment_source": "REAL",
+    "date": "2025-12-04",
+    "card_text": "==============================================================================\n  ASHOKLEY   \u2014   BUY   (conviction 0.63)\n  2025-12-04\n==============================================================================\n  NEWS AGENT\n    says     : UP  (confidence 0.90, read 15 headlines)\n    because  : Ashok Leyland has demonstrated strong momentum driven by significantly better-than-expected sales growth in November and aggressive international expansion into the Saudi market. Analysts from BofA Securities remain bullish, noting that the stock has further room to grow despite recently hitting 52-week highs. The consistent reporting of double-digit volume growth suggests strong underlying demand for their commercial vehicles.\n      [positive] \"Ashok Leyland November sales jump 32% on strong truck, bus d\"\n                 Significant double-digit sales growth signals strong business performance.\n      [positive] \"Ashok Leyland shares can rise further from their 52-week hig\"\n                 Institutional analysis supports continued upward momentum for the stock.\n      [positive] \"India\u2019s Ashok Leyland to set up Saudi auto plant\"\n                 Strategic international expansion indicates potential for long-term revenue growth.\n\n  REGIME AGENT\n    says     : SIDEWAYS  (stable)\n    because  : SIDEWAYS \u2014 conditions are stable (3% chance of change against a 53% threshold), because this regime is 15 days old, and recent volatility is 0.45% daily, and two-month volatility is 0.48% daily. So today's regime carries forward.\n\n  HOW THEY WERE COMBINED\n    [C3_NO_CONTEXT] the market is drifting sideways - no support either way; confidence 0.90 x 0.70 = 0.63\n\n  DECISION : BUY   conviction 0.63\n=============================================================================="
+  },
+  {
+    "stock": "ADANIPORTS",
+    "action": "BUY",
+    "conviction": 0.595,
+    "direction": "UP",
+    "regime": "SIDEWAYS",
+    "regime_stable": true,
+    "rules_fired": [
+      {
+        "rule": "C3_NO_CONTEXT",
+        "detail": "the market is drifting sideways - no support either way; confidence 0.85 x 0.70 = 0.59"
+      }
+    ],
+    "sentiment_source": "REAL",
+    "date": "2025-12-04",
+    "card_text": "==============================================================================\n  ADANIPORTS   \u2014   BUY   (conviction 0.59)\n  2025-12-04\n==============================================================================\n  NEWS AGENT\n    says     : UP  (confidence 0.85, read 15 headlines)\n    because  : Adani Ports shows strong operational momentum with a 14% year-over-year surge in cargo volumes for November, driving the stock to 52-week highs. Analysts from firms like Motilal Oswal and ICICI Securities have issued positive buy recommendations based on the company's multi-year expansion potential. While macro concerns regarding the rupee exist, the direct business performance and analyst sentiment provide a strong bullish outlook.\n      [positive] \"Adani Ports reports 14% surge in November cargo volume to 41\"\n                 Demonstrates robust core operational growth.\n      [positive] \"Buy Adani Ports and SEZ; target of Rs 1770: Motilal Oswal\"\n                 Institutional analysts see significant upside potential.\n      [positive] \"Key facts: Adani Ports cargo volumes rise 6%; stock hits 52-\"\n                 Reflects strong market confidence and momentum.\n\n  REGIME AGENT\n    says     : SIDEWAYS  (stable)\n    because  : SIDEWAYS \u2014 conditions are stable (3% chance of change against a 53% threshold), because this regime is 15 days old, and recent volatility is 0.45% daily, and two-month volatility is 0.48% daily. So today's regime carries forward.\n\n  HOW THEY WERE COMBINED\n    [C3_NO_CONTEXT] the market is drifting sideways - no support either way; confidence 0.85 x 0.70 = 0.59\n\n  DECISION : BUY   conviction 0.59\n=============================================================================="
+  },
+  {
+    "stock": "INDHOTEL",
+    "action": "BUY",
+    "conviction": 0.595,
+    "direction": "UP",
+    "regime": "SIDEWAYS",
+    "regime_stable": true,
+    "rules_fired": [
+      {
+        "rule": "C3_NO_CONTEXT",
+        "detail": "the market is drifting sideways - no support either way; confidence 0.85 x 0.70 = 0.59"
+      }
+    ],
+    "sentiment_source": "REAL",
+    "date": "2025-12-04",
+    "card_text": "==============================================================================\n  INDHOTEL   \u2014   BUY   (conviction 0.59)\n  2025-12-04\n==============================================================================\n  NEWS AGENT\n    says     : UP  (confidence 0.85, read 15 headlines)\n    because  : Indian Hotels Company (IHCL) is aggressively expanding its footprint through both new property signings and strategic subsidiary acquisitions. These consistent additions to their portfolio across diverse regions like Meghalaya, Gujarat, and Kerala signal strong revenue growth potential and effective execution of their scaling strategy, which is positive for long-term profitability.\n      [positive] \"IHCL SUBSIDIARY ACQUIRES STAKES IN TWO HOTELS COMPANIES\"\n                 Expansion of portfolio through inorganic growth.\n      [positive] \"IHCL inks 90-key Ginger hotel in Shillong, Meghalaya\"\n                 Geographic expansion increases future revenue capacity.\n      [positive] \"IHCL opens new Vivanta brand hotel in Aluva, Kerala\"\n                 Operationalizing new assets drives immediate room revenue.\n\n  REGIME AGENT\n    says     : SIDEWAYS  (stable)\n    because  : SIDEWAYS \u2014 conditions are stable (3% chance of change against a 53% threshold), because this regime is 15 days old, and recent volatility is 0.45% daily, and two-month volatility is 0.48% daily. So today's regime carries forward.\n\n  HOW THEY WERE COMBINED\n    [C3_NO_CONTEXT] the market is drifting sideways - no support either way; confidence 0.85 x 0.70 = 0.59\n\n  DECISION : BUY   conviction 0.59\n=============================================================================="
+  },
+  {
+    "stock": "IOC",
+    "action": "HOLD",
+    "conviction": 0.0,
+    "direction": "NEUTRAL",
+    "regime": "BEAR",
+    "rules_fired": [
+      {
+        "rule": "C1_NO_DIRECTION",
+        "detail": "Sentiment Agent returned NEUTRAL (the news is mixed or immaterial) - nothing to act on."
+      }
+    ],
+    "sentiment_source": "REAL",
+    "date": "2026-03-30",
+    "card_text": "==============================================================================\n  IOC   \u2014   HOLD   (conviction 0.00)\n  2026-03-30\n==============================================================================\n  NEWS AGENT\n    says     : NEUTRAL  (confidence 0.80, read 15 headlines)\n    because  : The recent news flow is dominated by the company managing a consumer panic regarding fuel shortages, which are operational distractions but do not fundamentally alter long-term profit margins. While some headlines mention share price declines due to excise duty cuts, these regulatory impacts are balanced by the stock trading at an attractive valuation relative to its industry peers. Overall, the headlines represent short-term noise rather than a clear directional trend for the company's financial performance.\n      [negative] \"IOCL, BPCL, HPCL Shares In Focus: OMCs Decline Following Exc\"\n                 Excise duty cuts directly pressure the margins of state-run oil refiners.\n      [positive] \"Indian oil Corporation - 9 large-cap stocks trading below th\"\n                 Suggests the stock is potentially undervalued compared to peers.\n      [neutral ] \"Indian Oil Corporation Announces Cessation of Three Independ\"\n                 Corporate governance changes are standard administrative events without immediate profit impact.\n\n  REGIME AGENT\n    says     : BEAR  (change expected)\n    because  : BEAR \u2014 a change is coming (92% chance of change against a 53% threshold), because this regime is 91 days old, and the fear index is at 27.9, and the stocks are moving together at 0.48 correlation. So the arithmetic rule was applied.\n\n  HOW THEY WERE COMBINED\n    [C1_NO_DIRECTION] Sentiment Agent returned NEUTRAL (the news is mixed or immaterial) - nothing to act on.\n\n  DECISION : HOLD   conviction 0.00\n=============================================================================="
+  },
+  {
+    "stock": "BHARTIARTL",
+    "action": "HOLD",
+    "conviction": 0.24,
+    "direction": "UP",
+    "regime": "BEAR",
+    "regime_stable": false,
+    "rules_fired": [
+      {
+        "rule": "C4_OPPOSED",
+        "detail": "news says UP but the market is BEAR - fighting the market; confidence 0.75 x 0.40 = 0.30"
+      },
+      {
+        "rule": "C5_REGIME_UNSTABLE",
+        "detail": "the Regime Agent expects a change (92% vs 53%) - conviction cut to 0.24"
+      },
+      {
+        "rule": "C6_TOO_WEAK",
+        "detail": "conviction 0.24 is below the 0.35 minimum"
+      }
+    ],
+    "sentiment_source": "REAL",
+    "date": "2026-03-30",
+    "card_text": "==============================================================================\n  BHARTIARTL   \u2014   HOLD   (conviction 0.24)\n  2026-03-30\n==============================================================================\n  NEWS AGENT\n    says     : UP  (confidence 0.75, read 15 headlines)\n    because  : Bharti Airtel is receiving a significant boost from an upcoming Nifty 50 index weight increase, which is expected to drive substantial institutional inflows. While there are some long-term regulatory concerns regarding AGR dues and competition, the immediate market momentum and positive analyst coverage outweigh these risks in the short term.\n      [positive] \"Nifty Rejig on March 27: Bharti Airtel, Tata Motors to lead \"\n                 Higher index weight leads to mandatory institutional buying.\n      [positive] \"Bharti Airtel set for highest inflows, Nifty 50 unchanged | \"\n                 Direct anticipation of increased capital inflow.\n      [negative] \"Emkay Global keeps 'Reduce' on Bharti Airtel; flags Jio IPO \"\n                 Highlights potential competitive threats and negative analyst rating.\n\n  REGIME AGENT\n    says     : BEAR  (change expected)\n    because  : BEAR \u2014 a change is coming (92% chance of change against a 53% threshold), because this regime is 91 days old, and the fear index is at 27.9, and the stocks are moving together at 0.48 correlation. So the arithmetic rule was applied.\n\n  HOW THEY WERE COMBINED\n    [C4_OPPOSED] news says UP but the market is BEAR - fighting the market; confidence 0.75 x 0.40 = 0.30\n    [C5_REGIME_UNSTABLE] the Regime Agent expects a change (92% vs 53%) - conviction cut to 0.24\n    [C6_TOO_WEAK] conviction 0.24 is below the 0.35 minimum\n\n  DECISION : HOLD   conviction 0.24\n=============================================================================="
+  },
+  {
+    "stock": "ASHOKLEY",
+    "action": "HOLD",
+    "conviction": 0.0,
+    "direction": "NEUTRAL",
+    "regime": "BEAR",
+    "rules_fired": [
+      {
+        "rule": "C1_NO_DIRECTION",
+        "detail": "Sentiment Agent returned NEUTRAL (the news is mixed or immaterial) - nothing to act on."
+      }
+    ],
+    "sentiment_source": "REAL",
+    "date": "2026-03-30",
+    "card_text": "==============================================================================\n  ASHOKLEY   \u2014   HOLD   (conviction 0.00)\n  2026-03-30\n==============================================================================\n  NEWS AGENT\n    says     : NEUTRAL  (confidence 0.70, read 8 headlines)\n    because  : While Ashok Leyland is making strategic long-term investments in electric vehicle infrastructure, the immediate market sentiment is clouded by a significant sector-wide sell-off and bearish technical signals. The combination of growth-oriented expansion projects and negative price action in the auto sector creates a conflicting outlook for the next month.\n      [negative] \"Auto Stocks Crash: Tata, Maruti, Ashok Leyland, Eicher Motor\"\n                 reflects immediate bearish market sentiment and sector-wide selling pressure\n      [positive] \"Ashok Leyland starts construction of a new battery pack plan\"\n                 indicates positive long-term growth and commitment to the electric vehicle transition\n      [negative] \"F&O Strategy: Short Ashok Leyland\"\n                 suggests technical analysts anticipate near-term downward price movement\n\n  REGIME AGENT\n    says     : BEAR  (change expected)\n    because  : BEAR \u2014 a change is coming (92% chance of change against a 53% threshold), because this regime is 91 days old, and the fear index is at 27.9, and the stocks are moving together at 0.48 correlation. So the arithmetic rule was applied.\n\n  HOW THEY WERE COMBINED\n    [C1_NO_DIRECTION] Sentiment Agent returned NEUTRAL (the news is mixed or immaterial) - nothing to act on.\n\n  DECISION : HOLD   conviction 0.00\n=============================================================================="
+  },
+  {
+    "stock": "ADANIPORTS",
+    "action": "HOLD",
+    "conviction": 0.256,
+    "direction": "UP",
+    "regime": "BEAR",
+    "regime_stable": false,
+    "rules_fired": [
+      {
+        "rule": "C4_OPPOSED",
+        "detail": "news says UP but the market is BEAR - fighting the market; confidence 0.80 x 0.40 = 0.32"
+      },
+      {
+        "rule": "C5_REGIME_UNSTABLE",
+        "detail": "the Regime Agent expects a change (92% vs 53%) - conviction cut to 0.26"
+      },
+      {
+        "rule": "C6_TOO_WEAK",
+        "detail": "conviction 0.26 is below the 0.35 minimum"
+      }
+    ],
+    "sentiment_source": "REAL",
+    "date": "2026-03-30",
+    "card_text": "==============================================================================\n  ADANIPORTS   \u2014   HOLD   (conviction 0.26)\n  2026-03-30\n==============================================================================\n  NEWS AGENT\n    says     : UP  (confidence 0.80, read 14 headlines)\n    because  : Adani Ports is seeing positive momentum driven by institutional backing, with UBS identifying it as a top large-cap stock for potential rallies. Additionally, the operational launch of India's first 'Port of Refuge' enhances the company's service infrastructure and market reputation, reinforcing its leadership position in the maritime sector.\n      [positive] \"UBS picks: Reliance Industries, Adani Ports, among 10 largec\"\n                 Institutional endorsement of significant upside potential.\n      [positive] \"Adani Ports launches India\u2019s first Port of Refuge at Dighi &\"\n                 Operational expansion and strategic service capability improvement.\n      [positive] \"Sensex surges over 1,100 pts to reclaim 75K; Nifty adds 372 \"\n                 Strong market performance and investor interest.\n\n  REGIME AGENT\n    says     : BEAR  (change expected)\n    because  : BEAR \u2014 a change is coming (92% chance of change against a 53% threshold), because this regime is 91 days old, and the fear index is at 27.9, and the stocks are moving together at 0.48 correlation. So the arithmetic rule was applied.\n\n  HOW THEY WERE COMBINED\n    [C4_OPPOSED] news says UP but the market is BEAR - fighting the market; confidence 0.80 x 0.40 = 0.32\n    [C5_REGIME_UNSTABLE] the Regime Agent expects a change (92% vs 53%) - conviction cut to 0.26\n    [C6_TOO_WEAK] conviction 0.26 is below the 0.35 minimum\n\n  DECISION : HOLD   conviction 0.26\n=============================================================================="
+  },
+  {
+    "stock": "INDHOTEL",
+    "action": "HOLD",
+    "conviction": 0.24,
+    "direction": "UP",
+    "regime": "BEAR",
+    "regime_stable": false,
+    "rules_fired": [
+      {
+        "rule": "C4_OPPOSED",
+        "detail": "news says UP but the market is BEAR - fighting the market; confidence 0.75 x 0.40 = 0.30"
+      },
+      {
+        "rule": "C5_REGIME_UNSTABLE",
+        "detail": "the Regime Agent expects a change (92% vs 53%) - conviction cut to 0.24"
+      },
+      {
+        "rule": "C6_TOO_WEAK",
+        "detail": "conviction 0.24 is below the 0.35 minimum"
+      }
+    ],
+    "sentiment_source": "REAL",
+    "date": "2026-03-30",
+    "card_text": "==============================================================================\n  INDHOTEL   \u2014   HOLD   (conviction 0.24)\n  2026-03-30\n==============================================================================\n  NEWS AGENT\n    says     : UP  (confidence 0.75, read 15 headlines)\n    because  : Indian Hotels Company (IHCL) is demonstrating strong, consistent growth through an aggressive expansion strategy, evidenced by multiple new hotel signings in high-potential regions like Satpura and the launch of new properties in Vrindavan and Noida. While a single analyst note mentioned potential earnings trims, the overall news flow indicates strong operational momentum and brand expansion which generally supports long-term profitability and market sentiment.\n      [positive] \"IHCL signs Taj Safaris lodge in Satpura, expands wildlife po\"\n                 Demonstrates successful expansion of their high-margin luxury wildlife portfolio.\n      [positive] \"IHCL\u2019s Vivanta Vrindavan opens its doors\"\n                 Signals revenue generation from a new property in a key pilgrimage destination.\n      [positive] \"Gulshan Group, IHCL launch Taj Hotel, serviced apartments in\"\n                 Expansion into serviced apartments increases revenue streams in major business hubs.\n\n  REGIME AGENT\n    says     : BEAR  (change expected)\n    because  : BEAR \u2014 a change is coming (92% chance of change against a 53% threshold), because this regime is 91 days old, and the fear index is at 27.9, and the stocks are moving together at 0.48 correlation. So the arithmetic rule was applied.\n\n  HOW THEY WERE COMBINED\n    [C4_OPPOSED] news says UP but the market is BEAR - fighting the market; confidence 0.75 x 0.40 = 0.30\n    [C5_REGIME_UNSTABLE] the Regime Agent expects a change (92% vs 53%) - conviction cut to 0.24\n    [C6_TOO_WEAK] conviction 0.24 is below the 0.35 minimum\n\n  DECISION : HOLD   conviction 0.24\n=============================================================================="
+  }
+]

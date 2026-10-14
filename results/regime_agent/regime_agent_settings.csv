@@ -1,0 +1,12 @@
+model,two_stage_cal_mech
+router,XGBoost binary (will the regime change in 20 days?)
+trained_on,2010-10-19 to 2024-12-31 (3467 rows)
+n_features,25
+features,ret_5|ret_20|ret_60|px_vs_sma50|px_vs_sma200|sma50_vs_sma200|macd_hist|ret_100|flip_margin|adx_14|trend_r2_60|vix_level|vix_chg_20|vol_20|vol_60|bb_width|drawdown|days_since_high|breadth_above_sma200|avg_correlation|rsi_14|in_bull|in_sideways|in_bear|days_in_regime
+base_rate,0.2146
+cutoff,0.5308290719985962
+regime_threshold,0.06
+horizon_days,20
+explainer,"shap.TreeExplainer (exact), shap 0.52.0"
+sealed_accuracy,0.6982
+sealed_bar,0.7375

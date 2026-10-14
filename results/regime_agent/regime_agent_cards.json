@@ -1,0 +1,406 @@
+[
+  {
+    "agent": "regime",
+    "scope": "MARKET (NIFTY 50)",
+    "date": "2025-01-02",
+    "decision": "SIDEWAYS",
+    "regime_today": "SIDEWAYS",
+    "will_change": false,
+    "p_change": 0.041,
+    "cutoff": 0.531,
+    "confidence_band": "very confident",
+    "historical_accuracy_at_this_confidence": 0.894,
+    "rule_used": "persistence",
+    "shap": {
+      "days_in_regime": -1.4149,
+      "days_since_high": -0.8587,
+      "vix_level": -0.6088,
+      "ret_100": -0.318
+    },
+    "grouped": {
+      "regime age": -1.4534,
+      "stress": -0.9293,
+      "fear": -0.6301,
+      "agreement": -0.3766
+    },
+    "reasons": [
+      "this regime is 15 days old (low, 17% percentile)",
+      "it has been 65 days since the last high (about normal, 51% percentile)",
+      "the fear index is at 13.7 (somewhat below normal, 22% percentile)",
+      "the market is -0.4% over 100 days (somewhat below normal, 30% percentile)"
+    ],
+    "counterfactual": {
+      "feature": "days_in_regime",
+      "current": 15.0,
+      "flip_at": 95.60644067796615,
+      "direction": "higher",
+      "new_answer": "a change"
+    },
+    "actual_20d_later": "SIDEWAYS",
+    "correct": true,
+    "card_text": "==============================================================================\n  REGIME AGENT  -  2025-01-02\n==============================================================================\n  DECISION      : SIDEWAYS     (today it is SIDEWAYS)\n  Expects change: no  (4% vs a 53% threshold)\n  Confidence    : VERY CONFIDENT\n                  when this confident, historically correct 89% of the time\n  Rule applied  : persistence\n\n  WHAT KIND OF EVIDENCE\n    regime age   -1.4534   toward STABLE   (how long the current regime has run)\n    stress       -0.9293   toward STABLE   (how far below the peak we are)\n    fear         -0.6301   toward STABLE   (how frightened the market is)\n    agreement    -0.3766   toward STABLE   (whether the stocks are moving together)\n\n  THE SPECIFICS\n    [-1.415] this regime is 15 days old (low, 17% percentile)\n    [-0.859] it has been 65 days since the last high (about normal, 51% percentile)\n    [-0.609] the fear index is at 13.7 (somewhat below normal, 22% percentile)\n    [-0.318] the market is -0.4% over 100 days (somewhat below normal, 30% percentile)\n\n  WHAT WOULD CHANGE THE ANSWER\n    if days_in_regime were 95.606 instead of 15.000 (higher),\n    the agent would report a change instead.\n=============================================================================="
+  },
+  {
+    "agent": "regime",
+    "scope": "MARKET (NIFTY 50)",
+    "date": "2025-02-25",
+    "decision": "BEAR",
+    "regime_today": "BEAR",
+    "will_change": false,
+    "p_change": 0.06,
+    "cutoff": 0.531,
+    "confidence_band": "very confident",
+    "historical_accuracy_at_this_confidence": 0.894,
+    "rule_used": "persistence",
+    "shap": {
+      "days_in_regime": -2.0984,
+      "ret_100": -0.5219,
+      "sma50_vs_sma200": 0.4992,
+      "trend_r2_60": -0.374
+    },
+    "grouped": {
+      "regime age": -1.4442,
+      "trend": -0.6361,
+      "turbulence": -0.3201,
+      "fear": -0.3106
+    },
+    "reasons": [
+      "this regime is 2 days old (extremely low, 2% percentile)",
+      "the market is -12.6% over 100 days (extremely low, 4% percentile)",
+      "the 50-day average is -2.7% against the 200-day (low, 14% percentile)",
+      "the trend is 76% straight (somewhat above normal, 79% percentile)"
+    ],
+    "counterfactual": {
+      "feature": "days_in_regime",
+      "current": 2.0,
+      "flip_at": 45.520677966101715,
+      "direction": "higher",
+      "new_answer": "a change"
+    },
+    "actual_20d_later": "BEAR",
+    "correct": true,
+    "card_text": "==============================================================================\n  REGIME AGENT  -  2025-02-25\n==============================================================================\n  DECISION      : BEAR     (today it is BEAR)\n  Expects change: no  (6% vs a 53% threshold)\n  Confidence    : VERY CONFIDENT\n                  when this confident, historically correct 89% of the time\n  Rule applied  : persistence\n\n  WHAT KIND OF EVIDENCE\n    regime age   -1.4442   toward STABLE   (how long the current regime has run)\n    trend        -0.6361   toward STABLE   (the market's direction)\n    turbulence   -0.3201   toward STABLE   (how choppy trading has been)\n    fear         -0.3106   toward STABLE   (how frightened the market is)\n\n  THE SPECIFICS\n    [-2.098] this regime is 2 days old (extremely low, 2% percentile)\n    [-0.522] the market is -12.6% over 100 days (extremely low, 4% percentile)\n    [+0.499] the 50-day average is -2.7% against the 200-day (low, 14% percentile)\n    [-0.374] the trend is 76% straight (somewhat above normal, 79% percentile)\n\n  WHAT WOULD CHANGE THE ANSWER\n    if days_in_regime were 45.521 instead of 2.000 (higher),\n    the agent would report a change instead.\n=============================================================================="
+  },
+  {
+    "agent": "regime",
+    "scope": "MARKET (NIFTY 50)",
+    "date": "2025-04-28",
+    "decision": "SIDEWAYS",
+    "regime_today": "BEAR",
+    "will_change": true,
+    "p_change": 0.757,
+    "cutoff": 0.531,
+    "confidence_band": "moderate",
+    "historical_accuracy_at_this_confidence": 0.409,
+    "rule_used": "arithmetic",
+    "shap": {
+      "avg_correlation": -0.8237,
+      "days_since_high": 0.7678,
+      "in_bear": 0.4566,
+      "in_bull": 0.2441
+    },
+    "grouped": {
+      "agreement": -0.9762,
+      "regime age": 0.9366,
+      "stress": 0.8035,
+      "fear": 0.2701
+    },
+    "reasons": [
+      "the stocks move together at 0.38 correlation (high, 89% percentile)",
+      "it has been 141 days since the last high (somewhat above normal, 67% percentile)",
+      "we are in a bear regime",
+      "we are not in a bull regime"
+    ],
+    "counterfactual": {
+      "feature": "days_since_high",
+      "current": 141.0,
+      "flip_at": 93.87661016949154,
+      "direction": "lower",
+      "new_answer": "stable"
+    },
+    "actual_20d_later": "SIDEWAYS",
+    "correct": true,
+    "card_text": "==============================================================================\n  REGIME AGENT  -  2025-04-28\n==============================================================================\n  DECISION      : SIDEWAYS     (today it is BEAR)\n  Expects change: YES  (76% vs a 53% threshold)\n  Confidence    : MODERATE\n                  when this confident, historically correct 41% of the time\n  Rule applied  : arithmetic\n\n  WHAT KIND OF EVIDENCE\n    agreement    -0.9762   toward STABLE   (whether the stocks are moving together)\n    regime age   +0.9366   toward CHANGE   (how long the current regime has run)\n    stress       +0.8035   toward CHANGE   (how far below the peak we are)\n    fear         +0.2701   toward CHANGE   (how frightened the market is)\n\n  THE SPECIFICS\n    [-0.824] the stocks move together at 0.38 correlation (high, 89% percentile)\n    [+0.768] it has been 141 days since the last high (somewhat above normal, 67% percentile)\n    [+0.457] we are in a bear regime\n    [+0.244] we are not in a bull regime\n\n  WHAT WOULD CHANGE THE ANSWER\n    if days_since_high were 93.877 instead of 141.000 (lower),\n    the agent would report stable instead.\n=============================================================================="
+  },
+  {
+    "agent": "regime",
+    "scope": "MARKET (NIFTY 50)",
+    "date": "2025-06-20",
+    "decision": "SIDEWAYS",
+    "regime_today": "SIDEWAYS",
+    "will_change": false,
+    "p_change": 0.141,
+    "cutoff": 0.531,
+    "confidence_band": "confident",
+    "historical_accuracy_at_this_confidence": 0.535,
+    "rule_used": "persistence",
+    "shap": {
+      "days_since_high": 0.746,
+      "trend_r2_60": -0.6599,
+      "vol_20": -0.6276,
+      "avg_correlation": -0.6234
+    },
+    "grouped": {
+      "agreement": -0.7576,
+      "turbulence": -0.6842,
+      "stress": 0.6329,
+      "fear": -0.5776
+    },
+    "reasons": [
+      "it has been 179 days since the last high (somewhat above normal, 72% percentile)",
+      "the trend is 67% straight (somewhat above normal, 66% percentile)",
+      "recent volatility is 0.62% daily (somewhat below normal, 20% percentile)",
+      "the stocks move together at 0.47 correlation (extremely high, 96% percentile)"
+    ],
+    "counterfactual": null,
+    "actual_20d_later": "BULL",
+    "correct": false,
+    "card_text": "==============================================================================\n  REGIME AGENT  -  2025-06-20\n==============================================================================\n  DECISION      : SIDEWAYS     (today it is SIDEWAYS)\n  Expects change: no  (14% vs a 53% threshold)\n  Confidence    : CONFIDENT\n                  when this confident, historically correct 54% of the time\n  Rule applied  : persistence\n\n  WHAT KIND OF EVIDENCE\n    agreement    -0.7576   toward STABLE   (whether the stocks are moving together)\n    turbulence   -0.6842   toward STABLE   (how choppy trading has been)\n    stress       +0.6329   toward CHANGE   (how far below the peak we are)\n    fear         -0.5776   toward STABLE   (how frightened the market is)\n\n  THE SPECIFICS\n    [+0.746] it has been 179 days since the last high (somewhat above normal, 72% percentile)\n    [-0.660] the trend is 67% straight (somewhat above normal, 66% percentile)\n    [-0.628] recent volatility is 0.62% daily (somewhat below normal, 20% percentile)\n    [-0.623] the stocks move together at 0.47 correlation (extremely high, 96% percentile)\n=============================================================================="
+  },
+  {
+    "agent": "regime",
+    "scope": "MARKET (NIFTY 50)",
+    "date": "2025-08-13",
+    "decision": "BULL",
+    "regime_today": "BULL",
+    "will_change": false,
+    "p_change": 0.019,
+    "cutoff": 0.531,
+    "confidence_band": "very confident",
+    "historical_accuracy_at_this_confidence": 0.894,
+    "rule_used": "persistence",
+    "shap": {
+      "vol_20": -1.6797,
+      "days_in_regime": -1.1059,
+      "vol_60": -0.6893,
+      "breadth_above_sma200": -0.3982
+    },
+    "grouped": {
+      "turbulence": -2.6607,
+      "regime age": -1.4315,
+      "trend": 1.2259,
+      "agreement": -0.7221
+    },
+    "reasons": [
+      "recent volatility is 0.58% daily (low, 14% percentile)",
+      "this regime is 23 days old (somewhat below normal, 25% percentile)",
+      "two-month volatility is 0.58% daily (low, 9% percentile)",
+      "4 of 5 stocks are above their 200-day average (somewhat above normal, 74% percentile)"
+    ],
+    "counterfactual": {
+      "feature": "days_in_regime",
+      "current": 23.0,
+      "flip_at": 195.777966101695,
+      "direction": "higher",
+      "new_answer": "a change"
+    },
+    "actual_20d_later": "BULL",
+    "correct": true,
+    "card_text": "==============================================================================\n  REGIME AGENT  -  2025-08-13\n==============================================================================\n  DECISION      : BULL     (today it is BULL)\n  Expects change: no  (2% vs a 53% threshold)\n  Confidence    : VERY CONFIDENT\n                  when this confident, historically correct 89% of the time\n  Rule applied  : persistence\n\n  WHAT KIND OF EVIDENCE\n    turbulence   -2.6607   toward STABLE   (how choppy trading has been)\n    regime age   -1.4315   toward STABLE   (how long the current regime has run)\n    trend        +1.2259   toward CHANGE   (the market's direction)\n    agreement    -0.7221   toward STABLE   (whether the stocks are moving together)\n\n  THE SPECIFICS\n    [-1.680] recent volatility is 0.58% daily (low, 14% percentile)\n    [-1.106] this regime is 23 days old (somewhat below normal, 25% percentile)\n    [-0.689] two-month volatility is 0.58% daily (low, 9% percentile)\n    [-0.398] 4 of 5 stocks are above their 200-day average (somewhat above normal, 74% percentile)\n\n  WHAT WOULD CHANGE THE ANSWER\n    if days_in_regime were 195.778 instead of 23.000 (higher),\n    the agent would report a change instead.\n=============================================================================="
+  },
+  {
+    "agent": "regime",
+    "scope": "MARKET (NIFTY 50)",
+    "date": "2025-10-09",
+    "decision": "BULL",
+    "regime_today": "BULL",
+    "will_change": false,
+    "p_change": 0.065,
+    "cutoff": 0.531,
+    "confidence_band": "very confident",
+    "historical_accuracy_at_this_confidence": 0.894,
+    "rule_used": "persistence",
+    "shap": {
+      "vol_20": -2.0263,
+      "vol_60": -0.8198,
+      "days_in_regime": 0.4846,
+      "days_since_high": 0.4351
+    },
+    "grouped": {
+      "turbulence": -2.9846,
+      "regime age": 0.5467,
+      "fear": -0.4551,
+      "agreement": -0.4018
+    },
+    "reasons": [
+      "recent volatility is 0.50% daily (low, 5% percentile)",
+      "two-month volatility is 0.54% daily (extremely low, 5% percentile)",
+      "this regime is 61 days old (about normal, 53% percentile)",
+      "it has been 255 days since the last high (somewhat above normal, 79% percentile)"
+    ],
+    "counterfactual": {
+      "feature": "vol_20",
+      "current": 0.0049676417536643,
+      "flip_at": 0.0074607863501712935,
+      "direction": "higher",
+      "new_answer": "a change"
+    },
+    "actual_20d_later": "BULL",
+    "correct": true,
+    "card_text": "==============================================================================\n  REGIME AGENT  -  2025-10-09\n==============================================================================\n  DECISION      : BULL     (today it is BULL)\n  Expects change: no  (6% vs a 53% threshold)\n  Confidence    : VERY CONFIDENT\n                  when this confident, historically correct 89% of the time\n  Rule applied  : persistence\n\n  WHAT KIND OF EVIDENCE\n    turbulence   -2.9846   toward STABLE   (how choppy trading has been)\n    regime age   +0.5467   toward CHANGE   (how long the current regime has run)\n    fear         -0.4551   toward STABLE   (how frightened the market is)\n    agreement    -0.4018   toward STABLE   (whether the stocks are moving together)\n\n  THE SPECIFICS\n    [-2.026] recent volatility is 0.50% daily (low, 5% percentile)\n    [-0.820] two-month volatility is 0.54% daily (extremely low, 5% percentile)\n    [+0.485] this regime is 61 days old (about normal, 53% percentile)\n    [+0.435] it has been 255 days since the last high (somewhat above normal, 79% percentile)\n\n  WHAT WOULD CHANGE THE ANSWER\n    if vol_20 were 0.007 instead of 0.005 (higher),\n    the agent would report a change instead.\n=============================================================================="
+  },
+  {
+    "agent": "regime",
+    "scope": "MARKET (NIFTY 50)",
+    "date": "2025-12-04",
+    "decision": "SIDEWAYS",
+    "regime_today": "SIDEWAYS",
+    "will_change": false,
+    "p_change": 0.031,
+    "cutoff": 0.531,
+    "confidence_band": "very confident",
+    "historical_accuracy_at_this_confidence": 0.894,
+    "rule_used": "persistence",
+    "shap": {
+      "days_in_regime": -1.8842,
+      "vol_20": -1.1643,
+      "vol_60": 0.6295,
+      "ret_100": -0.4737
+    },
+    "grouped": {
+      "regime age": -1.5986,
+      "trend": -0.742,
+      "fear": -0.4498,
+      "stress": -0.4213
+    },
+    "reasons": [
+      "this regime is 15 days old (low, 17% percentile)",
+      "recent volatility is 0.45% daily (extremely low, 3% percentile)",
+      "two-month volatility is 0.48% daily (extremely low, 0% percentile)",
+      "the market is +2.7% over 100 days (about normal, 41% percentile)"
+    ],
+    "counterfactual": {
+      "feature": "days_in_regime",
+      "current": 15.0,
+      "flip_at": 90.04135593220343,
+      "direction": "higher",
+      "new_answer": "a change"
+    },
+    "actual_20d_later": "SIDEWAYS",
+    "correct": true,
+    "card_text": "==============================================================================\n  REGIME AGENT  -  2025-12-04\n==============================================================================\n  DECISION      : SIDEWAYS     (today it is SIDEWAYS)\n  Expects change: no  (3% vs a 53% threshold)\n  Confidence    : VERY CONFIDENT\n                  when this confident, historically correct 89% of the time\n  Rule applied  : persistence\n\n  WHAT KIND OF EVIDENCE\n    regime age   -1.5986   toward STABLE   (how long the current regime has run)\n    trend        -0.7420   toward STABLE   (the market's direction)\n    fear         -0.4498   toward STABLE   (how frightened the market is)\n    stress       -0.4213   toward STABLE   (how far below the peak we are)\n\n  THE SPECIFICS\n    [-1.884] this regime is 15 days old (low, 17% percentile)\n    [-1.164] recent volatility is 0.45% daily (extremely low, 3% percentile)\n    [+0.629] two-month volatility is 0.48% daily (extremely low, 0% percentile)\n    [-0.474] the market is +2.7% over 100 days (about normal, 41% percentile)\n\n  WHAT WOULD CHANGE THE ANSWER\n    if days_in_regime were 90.041 instead of 15.000 (higher),\n    the agent would report a change instead.\n=============================================================================="
+  },
+  {
+    "agent": "regime",
+    "scope": "MARKET (NIFTY 50)",
+    "date": "2026-02-02",
+    "decision": "SIDEWAYS",
+    "regime_today": "SIDEWAYS",
+    "will_change": false,
+    "p_change": 0.124,
+    "cutoff": 0.531,
+    "confidence_band": "confident",
+    "historical_accuracy_at_this_confidence": 0.535,
+    "rule_used": "persistence",
+    "shap": {
+      "vol_20": -1.0812,
+      "vol_60": -0.5379,
+      "ret_100": -0.4491,
+      "days_in_regime": 0.3946
+    },
+    "grouped": {
+      "turbulence": -1.6473,
+      "stress": -0.5388,
+      "regime age": 0.4935,
+      "fear": -0.3646
+    },
+    "reasons": [
+      "recent volatility is 0.61% daily (low, 17% percentile)",
+      "two-month volatility is 0.53% daily (extremely low, 4% percentile)",
+      "the market is +1.4% over 100 days (somewhat below normal, 37% percentile)",
+      "this regime is 53 days old (about normal, 48% percentile)"
+    ],
+    "counterfactual": {
+      "feature": "ret_100",
+      "current": 0.0143161358191061,
+      "flip_at": 0.09879864732085414,
+      "direction": "higher",
+      "new_answer": "a change"
+    },
+    "actual_20d_later": "SIDEWAYS",
+    "correct": true,
+    "card_text": "==============================================================================\n  REGIME AGENT  -  2026-02-02\n==============================================================================\n  DECISION      : SIDEWAYS     (today it is SIDEWAYS)\n  Expects change: no  (12% vs a 53% threshold)\n  Confidence    : CONFIDENT\n                  when this confident, historically correct 54% of the time\n  Rule applied  : persistence\n\n  WHAT KIND OF EVIDENCE\n    turbulence   -1.6473   toward STABLE   (how choppy trading has been)\n    stress       -0.5388   toward STABLE   (how far below the peak we are)\n    regime age   +0.4935   toward CHANGE   (how long the current regime has run)\n    fear         -0.3646   toward STABLE   (how frightened the market is)\n\n  THE SPECIFICS\n    [-1.081] recent volatility is 0.61% daily (low, 17% percentile)\n    [-0.538] two-month volatility is 0.53% daily (extremely low, 4% percentile)\n    [-0.449] the market is +1.4% over 100 days (somewhat below normal, 37% percentile)\n    [+0.395] this regime is 53 days old (about normal, 48% percentile)\n\n  WHAT WOULD CHANGE THE ANSWER\n    if ret_100 were 0.099 instead of 0.014 (higher),\n    the agent would report a change instead.\n=============================================================================="
+  },
+  {
+    "agent": "regime",
+    "scope": "MARKET (NIFTY 50)",
+    "date": "2026-03-30",
+    "decision": "BEAR",
+    "regime_today": "SIDEWAYS",
+    "will_change": true,
+    "p_change": 0.922,
+    "cutoff": 0.531,
+    "confidence_band": "confident",
+    "historical_accuracy_at_this_confidence": 0.535,
+    "rule_used": "arithmetic",
+    "shap": {
+      "days_in_regime": 1.3198,
+      "vix_level": 0.5699,
+      "avg_correlation": -0.5464,
+      "days_since_high": -0.5385
+    },
+    "grouped": {
+      "regime age": 1.5152,
+      "fear": 0.6051,
+      "turbulence": 0.2577,
+      "trend": 0.2519
+    },
+    "reasons": [
+      "this regime is 91 days old (somewhat above normal, 68% percentile)",
+      "the fear index is at 27.9 (extremely high, 95% percentile)",
+      "the stocks move together at 0.48 correlation (extremely high, 97% percentile)",
+      "it has been 57 days since the last high (about normal, 49% percentile)"
+    ],
+    "counterfactual": {
+      "feature": "days_in_regime",
+      "current": 91.0,
+      "flip_at": 23.260338983050858,
+      "direction": "lower",
+      "new_answer": "stable"
+    },
+    "actual_20d_later": "SIDEWAYS",
+    "correct": false,
+    "card_text": "==============================================================================\n  REGIME AGENT  -  2026-03-30\n==============================================================================\n  DECISION      : BEAR     (today it is SIDEWAYS)\n  Expects change: YES  (92% vs a 53% threshold)\n  Confidence    : CONFIDENT\n                  when this confident, historically correct 54% of the time\n  Rule applied  : arithmetic\n\n  WHAT KIND OF EVIDENCE\n    regime age   +1.5152   toward CHANGE   (how long the current regime has run)\n    fear         +0.6051   toward CHANGE   (how frightened the market is)\n    turbulence   +0.2577   toward CHANGE   (how choppy trading has been)\n    trend        +0.2519   toward CHANGE   (the market's direction)\n\n  THE SPECIFICS\n    [+1.320] this regime is 91 days old (somewhat above normal, 68% percentile)\n    [+0.570] the fear index is at 27.9 (extremely high, 95% percentile)\n    [-0.546] the stocks move together at 0.48 correlation (extremely high, 97% percentile)\n    [-0.538] it has been 57 days since the last high (about normal, 49% percentile)\n\n  WHAT WOULD CHANGE THE ANSWER\n    if days_in_regime were 23.260 instead of 91.000 (lower),\n    the agent would report stable instead.\n=============================================================================="
+  },
+  {
+    "agent": "regime",
+    "scope": "MARKET (NIFTY 50)",
+    "date": "2026-05-27",
+    "decision": "BEAR",
+    "regime_today": "BEAR",
+    "will_change": false,
+    "p_change": 0.019,
+    "cutoff": 0.531,
+    "confidence_band": "very confident",
+    "historical_accuracy_at_this_confidence": 0.894,
+    "rule_used": "persistence",
+    "shap": {
+      "days_in_regime": -1.9429,
+      "avg_correlation": -0.9848,
+      "sma50_vs_sma200": -0.6903,
+      "ret_100": -0.5985
+    },
+    "grouped": {
+      "regime age": -1.2895,
+      "agreement": -1.0977,
+      "trend": -1.0551,
+      "fear": -0.4828
+    },
+    "reasons": [
+      "this regime is 4 days old (extremely low, 5% percentile)",
+      "the stocks move together at 0.51 correlation (extremely high, 97% percentile)",
+      "the 50-day average is -5.2% against the 200-day (low, 7% percentile)",
+      "the market is -8.5% over 100 days (low, 8% percentile)"
+    ],
+    "counterfactual": {
+      "feature": "days_in_regime",
+      "current": 4.0,
+      "flip_at": 195.777966101695,
+      "direction": "higher",
+      "new_answer": "a change"
+    },
+    "actual_20d_later": "BEAR",
+    "correct": true,
+    "card_text": "==============================================================================\n  REGIME AGENT  -  2026-05-27\n==============================================================================\n  DECISION      : BEAR     (today it is BEAR)\n  Expects change: no  (2% vs a 53% threshold)\n  Confidence    : VERY CONFIDENT\n                  when this confident, historically correct 89% of the time\n  Rule applied  : persistence\n\n  WHAT KIND OF EVIDENCE\n    regime age   -1.2895   toward STABLE   (how long the current regime has run)\n    agreement    -1.0977   toward STABLE   (whether the stocks are moving together)\n    trend        -1.0551   toward STABLE   (the market's direction)\n    fear         -0.4828   toward STABLE   (how frightened the market is)\n\n  THE SPECIFICS\n    [-1.943] this regime is 4 days old (extremely low, 5% percentile)\n    [-0.985] the stocks move together at 0.51 correlation (extremely high, 97% percentile)\n    [-0.690] the 50-day average is -5.2% against the 200-day (low, 7% percentile)\n    [-0.599] the market is -8.5% over 100 days (low, 8% percentile)\n\n  WHAT WOULD CHANGE THE ANSWER\n    if days_in_regime were 195.778 instead of 4.000 (higher),\n    the agent would report a change instead.\n=============================================================================="
+  }
+]

@@ -1,0 +1,131 @@
+{
+  "n_participants": 29,
+  "n_items": 10,
+  "n_answers": 290,
+  "target": 0.8,
+  "comprehension": {
+    "correct": 261,
+    "accuracy": 0.9,
+    "ci95": [
+      0.8655,
+      0.9345
+    ],
+    "target_met": true
+  },
+  "google_reported": {
+    "correct": 234,
+    "accuracy": 0.8069,
+    "participants_under_marked": 14,
+    "participants_over_marked": 0,
+    "cause": "Q4 and Q6 each appear in two spellings differing only in the dash character; the form's answer key matched one of them."
+  },
+  "per_item": [
+    {
+      "card": 1,
+      "correct": 29,
+      "n": 29,
+      "accuracy": 1.0
+    },
+    {
+      "card": 2,
+      "correct": 29,
+      "n": 29,
+      "accuracy": 1.0
+    },
+    {
+      "card": 3,
+      "correct": 25,
+      "n": 29,
+      "accuracy": 0.8621
+    },
+    {
+      "card": 4,
+      "correct": 29,
+      "n": 29,
+      "accuracy": 1.0
+    },
+    {
+      "card": 5,
+      "correct": 26,
+      "n": 29,
+      "accuracy": 0.8966
+    },
+    {
+      "card": 6,
+      "correct": 29,
+      "n": 29,
+      "accuracy": 1.0
+    },
+    {
+      "card": 7,
+      "correct": 21,
+      "n": 29,
+      "accuracy": 0.7241
+    },
+    {
+      "card": 8,
+      "correct": 24,
+      "n": 29,
+      "accuracy": 0.8276
+    },
+    {
+      "card": 9,
+      "correct": 23,
+      "n": 29,
+      "accuracy": 0.7931
+    },
+    {
+      "card": 10,
+      "correct": 26,
+      "n": 29,
+      "accuracy": 0.8966
+    }
+  ],
+  "by_experience": {
+    "non_expert": {
+      "n": 21,
+      "correct": 190,
+      "accuracy": 0.9047619047619048
+    },
+    "market_aware": {
+      "n": 8,
+      "correct": 71,
+      "accuracy": 0.8875
+    }
+  },
+  "clarity": {
+    "overall_mean": 4.462,
+    "per_card": [
+      4.862,
+      4.69,
+      4.276,
+      4.552,
+      4.448,
+      4.552,
+      4.207,
+      4.379,
+      4.172,
+      4.483
+    ]
+  },
+  "free_text": {
+    "confusing": [
+      "There are 2 questions that make it unclear, rest is ok",
+      "No",
+      "I have no idea about stock market.. but when i read this i got little idea.",
+      "No .its easy to understand",
+      "Nope . explanations are good",
+      "A bit long explanations",
+      "it never says how sure it is",
+      "anyone made money using this"
+    ],
+    "trust": [
+      "Small demo video",
+      "No",
+      "It' s better..if it have demo..",
+      "What happed to the train , won or lose",
+      "how accurate is it? like out of 10 times how many times correct",
+      "Can a person check before it buys"
+    ]
+  }
+}

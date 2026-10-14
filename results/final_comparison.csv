@@ -1,0 +1,14 @@
+label,group,headline,stable,transition,folds_won,source,against_the_bar
+"Oracle (upper limit, not a model)",oracle,94.6,100.0,75.7,2.0,retrained in this notebook,10.9
+Two-stage router with calibrated switch,proposed,84.9,94.5,51.4,1.0,retrained in this notebook,1.2
+"Best neural configuration, small network, five-seed ensemble",model,83.9,,,,stored: N4_regularisation_summary.csv,0.2
+"Mechanical baseline, the bar",bar,83.7,86.0,75.7,1.0,retrained in this notebook,0.0
+"XGBoost, single stage",model,82.8,87.7,65.5,1.0,retrained in this notebook,-0.9
+"XGBoost, balanced weights",model,82.7,87.4,66.3,1.0,retrained in this notebook,-1.0
+Two-stage router with a recurrent network as the router,model,82.6,97.7,29.8,,stored: N6_system_scores.csv,-1.1
+"Best bidirectional recurrent configuration, ensembled",model,81.1,,,,stored: N8_tiny_bilstm.csv,-2.6
+Logistic regression,model,79.3,85.1,59.2,1.0,retrained in this notebook,-4.4
+Persistence baseline,baseline,77.8,100.0,0.0,1.0,retrained in this notebook,-5.9
+Bidirectional recurrent architecture carried over from earlier work,model,75.5,,,,stored: N7_original_architecture.csv,-8.2
+Recurrent network on raw price sequences,model,66.8,,,,stored: N9_raw_sequences.csv,-16.9
+Majority baseline,baseline,41.3,45.4,26.7,1.0,retrained in this notebook,-42.4

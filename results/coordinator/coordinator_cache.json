@@ -1,0 +1,2377 @@
+{
+  "ASHOKLEY|2025-03-07": {
+    "stock": "ASHOKLEY",
+    "date": "2025-03-07",
+    "regime": {
+      "decision": "BEAR",
+      "regime_today": "BEAR",
+      "will_change": false,
+      "p_change": 0.026,
+      "reasons": [
+        "this regime is 9 days old",
+        "the stocks are moving together at 0.35 correlation",
+        "it has been 110 days since the last high"
+      ]
+    },
+    "news": {
+      "decision": "NEUTRAL",
+      "confidence": 0.0,
+      "explanation": "Only 2 headline(s) in the last 7 days - not enough fresh news to form an honest view."
+    },
+    "risk": {
+      "verdict": "REJECT",
+      "action": "NONE",
+      "position_size": 0.0,
+      "stop_loss_pct": null,
+      "take_profit_pct": null,
+      "rules_fired": [
+        {
+          "rule": "R1_NO_DIRECTION",
+          "detail": "Sentiment Agent found no clear direction - no honest basis to trade."
+        }
+      ]
+    },
+    "synthesis": "The system has decided against trading ASHOKLEY today because there is no clear signal to justify a position. While the broader market is currently in a bearish trend, the stock itself lacks any significant news to provide a meaningful direction. Because the news environment is too quiet to support a confident move, the risk rules have triggered a rejection to protect against uncertainty.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "INDHOTEL|2025-05-19": {
+    "stock": "INDHOTEL",
+    "date": "2025-05-19",
+    "regime": {
+      "decision": "SIDEWAYS",
+      "regime_today": "SIDEWAYS",
+      "will_change": false,
+      "p_change": 0.045,
+      "reasons": [
+        "this regime is 13 days old",
+        "the stocks are moving together at 0.47 correlation",
+        "it has been 155 days since the last high"
+      ]
+    },
+    "news": {
+      "decision": "UP",
+      "confidence": 0.85,
+      "explanation": "The sentiment is bullish due to aggressive expansion of the Ginger brand and a favorable geopolitical climate following an India-Pakistan truce, which typically bolsters travel and hospitality stocks. Analysts from Sharekhan have also issued a target price increase, reflecting strong confidence in the company's growth trajectory and future profitability."
+    },
+    "risk": {
+      "verdict": "SHRINK",
+      "action": "BUY",
+      "position_size": 0.559,
+      "stop_loss_pct": 12.0,
+      "take_profit_pct": 24.0,
+      "rules_fired": [
+        {
+          "rule": "R3_VOL_SIZING",
+          "detail": "Trailing daily volatility is 2.69%; sizing to a 1.5% risk target gives 56% of the allocation."
+        },
+        {
+          "rule": "R7_STOP_LOSS",
+          "detail": "Stop-loss 12.0% / take-profit 24.0% = 1x / 2x the trailing 20-day sigma (12.0%)."
+        }
+      ]
+    },
+    "synthesis": "While the broader market remains in a stagnant, sideways trend, the specific outlook for Indian Hotels is highly positive due to successful brand expansion and improved geopolitical stability. Because the overall market lacks clear momentum, our risk management protocols have opted for a cautious approach, limiting the position size to 56% to protect capital. This strategy allows us to capitalize on the company's strong growth potential while maintaining strict safeguards against unexpected market volatility.",
+    "confidence_label": "Medium",
+    "source": "REAL"
+  },
+  "INDHOTEL|2025-04-09": {
+    "stock": "INDHOTEL",
+    "date": "2025-04-09",
+    "regime": {
+      "decision": "BEAR",
+      "regime_today": "BEAR",
+      "will_change": true,
+      "p_change": 0.657,
+      "reasons": [
+        "the stocks are moving together at 0.38 correlation",
+        "it has been 131 days since the last high",
+        "the market is -7.2% over 100 days"
+      ]
+    },
+    "news": {
+      "decision": "UP",
+      "confidence": 0.75,
+      "explanation": "Indian Hotels Company Limited (IHCL) is showing strong momentum through consistent asset expansion, evidenced by recent launches in Mussoorie and Bengaluru. Furthermore, positive mid-term demand outlooks from financial analysts support the company's growth trajectory in the luxury and hospitality segment. The expansion of their portfolio suggests a clear strategy for increasing occupancy and revenue."
+    },
+    "risk": {
+      "verdict": "SHRINK",
+      "action": "BUY",
+      "position_size": 0.5,
+      "stop_loss_pct": 12.6,
+      "take_profit_pct": 25.2,
+      "rules_fired": [
+        {
+          "rule": "R3_VOL_SIZING",
+          "detail": "Trailing daily volatility is 2.82%; sizing to a 1.5% risk target gives 53% of the allocation."
+        },
+        {
+          "rule": "R4_REGIME_CAP",
+          "detail": "Regime Agent flags BEAR regime - position capped at 50%."
+        },
+        {
+          "rule": "R7_STOP_LOSS",
+          "detail": "Stop-loss 12.6% / take-profit 25.2% = 1x / 2x the trailing 20-day sigma (12.6%)."
+        }
+      ]
+    },
+    "synthesis": "While the News Agent highlights strong growth and expansion for Indian Hotels, the broader market is currently in a bearish phase with a negative long-term trend. Because the market environment is unfavorable, our Risk Agent has decided to limit our exposure to a 50% position size to protect capital. This approach allows us to capture the stock's positive momentum while maintaining a defensive stance against the wider market's downward pressure.",
+    "confidence_label": "Medium",
+    "source": "REAL"
+  },
+  "ADANIPORTS|2025-10-03": {
+    "stock": "ADANIPORTS",
+    "date": "2025-10-03",
+    "regime": {
+      "decision": "BULL",
+      "regime_today": "BULL",
+      "will_change": false,
+      "p_change": 0.117,
+      "reasons": [
+        "recent volatility is 0.47% daily",
+        "two-month volatility is 0.54% daily",
+        "this regime is 57 days old"
+      ]
+    },
+    "news": {
+      "decision": "NEUTRAL",
+      "confidence": 0.0,
+      "explanation": "Only 0 headline(s) in the last 7 days - not enough fresh news to form an honest view."
+    },
+    "risk": {
+      "verdict": "REJECT",
+      "action": "NONE",
+      "position_size": 0.0,
+      "stop_loss_pct": null,
+      "take_profit_pct": null,
+      "rules_fired": [
+        {
+          "rule": "R1_NO_DIRECTION",
+          "detail": "Sentiment Agent found no clear direction - no honest basis to trade."
+        }
+      ]
+    },
+    "synthesis": "While the broader market is currently in a stable, bullish trend, there is a complete lack of recent news coverage for ADANIPORTS to provide any specific guidance on the stock's performance. Because the system requires a clear directional signal to justify a trade, the absence of news has triggered a safety rule that prevents any position from being opened. Consequently, the system has decided to take no action today to avoid trading in an environment with insufficient information.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "ASHOKLEY|2025-06-11": {
+    "stock": "ASHOKLEY",
+    "date": "2025-06-11",
+    "regime": {
+      "decision": "SIDEWAYS",
+      "regime_today": "SIDEWAYS",
+      "will_change": false,
+      "p_change": 0.047,
+      "reasons": [
+        "5 of 5 stocks are above their 200-day average",
+        "the stocks are moving together at 0.47 correlation",
+        "this regime is 30 days old"
+      ]
+    },
+    "news": {
+      "decision": "UP",
+      "confidence": 0.85,
+      "explanation": "Ashok Leyland is demonstrating strong momentum through consecutive order wins from TNSTC and proactive investment in its EV subsidiary, Switch Mobility. The market sentiment is further bolstered by a target price hike from Morgan Stanley following the RBI rate cut, which is a significant tailwind for capital-intensive sectors like commercial vehicles. While some analysts caution regarding sector-wide cost pressures, the company's recent operational wins and strategic focus on AI-driven tech upgrades suggest an optimistic short-term outlook."
+    },
+    "risk": {
+      "verdict": "APPROVE",
+      "action": "BUY",
+      "position_size": 1.0,
+      "stop_loss_pct": 5.3,
+      "take_profit_pct": 10.7,
+      "rules_fired": [
+        {
+          "rule": "R3_VOL_SIZING",
+          "detail": "Trailing daily volatility is 1.19%; sizing to a 1.5% risk target gives 100% of the allocation."
+        },
+        {
+          "rule": "R7_STOP_LOSS",
+          "detail": "Stop-loss 5.3% / take-profit 10.7% = 1x / 2x the trailing 20-day sigma (5.3%)."
+        }
+      ]
+    },
+    "synthesis": "The system has approved a full-position buy for Ashok Leyland because the stock is showing strong positive momentum driven by recent order wins and favorable interest rate cuts. While the broader market is currently in a stable, sideways phase, the company's specific strategic growth in the EV sector provides a compelling case for investment. By following our established risk management protocols, the system has determined that the current conditions support a maximum position size to capitalize on this optimistic outlook.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "IOC|2026-05-08": {
+    "stock": "IOC",
+    "date": "2026-05-08",
+    "regime": {
+      "decision": "BEAR",
+      "regime_today": "SIDEWAYS",
+      "will_change": true,
+      "p_change": 0.565,
+      "reasons": [
+        "this regime is 116 days old",
+        "it has been 82 days since the last high",
+        "the stocks are moving together at 0.52 correlation"
+      ]
+    },
+    "news": {
+      "decision": "DOWN",
+      "confidence": 0.75,
+      "explanation": "Despite the rally mentioned in one headline, the fundamental context is negative because the headline indicates Brent crude hit $102, which squeezes refining margins for oil marketing companies like IOCL. Furthermore, legal concerns regarding safety risks at their plants and the lack of price hikes for domestic fuel suggest continued pressure on profitability. The upcoming earnings report introduces uncertainty, which warrants a cautious outlook."
+    },
+    "risk": {
+      "verdict": "SHRINK",
+      "action": "SELL",
+      "position_size": 0.5,
+      "stop_loss_pct": 7.0,
+      "take_profit_pct": 14.0,
+      "rules_fired": [
+        {
+          "rule": "R3_VOL_SIZING",
+          "detail": "Trailing daily volatility is 1.56%; sizing to a 1.5% risk target gives 96% of the allocation."
+        },
+        {
+          "rule": "R4_REGIME_CAP",
+          "detail": "Regime Agent flags BEAR regime - position capped at 50%."
+        },
+        {
+          "rule": "R7_STOP_LOSS",
+          "detail": "Stop-loss 7.0% / take-profit 14.0% = 1x / 2x the trailing 20-day sigma (7.0%)."
+        }
+      ]
+    },
+    "synthesis": "The decision to sell half of the current position is driven by a combination of negative news and a deteriorating market outlook. While the broader market is currently stagnant, the forecast suggests a shift toward a bearish trend, and specific concerns regarding rising crude oil costs and regulatory pressures on IOC are weighing heavily on the stock's profitability. Consequently, the system has triggered risk management protocols to reduce exposure and protect capital ahead of an uncertain earnings report.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "BHARTIARTL|2025-05-27": {
+    "stock": "BHARTIARTL",
+    "date": "2025-05-27",
+    "regime": {
+      "decision": "SIDEWAYS",
+      "regime_today": "SIDEWAYS",
+      "will_change": false,
+      "p_change": 0.035,
+      "reasons": [
+        "this regime is 19 days old",
+        "the stocks are moving together at 0.48 correlation",
+        "it has been 161 days since the last high"
+      ]
+    },
+    "news": {
+      "decision": "NEUTRAL",
+      "confidence": 0.6,
+      "explanation": "The news presents a mixed outlook for Bharti Airtel. While maintaining the highest percentage of active subscribers reflects strong operational health, the Supreme Court's rejection of the AGR waiver plea presents a significant financial liability and regulatory hurdle. Additionally, the large stake sale by Singtel, while a standard liquidity event, creates short-term supply pressure on the stock."
+    },
+    "risk": {
+      "verdict": "REJECT",
+      "action": "NONE",
+      "position_size": 0.0,
+      "stop_loss_pct": null,
+      "take_profit_pct": null,
+      "rules_fired": [
+        {
+          "rule": "R1_NO_DIRECTION",
+          "detail": "Sentiment Agent found no clear direction - no honest basis to trade."
+        }
+      ]
+    },
+    "synthesis": "The market is currently in a stagnant, sideways phase with no clear momentum, which makes it difficult to justify a new position. While Bharti Airtel maintains strong operational health, this is currently offset by significant financial uncertainties regarding regulatory rulings and short-term selling pressure from major stakeholders. Because the overall market environment lacks a clear trend and the news remains neutral, the system has decided to stay on the sidelines to avoid unnecessary risk.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "INDHOTEL|2025-08-26": {
+    "stock": "INDHOTEL",
+    "date": "2025-08-26",
+    "regime": {
+      "decision": "BULL",
+      "regime_today": "BULL",
+      "will_change": false,
+      "p_change": 0.148,
+      "reasons": [
+        "recent volatility is 0.61% daily",
+        "this regime is 31 days old",
+        "the fear index is at 12.2"
+      ]
+    },
+    "news": {
+      "decision": "UP",
+      "confidence": 0.85,
+      "explanation": "IHCL is aggressively expanding its brand footprint through strategic partnerships, including the new distribution deal with Clarks Group and the redevelopment project for Chotelal Ki Ghat. Market sentiment remains positive as evidenced by recent brokerage reports citing upside potential and strong demand for branded homes. These developments indicate sustained growth in their management portfolio and revenue streams."
+    },
+    "risk": {
+      "verdict": "APPROVE",
+      "action": "BUY",
+      "position_size": 1.0,
+      "stop_loss_pct": 6.3,
+      "take_profit_pct": 12.7,
+      "rules_fired": [
+        {
+          "rule": "R3_VOL_SIZING",
+          "detail": "Trailing daily volatility is 1.42%; sizing to a 1.5% risk target gives 100% of the allocation."
+        },
+        {
+          "rule": "R7_STOP_LOSS",
+          "detail": "Stop-loss 6.3% / take-profit 12.7% = 1x / 2x the trailing 20-day sigma (6.3%)."
+        }
+      ]
+    },
+    "synthesis": "The market is currently in a stable, bullish phase with low volatility, providing a supportive environment for growth. This positive outlook is reinforced by IHCL's aggressive expansion and strong brand momentum, which have bolstered investor confidence. Given these favorable conditions, the system has approved a full-position buy, supported by strict risk management protocols to protect the investment.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "IOC|2026-03-10": {
+    "stock": "IOC",
+    "date": "2026-03-10",
+    "regime": {
+      "decision": "SIDEWAYS",
+      "regime_today": "SIDEWAYS",
+      "will_change": true,
+      "p_change": 0.701,
+      "reasons": [
+        "this regime is 78 days old",
+        "it has been 44 days since the last high",
+        "the market is -4.0% over 100 days"
+      ]
+    },
+    "news": {
+      "decision": "DOWN",
+      "confidence": 0.85,
+      "explanation": "Indian Oil Corporation is experiencing significant downward pressure as a sharp spike in crude oil prices directly threatens its refining margins. This macroeconomic headwind is compounded by a UBS analyst downgrade and negative investor sentiment causing recent stock price slumps. While operational news like dividend declarations and utility partnerships exist, the market is currently dominated by concerns over rising input costs and sector-wide sell-offs."
+    },
+    "risk": {
+      "verdict": "SHRINK",
+      "action": "SELL",
+      "position_size": 0.5,
+      "stop_loss_pct": 9.9,
+      "take_profit_pct": 19.9,
+      "rules_fired": [
+        {
+          "rule": "R3_VOL_SIZING",
+          "detail": "Trailing daily volatility is 2.22%; sizing to a 1.5% risk target gives 68% of the allocation."
+        },
+        {
+          "rule": "R4_REGIME_CAP",
+          "detail": "Regime Agent flags a regime change is expected (70%) - position capped at 50%."
+        },
+        {
+          "rule": "R7_STOP_LOSS",
+          "detail": "Stop-loss 9.9% / take-profit 19.9% = 1x / 2x the trailing 20-day sigma (9.9%)."
+        }
+      ]
+    },
+    "synthesis": "The decision to sell half of the position in IOC is driven by a combination of unfavorable market conditions and specific negative pressure on the stock. While the broader market remains stuck in a stagnant, sideways trend, Indian Oil Corporation is facing significant headwinds from rising crude oil costs and recent analyst downgrades. Consequently, our risk management rules have triggered a reduction in exposure to protect capital against these mounting sector-wide and company-specific risks.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "ADANIPORTS|2025-06-17": {
+    "stock": "ADANIPORTS",
+    "date": "2025-06-17",
+    "regime": {
+      "decision": "SIDEWAYS",
+      "regime_today": "SIDEWAYS",
+      "will_change": false,
+      "p_change": 0.073,
+      "reasons": [
+        "it has been 176 days since the last high",
+        "the trend is 70% straight",
+        "the stocks are moving together at 0.48 correlation"
+      ]
+    },
+    "news": {
+      "decision": "DOWN",
+      "confidence": 0.8,
+      "explanation": "Adani Ports faces significant downward pressure due to its exposure to geopolitical instability in the Middle East, particularly the conflict involving Israel and Iran. Recent market reactions show the stock declining as investors grow concerned about the safety and operational continuity of its Israeli port assets. The negative sentiment is further compounded by recent selling pressure in the broader Adani group and market concerns regarding regional maritime security."
+    },
+    "risk": {
+      "verdict": "APPROVE",
+      "action": "SELL",
+      "position_size": 1.0,
+      "stop_loss_pct": 5.8,
+      "take_profit_pct": 11.5,
+      "rules_fired": [
+        {
+          "rule": "R3_VOL_SIZING",
+          "detail": "Trailing daily volatility is 1.29%; sizing to a 1.5% risk target gives 100% of the allocation."
+        },
+        {
+          "rule": "R7_STOP_LOSS",
+          "detail": "Stop-loss 5.8% / take-profit 11.5% = 1x / 2x the trailing 20-day sigma (5.8%)."
+        }
+      ]
+    },
+    "synthesis": "The decision to sell the entire position in Adani Ports is driven by a combination of negative news and strict risk management protocols. While the broader market is currently stuck in a sideways trend, the specific geopolitical risks surrounding the company's assets in the Middle East have created significant downward pressure. Consequently, our risk system has triggered a full exit to protect capital, adhering to established stop-loss and volatility-based sizing rules.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "ASHOKLEY|2025-08-26": {
+    "stock": "ASHOKLEY",
+    "date": "2025-08-26",
+    "regime": {
+      "decision": "BULL",
+      "regime_today": "BULL",
+      "will_change": false,
+      "p_change": 0.148,
+      "reasons": [
+        "recent volatility is 0.61% daily",
+        "this regime is 31 days old",
+        "the fear index is at 12.2"
+      ]
+    },
+    "news": {
+      "decision": "UP",
+      "confidence": 0.75,
+      "explanation": "Ashok Leyland is receiving strong bullish analyst coverage and momentum, with multiple brokerages issuing 'buy' recommendations and setting higher price targets. While some concerns about muted industry volumes exist, the company\u2019s strategic expansion into West Asia and its focus on market leadership provide a positive outlook for future profitability."
+    },
+    "risk": {
+      "verdict": "SHRINK",
+      "action": "BUY",
+      "position_size": 0.633,
+      "stop_loss_pct": 10.6,
+      "take_profit_pct": 21.2,
+      "rules_fired": [
+        {
+          "rule": "R3_VOL_SIZING",
+          "detail": "Trailing daily volatility is 2.37%; sizing to a 1.5% risk target gives 63% of the allocation."
+        },
+        {
+          "rule": "R7_STOP_LOSS",
+          "detail": "Stop-loss 10.6% / take-profit 21.2% = 1x / 2x the trailing 20-day sigma (10.6%)."
+        }
+      ]
+    },
+    "synthesis": "The market is currently in a stable, bullish phase with low volatility, which provides a supportive environment for Ashok Leyland. This positive outlook is reinforced by strong analyst sentiment and the company's strategic growth initiatives, justifying our decision to enter a buy position. Because we are prioritizing capital preservation through our stop-loss protocols and volatility-based sizing rules, we have opted for a 63% position size to balance this growth potential with prudent risk management.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "BHARTIARTL|2025-08-13": {
+    "stock": "BHARTIARTL",
+    "date": "2025-08-13",
+    "regime": {
+      "decision": "BULL",
+      "regime_today": "BULL",
+      "will_change": false,
+      "p_change": 0.019,
+      "reasons": [
+        "recent volatility is 0.58% daily",
+        "this regime is 23 days old",
+        "two-month volatility is 0.58% daily"
+      ]
+    },
+    "news": {
+      "decision": "DOWN",
+      "confidence": 0.85,
+      "explanation": "The recent massive sell-off of shares by the company's promoter entity (totaling over $2 billion) exerts significant downward pressure on the stock price in the near term. While operational metrics like data usage growth remain positive, the market is currently reacting negatively to the large block deals and the resulting supply of shares in the secondary market."
+    },
+    "risk": {
+      "verdict": "APPROVE",
+      "action": "SELL",
+      "position_size": 1.0,
+      "stop_loss_pct": 5.8,
+      "take_profit_pct": 11.6,
+      "rules_fired": [
+        {
+          "rule": "R3_VOL_SIZING",
+          "detail": "Trailing daily volatility is 1.30%; sizing to a 1.5% risk target gives 100% of the allocation."
+        },
+        {
+          "rule": "R7_STOP_LOSS",
+          "detail": "Stop-loss 5.8% / take-profit 11.6% = 1x / 2x the trailing 20-day sigma (5.8%)."
+        }
+      ]
+    },
+    "synthesis": "Although the broader market remains in a stable bullish trend, our system has decided to sell your entire position in BHARTIARTL due to significant negative pressure from recent large-scale promoter share sales. This decision is driven by the need to protect your capital, as the stock has triggered our automated stop-loss and volatility-based risk protocols. By exiting the position now, the system is prioritizing risk management over the general market sentiment to avoid potential further downside from the current supply imbalance.",
+    "confidence_label": "Medium",
+    "source": "REAL"
+  },
+  "BHARTIARTL|2025-08-08": {
+    "stock": "BHARTIARTL",
+    "date": "2025-08-08",
+    "regime": {
+      "decision": "BULL",
+      "regime_today": "BULL",
+      "will_change": false,
+      "p_change": 0.02,
+      "reasons": [
+        "recent volatility is 0.52% daily",
+        "this regime is 20 days old",
+        "two-month volatility is 0.58% daily"
+      ]
+    },
+    "news": {
+      "decision": "UP",
+      "confidence": 0.8,
+      "explanation": "Bharti Airtel reported strong Q1 FY26 financial performance, with a 43% surge in net profit and improved ARPU. Despite the short-term negative pressure from a large stake sale by the promoter, the company's underlying growth in broadband, data usage, and plans for future subsidiary IPOs support a bullish outlook."
+    },
+    "risk": {
+      "verdict": "APPROVE",
+      "action": "BUY",
+      "position_size": 1.0,
+      "stop_loss_pct": 5.8,
+      "take_profit_pct": 11.5,
+      "rules_fired": [
+        {
+          "rule": "R3_VOL_SIZING",
+          "detail": "Trailing daily volatility is 1.29%; sizing to a 1.5% risk target gives 100% of the allocation."
+        },
+        {
+          "rule": "R7_STOP_LOSS",
+          "detail": "Stop-loss 5.8% / take-profit 11.5% = 1x / 2x the trailing 20-day sigma (5.8%)."
+        }
+      ]
+    },
+    "synthesis": "The system has approved a full-position buy for Bharti Airtel because both the broader market and the company's specific outlook are strongly positive. While there was some short-term pressure from a promoter stake sale, the company's impressive 43% profit growth and expansion in data services outweigh these concerns. Given the stable market environment and low volatility, the risk management rules have confirmed that a maximum position size is appropriate for this trade.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "IOC|2026-04-24": {
+    "stock": "IOC",
+    "date": "2026-04-24",
+    "regime": {
+      "decision": "BEAR",
+      "regime_today": "SIDEWAYS",
+      "will_change": true,
+      "p_change": 0.72,
+      "reasons": [
+        "this regime is 107 days old",
+        "the stocks are moving together at 0.52 correlation",
+        "the 50-day average is -3.4% against the 200-day"
+      ]
+    },
+    "news": {
+      "decision": "NEUTRAL",
+      "confidence": 0.7,
+      "explanation": "While IOCL is securing long-term contracts like the Rs 2,157-crore MoU with DCI and expanding infrastructure, the company is also frequently issuing public reassurances regarding supply stability amidst Middle East geopolitical tensions. Because rising global crude prices\u2014the primary driver behind these supply concerns\u2014negatively impact refining margins, the positive impact of new contracts is currently offset by the potential cost pressure from volatile global oil markets."
+    },
+    "risk": {
+      "verdict": "REJECT",
+      "action": "NONE",
+      "position_size": 0.0,
+      "stop_loss_pct": null,
+      "take_profit_pct": null,
+      "rules_fired": [
+        {
+          "rule": "R1_NO_DIRECTION",
+          "detail": "Sentiment Agent found no clear direction - no honest basis to trade."
+        }
+      ]
+    },
+    "synthesis": "The system has decided against trading IOC today because the market environment is currently stagnant and expected to turn downward soon. While the company is securing new business contracts, these gains are being cancelled out by concerns over rising oil costs and geopolitical instability. Because there is no clear upward momentum or positive news trend to justify a purchase, the risk rules have triggered a rejection to protect capital.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "IOC|2025-04-28": {
+    "stock": "IOC",
+    "date": "2025-04-28",
+    "regime": {
+      "decision": "SIDEWAYS",
+      "regime_today": "BEAR",
+      "will_change": true,
+      "p_change": 0.757,
+      "reasons": [
+        "the stocks are moving together at 0.38 correlation",
+        "it has been 141 days since the last high",
+        "price sits +1.1% against its 200-day average"
+      ]
+    },
+    "news": {
+      "decision": "NEUTRAL",
+      "confidence": 0.7,
+      "explanation": "The recent headlines are almost exclusively focused on a pilot project for hydrogen fuel cell vehicles with Hyundai. While this demonstrates forward-looking innovation, it is an experimental initiative that will not materially impact Indian Oil Corporation's near-term earnings or profit margins. There is no significant news regarding core refinery margins, crude oil price fluctuations, or government fuel pricing policies, which are the primary drivers for this stock."
+    },
+    "risk": {
+      "verdict": "REJECT",
+      "action": "NONE",
+      "position_size": 0.0,
+      "stop_loss_pct": null,
+      "take_profit_pct": null,
+      "rules_fired": [
+        {
+          "rule": "R1_NO_DIRECTION",
+          "detail": "Sentiment Agent found no clear direction - no honest basis to trade."
+        }
+      ]
+    },
+    "synthesis": "The system has decided against trading IOC because the current market environment is stagnant and lacks a clear catalyst for growth. While the company is exploring innovative hydrogen projects, these initiatives are experimental and do not provide the immediate financial impact needed to drive the stock price. Given the lack of strong market momentum and the absence of significant news affecting core refinery operations, the system has opted to remain on the sidelines.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "BHARTIARTL|2026-01-29": {
+    "stock": "BHARTIARTL",
+    "date": "2026-01-29",
+    "regime": {
+      "decision": "SIDEWAYS",
+      "regime_today": "SIDEWAYS",
+      "will_change": false,
+      "p_change": 0.113,
+      "reasons": [
+        "recent volatility is 0.61% daily",
+        "the fear index is at 13.4",
+        "the market is +3.4% over 100 days"
+      ]
+    },
+    "news": {
+      "decision": "NEUTRAL",
+      "confidence": 0.7,
+      "explanation": "Recent news is mixed, featuring both bearish market price pressure and ongoing operational developments. While news about sensible debt management and international infrastructure expansion is positive, the stock is currently facing downward price momentum and uncertainty regarding AGR dues negotiations."
+    },
+    "risk": {
+      "verdict": "REJECT",
+      "action": "NONE",
+      "position_size": 0.0,
+      "stop_loss_pct": null,
+      "take_profit_pct": null,
+      "rules_fired": [
+        {
+          "rule": "R1_NO_DIRECTION",
+          "detail": "Sentiment Agent found no clear direction - no honest basis to trade.",
+          "plain": "The news didn't point clearly up or down, so there's nothing to act on."
+        }
+      ]
+    },
+    "synthesis": "The system has decided to take no action on Bharti Airtel today because the market environment is currently stuck in a sideways pattern with no clear momentum. While the company is making positive strides in debt management and infrastructure, these gains are being offset by ongoing uncertainty regarding regulatory dues and downward price pressure. Because there is no strong directional signal to justify a trade, the risk rules have triggered a rejection to protect capital until a clearer trend emerges.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "IOC|2026-01-29": {
+    "stock": "IOC",
+    "date": "2026-01-29",
+    "regime": {
+      "decision": "SIDEWAYS",
+      "regime_today": "SIDEWAYS",
+      "will_change": false,
+      "p_change": 0.113,
+      "reasons": [
+        "recent volatility is 0.61% daily",
+        "the fear index is at 13.4",
+        "the market is +3.4% over 100 days"
+      ]
+    },
+    "news": {
+      "decision": "UP",
+      "confidence": 0.7,
+      "explanation": "The company is actively expanding its refining capacity to boost diesel exports, which creates a positive outlook for future revenue growth. Additionally, analysts have recently upgraded the stock to 'Buy' based on strong technical and financial performance. While the company is adjusting its sourcing strategy due to slower Russian imports, the overall strategic initiatives provide a clear growth narrative."
+    },
+    "risk": {
+      "verdict": "SHRINK",
+      "action": "BUY",
+      "position_size": 0.961,
+      "stop_loss_pct": 7.0,
+      "take_profit_pct": 14.0,
+      "rules_fired": [
+        {
+          "rule": "R3_VOL_SIZING",
+          "detail": "Trailing daily volatility is 1.56%; sizing to a 1.5% risk target gives 96% of the allocation.",
+          "plain": "This stock has been moving about 1.56% a day recently. We only want to risk about 1.5% a day, so we buy 96% of a normal amount."
+        },
+        {
+          "rule": "R7_STOP_LOSS",
+          "detail": "Stop-loss 7.0% / take-profit 14.0% = 1x / 2x the trailing 20-day sigma (7.0%).",
+          "plain": "Over a month this stock typically swings about 7.0%. So we sell automatically if it drops 7.0% (cut the loss), or if it gains 14.0% (take the win)."
+        }
+      ]
+    },
+    "synthesis": "The market is currently in a stable, sideways phase with low volatility, providing a calm environment for new positions. While the broader market remains flat, the News Agent highlights strong growth potential for IOC due to refinery expansions and positive analyst upgrades. Consequently, the Risk Agent has authorized a large 96% position size, utilizing strict stop-loss rules to protect capital while capitalizing on the company's specific upward momentum.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "ASHOKLEY|2026-01-29": {
+    "stock": "ASHOKLEY",
+    "date": "2026-01-29",
+    "regime": {
+      "decision": "SIDEWAYS",
+      "regime_today": "SIDEWAYS",
+      "will_change": false,
+      "p_change": 0.113,
+      "reasons": [
+        "recent volatility is 0.61% daily",
+        "the fear index is at 13.4",
+        "the market is +3.4% over 100 days"
+      ]
+    },
+    "news": {
+      "decision": "UP",
+      "confidence": 0.85,
+      "explanation": "Ashok Leyland is seeing strong positive momentum driven by a technical breakout, product portfolio expansion with the revival of iconic truck models, and institutional backing. The anticipation of favorable government policies in the upcoming budget specifically highlighting the company as a 'top pick' provides a solid foundation for growth over the next month."
+    },
+    "risk": {
+      "verdict": "SHRINK",
+      "action": "BUY",
+      "position_size": 0.718,
+      "stop_loss_pct": 9.3,
+      "take_profit_pct": 18.7,
+      "rules_fired": [
+        {
+          "rule": "R3_VOL_SIZING",
+          "detail": "Trailing daily volatility is 2.09%; sizing to a 1.5% risk target gives 72% of the allocation.",
+          "plain": "This stock has been moving about 2.09% a day recently. We only want to risk about 1.5% a day, so we buy 72% of a normal amount."
+        },
+        {
+          "rule": "R7_STOP_LOSS",
+          "detail": "Stop-loss 9.3% / take-profit 18.7% = 1x / 2x the trailing 20-day sigma (9.3%).",
+          "plain": "Over a month this stock typically swings about 9.3%. So we sell automatically if it drops 9.3% (cut the loss), or if it gains 18.7% (take the win)."
+        }
+      ]
+    },
+    "synthesis": "While the broader market is currently stuck in a sideways trend with low volatility, Ashok Leyland is showing strong upward momentum driven by new product launches and positive institutional sentiment. Because the market environment remains stable but lacks a clear breakout, our risk management rules have triggered a cautious approach. Consequently, we are initiating a buy position at a 72% size to capture the stock's specific growth potential while maintaining a disciplined buffer against potential market shifts.",
+    "confidence_label": "Medium",
+    "source": "REAL"
+  },
+  "ADANIPORTS|2026-01-29": {
+    "stock": "ADANIPORTS",
+    "date": "2026-01-29",
+    "regime": {
+      "decision": "SIDEWAYS",
+      "regime_today": "SIDEWAYS",
+      "will_change": false,
+      "p_change": 0.113,
+      "reasons": [
+        "recent volatility is 0.61% daily",
+        "the fear index is at 13.4",
+        "the market is +3.4% over 100 days"
+      ]
+    },
+    "news": {
+      "decision": "UP",
+      "confidence": 0.85,
+      "explanation": "Adani Ports has demonstrated strong momentum through major infrastructure investment commitments, specifically the \u20b930,000 crore expansion of the Vizhinjam port. Additionally, the Supreme Court ruled in the company's favor regarding a significant land dispute, removing a key regulatory overhang. These developments, combined with recent positive trading volume and expansion into international markets like the UAE, suggest a robust outlook for the company's operational capacity and investor confidence."
+    },
+    "risk": {
+      "verdict": "SHRINK",
+      "action": "BUY",
+      "position_size": 0.63,
+      "stop_loss_pct": 10.7,
+      "take_profit_pct": 21.3,
+      "rules_fired": [
+        {
+          "rule": "R3_VOL_SIZING",
+          "detail": "Trailing daily volatility is 2.38%; sizing to a 1.5% risk target gives 63% of the allocation.",
+          "plain": "This stock has been moving about 2.38% a day recently. We only want to risk about 1.5% a day, so we buy 63% of a normal amount."
+        },
+        {
+          "rule": "R7_STOP_LOSS",
+          "detail": "Stop-loss 10.7% / take-profit 21.3% = 1x / 2x the trailing 20-day sigma (10.7%).",
+          "plain": "Over a month this stock typically swings about 10.7%. So we sell automatically if it drops 10.7% (cut the loss), or if it gains 21.3% (take the win)."
+        }
+      ]
+    },
+    "synthesis": "While the broader market remains in a stable, sideways trend, Adani Ports is showing strong upward momentum driven by major infrastructure investments and a favorable legal ruling. Because the market environment is currently quiet and predictable, our risk management rules have triggered a cautious approach to position sizing. Consequently, we are initiating a buy order at a reduced 63% capacity to capture the stock's positive outlook while maintaining a disciplined buffer against potential volatility.",
+    "confidence_label": "Medium",
+    "source": "REAL"
+  },
+  "INDHOTEL|2026-01-29": {
+    "stock": "INDHOTEL",
+    "date": "2026-01-29",
+    "regime": {
+      "decision": "SIDEWAYS",
+      "regime_today": "SIDEWAYS",
+      "will_change": false,
+      "p_change": 0.113,
+      "reasons": [
+        "recent volatility is 0.61% daily",
+        "the fear index is at 13.4",
+        "the market is +3.4% over 100 days"
+      ]
+    },
+    "news": {
+      "decision": "NEUTRAL",
+      "confidence": 0.6,
+      "explanation": "The recent news presents a mixed outlook for Indian Hotels. While the company is receiving positive global recognition for its ESG initiatives and expanding its footprint in Rajasthan, the stock price has recently faced downward pressure, trading near 52-week lows, which signals underlying market caution."
+    },
+    "risk": {
+      "verdict": "REJECT",
+      "action": "NONE",
+      "position_size": 0.0,
+      "stop_loss_pct": null,
+      "take_profit_pct": null,
+      "rules_fired": [
+        {
+          "rule": "R1_NO_DIRECTION",
+          "detail": "Sentiment Agent found no clear direction - no honest basis to trade.",
+          "plain": "The news didn't point clearly up or down, so there's nothing to act on."
+        }
+      ]
+    },
+    "synthesis": "The market is currently in a stable, sideways phase with no significant momentum expected in the near term. While Indian Hotels is gaining recognition for its sustainability efforts, the stock is struggling near its 52-week lows, creating a neutral outlook that lacks a clear catalyst for growth. Because the market environment is stagnant and the stock lacks a definitive upward trend, the system has rejected this trade to avoid unnecessary risk.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "INDHOTEL|2026-04-16": {
+    "stock": "INDHOTEL",
+    "date": "2026-04-16",
+    "regime": {
+      "decision": "BEAR",
+      "regime_today": "SIDEWAYS",
+      "will_change": true,
+      "p_change": 0.67,
+      "reasons": [
+        "this regime is 101 days old",
+        "the stocks are moving together at 0.53 correlation",
+        "it has been 67 days since the last high"
+      ]
+    },
+    "news": {
+      "decision": "UP",
+      "confidence": 0.85,
+      "explanation": "Indian Hotels Company Limited (IHCL) is exhibiting strong, consistent growth through an aggressive expansion strategy, evidenced by multiple new property signings and openings across India. The management's explicit confidence in achieving long-term goals, combined with reaching a significant milestone of 250 signings in a single fiscal year, indicates a robust pipeline that supports revenue growth for the coming months."
+    },
+    "risk": {
+      "verdict": "SHRINK",
+      "action": "BUY",
+      "position_size": 0.5,
+      "stop_loss_pct": 12.7,
+      "take_profit_pct": 25.5,
+      "rules_fired": [
+        {
+          "rule": "R3_VOL_SIZING",
+          "detail": "Trailing daily volatility is 2.85%; sizing to a 1.5% risk target gives 53% of the allocation.",
+          "plain": "This stock has been moving about 2.85% a day recently. We only want to risk about 1.5% a day, so we buy 53% of a normal amount."
+        },
+        {
+          "rule": "R4_REGIME_CAP",
+          "detail": "Regime Agent flags BEAR regime - position capped at 50%.",
+          "plain": "Because the market is falling, we won't put in more than 50% of a normal amount."
+        },
+        {
+          "rule": "R7_STOP_LOSS",
+          "detail": "Stop-loss 12.7% / take-profit 25.5% = 1x / 2x the trailing 20-day sigma (12.7%).",
+          "plain": "Over a month this stock typically swings about 12.7%. So we sell automatically if it drops 12.7% (cut the loss), or if it gains 25.5% (take the win)."
+        }
+      ]
+    },
+    "synthesis": "While Indian Hotels is showing strong growth and positive momentum through its aggressive expansion, the broader market is currently stuck in a sideways trend with a high probability of turning downward soon. Because of this conflicting environment, the system has decided to take a cautious approach by buying a smaller position size of 50%. This strategy allows us to capture the company's specific growth potential while strictly limiting our exposure to the risks posed by the aging and potentially weakening market regime.",
+    "confidence_label": "Medium",
+    "source": "REAL"
+  },
+  "IOC|2026-04-16": {
+    "stock": "IOC",
+    "date": "2026-04-16",
+    "regime": {
+      "decision": "BEAR",
+      "regime_today": "SIDEWAYS",
+      "will_change": true,
+      "p_change": 0.67,
+      "reasons": [
+        "this regime is 101 days old",
+        "the stocks are moving together at 0.53 correlation",
+        "it has been 67 days since the last high"
+      ]
+    },
+    "news": {
+      "decision": "DOWN",
+      "confidence": 0.85,
+      "explanation": "Indian Oil Corporation's margins are negatively impacted by rising crude oil costs, which have triggered recent share price declines. Furthermore, institutional investors are showing a lack of confidence, as evidenced by funds exiting their positions in the stock."
+    },
+    "risk": {
+      "verdict": "SHRINK",
+      "action": "SELL",
+      "position_size": 0.5,
+      "stop_loss_pct": 11.6,
+      "take_profit_pct": 23.1,
+      "rules_fired": [
+        {
+          "rule": "R3_VOL_SIZING",
+          "detail": "Trailing daily volatility is 2.59%; sizing to a 1.5% risk target gives 58% of the allocation.",
+          "plain": "This stock has been moving about 2.59% a day recently. We only want to risk about 1.5% a day, so we buy 58% of a normal amount."
+        },
+        {
+          "rule": "R4_REGIME_CAP",
+          "detail": "Regime Agent flags BEAR regime - position capped at 50%.",
+          "plain": "Because the market is falling, we won't put in more than 50% of a normal amount."
+        },
+        {
+          "rule": "R7_STOP_LOSS",
+          "detail": "Stop-loss 11.6% / take-profit 23.1% = 1x / 2x the trailing 20-day sigma (11.6%).",
+          "plain": "Over a month this stock typically swings about 11.6%. So we sell automatically if it drops 11.6% (cut the loss), or if it gains 23.1% (take the win)."
+        }
+      ]
+    },
+    "synthesis": "The decision to sell half of the position in IOC is driven by a combination of unfavorable market conditions and specific negative pressure on the stock. While the broader market is currently stagnant, forecasts suggest a shift toward a downward trend, and institutional investors are actively pulling their capital from IOC due to rising crude oil costs. Consequently, our risk management rules have triggered a reduction in exposure to protect against further losses as these negative factors align.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "BHARTIARTL|2026-04-16": {
+    "stock": "BHARTIARTL",
+    "date": "2026-04-16",
+    "regime": {
+      "decision": "BEAR",
+      "regime_today": "SIDEWAYS",
+      "will_change": true,
+      "p_change": 0.67,
+      "reasons": [
+        "this regime is 101 days old",
+        "the stocks are moving together at 0.53 correlation",
+        "it has been 67 days since the last high"
+      ]
+    },
+    "news": {
+      "decision": "UP",
+      "confidence": 0.75,
+      "explanation": "Market sentiment remains bullish with multiple analysts recommending the stock for short-term gains, citing recent price corrections as an entry point. While there was a minor service outage, the company's strong global market position and favorable broker outlooks outweigh the impact of the technical glitch."
+    },
+    "risk": {
+      "verdict": "SHRINK",
+      "action": "BUY",
+      "position_size": 0.5,
+      "stop_loss_pct": 6.7,
+      "take_profit_pct": 13.3,
+      "rules_fired": [
+        {
+          "rule": "R3_VOL_SIZING",
+          "detail": "Trailing daily volatility is 1.49%; sizing to a 1.5% risk target gives 100% of the allocation.",
+          "plain": "This stock has been moving about 1.49% a day recently. We only want to risk about 1.5% a day, so we buy 100% of a normal amount."
+        },
+        {
+          "rule": "R4_REGIME_CAP",
+          "detail": "Regime Agent flags BEAR regime - position capped at 50%.",
+          "plain": "Because the market is falling, we won't put in more than 50% of a normal amount."
+        },
+        {
+          "rule": "R7_STOP_LOSS",
+          "detail": "Stop-loss 6.7% / take-profit 13.3% = 1x / 2x the trailing 20-day sigma (6.7%).",
+          "plain": "Over a month this stock typically swings about 6.7%. So we sell automatically if it drops 6.7% (cut the loss), or if it gains 13.3% (take the win)."
+        }
+      ]
+    },
+    "synthesis": "While current market sentiment for Bharti Airtel is bullish and analysts see a strong entry point, the broader market is currently stuck in a sideways trend with a high probability of turning downward soon. Because the market environment is becoming increasingly uncertain, our risk management rules have triggered a cautious approach. Consequently, we are proceeding with a buy order but have limited the position size to 50% to protect against potential volatility and future market declines.",
+    "confidence_label": "Medium",
+    "source": "REAL"
+  },
+  "ADANIPORTS|2026-04-16": {
+    "stock": "ADANIPORTS",
+    "date": "2026-04-16",
+    "regime": {
+      "decision": "BEAR",
+      "regime_today": "SIDEWAYS",
+      "will_change": true,
+      "p_change": 0.67,
+      "reasons": [
+        "this regime is 101 days old",
+        "the stocks are moving together at 0.53 correlation",
+        "it has been 67 days since the last high"
+      ]
+    },
+    "news": {
+      "decision": "UP",
+      "confidence": 0.75,
+      "explanation": "Adani Ports has demonstrated strong operational performance by recently surpassing 500 million tonnes in cargo volume, which underpins robust growth prospects. While there is current share price volatility, brokerages like PL Capital remain bullish, identifying the stock as a top pick ahead of upcoming results and noting a positive technical breakout above its 200-day moving average."
+    },
+    "risk": {
+      "verdict": "SHRINK",
+      "action": "BUY",
+      "position_size": 0.5,
+      "stop_loss_pct": 12.0,
+      "take_profit_pct": 24.0,
+      "rules_fired": [
+        {
+          "rule": "R3_VOL_SIZING",
+          "detail": "Trailing daily volatility is 2.68%; sizing to a 1.5% risk target gives 56% of the allocation.",
+          "plain": "This stock has been moving about 2.68% a day recently. We only want to risk about 1.5% a day, so we buy 56% of a normal amount."
+        },
+        {
+          "rule": "R4_REGIME_CAP",
+          "detail": "Regime Agent flags BEAR regime - position capped at 50%.",
+          "plain": "Because the market is falling, we won't put in more than 50% of a normal amount."
+        },
+        {
+          "rule": "R7_STOP_LOSS",
+          "detail": "Stop-loss 12.0% / take-profit 24.0% = 1x / 2x the trailing 20-day sigma (12.0%).",
+          "plain": "Over a month this stock typically swings about 12.0%. So we sell automatically if it drops 12.0% (cut the loss), or if it gains 24.0% (take the win)."
+        }
+      ]
+    },
+    "synthesis": "While Adani Ports shows strong operational growth and positive technical momentum, the broader market is currently stuck in a sideways trend with a high probability of turning bearish soon. Because of this conflicting environment, the system has decided to initiate a buy position but is limiting the size to 50% to manage potential risk. This cautious approach allows us to capture the stock's specific upside potential while protecting the portfolio against the expected market downturn.",
+    "confidence_label": "Medium",
+    "source": "REAL"
+  },
+  "INDHOTEL|2025-04-28": {
+    "synthesis": "While the broader market is currently in a bearish phase with expectations of sideways movement, the company shows strong long-term growth potential through its aggressive luxury expansion and new hotel openings. Because of the current market instability, the system has opted to buy a smaller, cautious position of 50% to balance this growth opportunity against the risk of wider market volatility. This approach allows us to capture the stock's positive momentum while strictly adhering to our protective stop-loss and risk-management protocols.",
+    "confidence_label": "Medium"
+  },
+  "ADANIPORTS|2025-10-28": {
+    "synthesis": "The system has approved a full-position buy for Adani Ports because market conditions are currently stable and optimistic, with low volatility and a strong bullish trend. This positive environment is reinforced by the company's specific growth prospects, including a major capital expenditure plan and favorable analyst sentiment for the coming year. By aligning these supportive market and company-specific factors with our internal risk management rules, the system has confirmed that a maximum position size is appropriate for this trade.",
+    "confidence_label": "High"
+  },
+  "ASHOKLEY|2025-12-12": {
+    "synthesis": "The system has decided to initiate a buy position in Ashok Leyland, sized at 77% of the target allocation, to balance growth potential with prudent risk management. While the broader market is currently in a calm, sideways trend, the company is showing strong positive momentum driven by new product launches and steady demand for commercial vehicles. By limiting the position size, the system captures the upside potential identified by the news analysis while adhering to strict volatility and stop-loss rules to protect against the market's current lack of clear direction.",
+    "confidence_label": "Medium"
+  },
+  "ASHOKLEY|2026-05-08": {
+    "synthesis": "While Ashok Leyland shows strong individual momentum and positive sales growth, the broader market is currently stuck in a stagnant, sideways pattern with a forecasted downward shift. Because of this conflicting environment, the system has decided to proceed with a purchase but is limiting the position size to 50% to manage potential risks. This cautious approach balances the stock's internal strength against the high probability of a wider market downturn.",
+    "confidence_label": "Medium"
+  },
+  "INDHOTEL|2025-04-15": {
+    "synthesis": "While the broader market is currently in a bearish and erratic phase, Indian Hotels is showing strong individual growth momentum driven by portfolio expansion and favorable regulatory news. Because of the market's instability, our risk protocols have triggered a cautious approach to protect capital. Consequently, we are initiating a buy position but limiting the size to 48% to balance the company's positive outlook against the wider market's current downward pressure.",
+    "confidence_label": "Medium"
+  },
+  "IOC|2025-04-16": {
+    "synthesis": "While Indian Oil Corporation shows strong long-term growth potential due to its strategic expansion into high-margin petrochemicals, the broader market is currently in a bearish and erratic phase. Because the market is struggling to find direction and has been declining, our risk management rules require us to act cautiously. Consequently, we are initiating a buy position at a reduced size of 50% to capture the company's positive outlook while protecting the portfolio against ongoing market instability.",
+    "confidence_label": "Medium"
+  },
+  "ADANIPORTS|2025-04-15": {
+    "synthesis": "While the market is currently in a bearish and erratic phase, the positive news regarding Adani Ports' operational milestone at Vizhinjam provides a strong growth signal for the company. To balance this promising outlook against the broader market's instability, the system has opted to initiate a buy position at a reduced size of 50%. This cautious approach allows us to capitalize on the stock's specific potential while strictly adhering to risk management rules designed to protect capital during uncertain market conditions.",
+    "confidence_label": "Medium"
+  },
+  "BHARTIARTL|2025-06-19": {
+    "synthesis": "The decision to buy Bharti Airtel at full position size is driven by the company's strong operational performance and healthy cash flow, which provide a solid foundation for growth despite the broader market remaining in a calm, sideways trend. Because the market is currently stable with very low volatility, the system has determined that this is an ideal environment to fully commit to a stock showing positive momentum. The risk management rules are in place to protect this full-sized position, ensuring that we capitalize on the company's specific strengths while maintaining safeguards against unexpected market shifts.",
+    "confidence_label": "High"
+  },
+  "ADANIPORTS|2025-04-04": {
+    "synthesis": "The system has decided against trading ADANIPORTS today because there is a complete lack of clear direction for the stock. While the broader market is currently in a bearish trend, the news cycle for this specific company has been too quiet to provide any meaningful insight. Consequently, the risk rules have triggered a rejection of the trade to avoid entering a position without a confirmed catalyst or trend.",
+    "confidence_label": "High"
+  },
+  "IOC|2025-12-12": {
+    "synthesis": "The market is currently in a period of calm, sideways movement with very low volatility, suggesting there is no clear momentum to drive a trade. Simultaneously, news regarding IOC is mixed, as positive fuel demand is being canceled out by concerns over profit margins and operational costs. Because neither the broader market nor the specific stock news provides a compelling reason to act, the system has rejected the trade to avoid unnecessary risk.",
+    "confidence_label": "High"
+  },
+  "BHARTIARTL|2026-05-08": {
+    "synthesis": "The system has decided against trading Bharti Airtel because there is no clear momentum to justify a position. While the market is currently stuck in a stagnant, sideways pattern with a potential downward shift ahead, the company's own news remains mixed and lacks a strong catalyst to drive the stock in either direction. Consequently, the risk rules have triggered a rejection of this trade to avoid exposure during this period of uncertainty.",
+    "confidence_label": "High"
+  },
+  "IOC|2026-03-30": {
+    "synthesis": "The system has decided against trading IOC because the current market environment is highly unstable, characterized by a prolonged sideways trend and rising investor fear. While the company's individual news remains neutral and balanced, the broader market outlook is increasingly bearish, creating too much uncertainty for a new position. Consequently, the risk rules have triggered a rejection to protect capital until a clearer directional trend emerges.",
+    "confidence_label": "High"
+  },
+  "BHARTIARTL|2026-04-24": {
+    "synthesis": "While Bharti Airtel shows strong operational growth and positive news momentum, the broader market is currently stuck in a stagnant trend with a high probability of a downturn ahead. Because of this conflicting environment, we are taking a cautious approach by initiating a buy position at a reduced size of 50%. This strategy allows us to capture the company's specific upside potential while strictly limiting our exposure to the risks posed by the wider market's instability.",
+    "confidence_label": "Medium"
+  },
+  "ASHOKLEY|2025-08-08": {
+    "synthesis": "The decision to buy Ashok Leyland is supported by a stable, bullish market environment where investor confidence is high and volatility remains low. This positive outlook is reinforced by the company's strong operational performance, specifically the 8% growth in sales and promising new digital service partnerships. Because the market conditions are calm and the company's core business indicators are healthy, the system has approved a full position size to capitalize on this growth trend.",
+    "confidence_label": "High"
+  },
+  "ASHOKLEY|2025-04-28": {
+    "synthesis": "The system has decided against trading Ashok Leyland today because there is a complete lack of recent news to guide a directional strategy. Furthermore, the broader market is currently in a bearish phase and showing signs of stagnation, which discourages taking on new positions. Given the absence of a clear catalyst and the cautious market environment, the risk rules have triggered a rejection to protect capital.",
+    "confidence_label": "High"
+  },
+  "IOC|2025-12-03": {
+    "stock": "IOC",
+    "date": "2025-12-03",
+    "regime": {
+      "decision": "SIDEWAYS",
+      "regime_today": "SIDEWAYS",
+      "will_change": false,
+      "p_change": 0.03,
+      "reasons": [
+        "this regime is 14 days old",
+        "recent volatility is 0.47% daily",
+        "vol_60 = 0.00"
+      ]
+    },
+    "news": {
+      "decision": "UP",
+      "confidence": 0.7,
+      "explanation": "Indian Oil Corporation is showing positive operational momentum with increased crude processing and the expansion of its value-added bitumen derivatives business. The upcoming interim dividend announcement provides a clear catalyst for investor interest, while the decline in crude oil benchmarks serves to protect and potentially widen the company's refining margins."
+    },
+    "risk": {
+      "verdict": "APPROVE",
+      "action": "BUY",
+      "position_size": 1.0,
+      "stop_loss_pct": 4.1,
+      "take_profit_pct": 8.1,
+      "rules_fired": [
+        {
+          "rule": "R3_VOL_SIZING",
+          "detail": "Trailing daily volatility is 0.91%; sizing to a 1.5% risk target gives 100% of the allocation.",
+          "plain": "This stock has been moving about 0.91% a day recently. We only want to risk about 1.5% a day, so we buy 100% of a normal amount."
+        },
+        {
+          "rule": "R7_STOP_LOSS",
+          "detail": "Stop-loss 4.1% / take-profit 8.1% = 1x / 2x the trailing 20-day sigma (4.1%).",
+          "plain": "Over a month this stock typically swings about 4.1%. So we sell automatically if it drops 4.1% (cut the loss), or if it gains 8.1% (take the win)."
+        }
+      ]
+    },
+    "synthesis": "The system has approved a full-position buy for Indian Oil Corporation because the stock is benefiting from strong operational momentum and favorable refining margins, even as the broader market remains in a stable, sideways trend. With volatility currently at negligible levels, the risk management rules have triggered a maximum position size to capitalize on the upcoming dividend catalyst. This decision balances the stock's specific positive news outlook with the safety provided by our established stop-loss and volatility-based sizing protocols.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "BHARTIARTL|2025-12-03": {
+    "stock": "BHARTIARTL",
+    "date": "2025-12-03",
+    "regime": {
+      "decision": "SIDEWAYS",
+      "regime_today": "SIDEWAYS",
+      "will_change": false,
+      "p_change": 0.03,
+      "reasons": [
+        "this regime is 14 days old",
+        "recent volatility is 0.47% daily",
+        "vol_60 = 0.00"
+      ]
+    },
+    "news": {
+      "decision": "NEUTRAL",
+      "confidence": 0.7,
+      "explanation": "The news sentiment is mixed, as strong ARPU growth expectations and strategic bond financing are offset by consistent market share losses to Jio and recent promoter stake sales. While analysts remain optimistic about long-term fundamentals, the immediate pressure from subscriber churn and high capex requirements creates a balanced outlook."
+    },
+    "risk": {
+      "verdict": "REJECT",
+      "action": "NONE",
+      "position_size": 0.0,
+      "stop_loss_pct": null,
+      "take_profit_pct": null,
+      "rules_fired": [
+        {
+          "rule": "R1_NO_DIRECTION",
+          "detail": "Sentiment Agent found no clear direction - no honest basis to trade.",
+          "plain": "The news didn't point clearly up or down, so there's nothing to act on."
+        }
+      ]
+    },
+    "synthesis": "The market is currently in a stable, sideways trend with no significant momentum expected in the near term. Simultaneously, news regarding Bharti Airtel is balanced between positive growth expectations and negative pressures like subscriber churn, resulting in a neutral outlook. Because there is no clear directional signal from either the broader market or the company-specific news, the system has rejected the trade to avoid unnecessary risk.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "ADANIPORTS|2025-12-03": {
+    "stock": "ADANIPORTS",
+    "date": "2025-12-03",
+    "regime": {
+      "decision": "SIDEWAYS",
+      "regime_today": "SIDEWAYS",
+      "will_change": false,
+      "p_change": 0.03,
+      "reasons": [
+        "this regime is 14 days old",
+        "recent volatility is 0.47% daily",
+        "vol_60 = 0.00"
+      ]
+    },
+    "news": {
+      "decision": "UP",
+      "confidence": 0.9,
+      "explanation": "Adani Ports shows strong operational momentum with a significant 14% year-over-year growth in cargo volumes for November 2025. This fundamental growth is supported by positive analyst sentiment and brokerage targets, reflecting confidence in the company's multi-year expansion strategy."
+    },
+    "risk": {
+      "verdict": "APPROVE",
+      "action": "BUY",
+      "position_size": 1.0,
+      "stop_loss_pct": 4.4,
+      "take_profit_pct": 8.8,
+      "rules_fired": [
+        {
+          "rule": "R3_VOL_SIZING",
+          "detail": "Trailing daily volatility is 0.99%; sizing to a 1.5% risk target gives 100% of the allocation.",
+          "plain": "This stock has been moving about 0.99% a day recently. We only want to risk about 1.5% a day, so we buy 100% of a normal amount."
+        },
+        {
+          "rule": "R7_STOP_LOSS",
+          "detail": "Stop-loss 4.4% / take-profit 8.8% = 1x / 2x the trailing 20-day sigma (4.4%).",
+          "plain": "Over a month this stock typically swings about 4.4%. So we sell automatically if it drops 4.4% (cut the loss), or if it gains 8.8% (take the win)."
+        }
+      ]
+    },
+    "synthesis": "The system has approved a full-position buy for ADANIPORTS because the stock is showing strong fundamental growth, evidenced by a 14% increase in cargo volumes and positive analyst sentiment. While the broader market is currently in a stable, sideways trend with very low volatility, this lack of market turbulence provides a safe environment for the trade. Consequently, the risk management rules have authorized a maximum position size, confident that the company's operational momentum outweighs the current lack of market-wide directional movement.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "INDHOTEL|2025-12-03": {
+    "stock": "INDHOTEL",
+    "date": "2025-12-03",
+    "regime": {
+      "decision": "SIDEWAYS",
+      "regime_today": "SIDEWAYS",
+      "will_change": false,
+      "p_change": 0.03,
+      "reasons": [
+        "this regime is 14 days old",
+        "recent volatility is 0.47% daily",
+        "vol_60 = 0.00"
+      ]
+    },
+    "news": {
+      "decision": "UP",
+      "confidence": 0.85,
+      "explanation": "Indian Hotels (IHCL) is aggressively expanding its footprint through both organic signings in diverse locations like Shillong, Patnitop, and Nadiad, and inorganic growth by acquiring stakes in additional hotel companies. This rapid portfolio expansion across various brands (Ginger, SeleQtions, Vivanta, Gateway) indicates a robust pipeline that strengthens future revenue potential and market share. The steady stream of property openings suggests strong execution of their growth strategy, which is positive for long-term profitability."
+    },
+    "risk": {
+      "verdict": "SHRINK",
+      "action": "BUY",
+      "position_size": 0.832,
+      "stop_loss_pct": 8.1,
+      "take_profit_pct": 16.1,
+      "rules_fired": [
+        {
+          "rule": "R3_VOL_SIZING",
+          "detail": "Trailing daily volatility is 1.80%; sizing to a 1.5% risk target gives 83% of the allocation.",
+          "plain": "This stock has been moving about 1.80% a day recently. We only want to risk about 1.5% a day, so we buy 83% of a normal amount."
+        },
+        {
+          "rule": "R7_STOP_LOSS",
+          "detail": "Stop-loss 8.1% / take-profit 16.1% = 1x / 2x the trailing 20-day sigma (8.1%).",
+          "plain": "Over a month this stock typically swings about 8.1%. So we sell automatically if it drops 8.1% (cut the loss), or if it gains 16.1% (take the win)."
+        }
+      ]
+    },
+    "synthesis": "The market is currently in a stable, sideways phase with very low volatility, which provides a safe environment for executing trades. Indian Hotels is showing strong growth momentum due to its aggressive expansion strategy and successful property openings, justifying a positive outlook. Consequently, the system has decided to initiate a buy position at a significant 83% size, as the low-risk market conditions allow for a larger allocation while maintaining strict stop-loss protections.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "IOC|2026-01-28": {
+    "stock": "IOC",
+    "date": "2026-01-28",
+    "regime": {
+      "decision": "SIDEWAYS",
+      "regime_today": "SIDEWAYS",
+      "will_change": false,
+      "p_change": 0.148,
+      "reasons": [
+        "recent volatility is 0.61% daily",
+        "the market is +2.9% over 100 days",
+        "the fear index is at 13.5"
+      ]
+    },
+    "news": {
+      "decision": "NEUTRAL",
+      "confidence": 0.7,
+      "explanation": "The headlines present a mixed outlook for Indian Oil Corporation. While the company is successfully diversifying its crude sourcing away from slowing Russian imports to maintain supply chains, the strategic shift toward heavy green energy investment involves significant long-term capital expenditure. These operational maneuvers balance out, and the recent market price decline reflects broader sector volatility rather than a clear fundamental trend."
+    },
+    "risk": {
+      "verdict": "REJECT",
+      "action": "NONE",
+      "position_size": 0.0,
+      "stop_loss_pct": null,
+      "take_profit_pct": null,
+      "rules_fired": [
+        {
+          "rule": "R1_NO_DIRECTION",
+          "detail": "Sentiment Agent found no clear direction - no honest basis to trade.",
+          "plain": "The news didn't point clearly up or down, so there's nothing to act on."
+        }
+      ]
+    },
+    "synthesis": "The system has decided against trading Indian Oil Corporation today because there is no clear momentum to justify a position. While the broader market is currently stable and moving sideways, the news surrounding the company is mixed, with long-term green energy investments balancing out recent supply chain adjustments. Because neither the market environment nor the company-specific news provides a strong signal for growth or decline, the risk rules have triggered a rejection to avoid unnecessary exposure.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "BHARTIARTL|2026-01-28": {
+    "stock": "BHARTIARTL",
+    "date": "2026-01-28",
+    "regime": {
+      "decision": "SIDEWAYS",
+      "regime_today": "SIDEWAYS",
+      "will_change": false,
+      "p_change": 0.148,
+      "reasons": [
+        "recent volatility is 0.61% daily",
+        "the market is +2.9% over 100 days",
+        "the fear index is at 13.5"
+      ]
+    },
+    "news": {
+      "decision": "NEUTRAL",
+      "confidence": 0.6,
+      "explanation": "The news sentiment is balanced between growth-oriented infrastructure expansion and lingering regulatory uncertainty regarding AGR dues. While retail expansion and international digital investment signal long-term potential, the lack of resolution on the significant AGR debt liability creates a neutral outlook. Current share price volatility reflects this lack of clear short-term direction."
+    },
+    "risk": {
+      "verdict": "REJECT",
+      "action": "NONE",
+      "position_size": 0.0,
+      "stop_loss_pct": null,
+      "take_profit_pct": null,
+      "rules_fired": [
+        {
+          "rule": "R1_NO_DIRECTION",
+          "detail": "Sentiment Agent found no clear direction - no honest basis to trade.",
+          "plain": "The news didn't point clearly up or down, so there's nothing to act on."
+        }
+      ]
+    },
+    "synthesis": "The system has decided against trading Bharti Airtel today because the market is currently stuck in a sideways pattern with no clear momentum. This lack of direction is mirrored by the company's news, where positive growth plans are being canceled out by ongoing concerns over debt liabilities. Because neither the broader market nor the specific stock news provides a compelling reason to move, the risk rules have triggered a rejection to avoid unnecessary exposure.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "ADANIPORTS|2026-01-28": {
+    "stock": "ADANIPORTS",
+    "date": "2026-01-28",
+    "regime": {
+      "decision": "SIDEWAYS",
+      "regime_today": "SIDEWAYS",
+      "will_change": false,
+      "p_change": 0.148,
+      "reasons": [
+        "recent volatility is 0.61% daily",
+        "the market is +2.9% over 100 days",
+        "the fear index is at 13.5"
+      ]
+    },
+    "news": {
+      "decision": "UP",
+      "confidence": 0.85,
+      "explanation": "Adani Ports has received a significant boost from a favorable Supreme Court ruling regarding land disputes and has announced substantial capital expenditure for the Vizhinjam port expansion. These developments suggest strong operational momentum and legal stability, helping the stock rebound strongly in recent trading sessions."
+    },
+    "risk": {
+      "verdict": "SHRINK",
+      "action": "BUY",
+      "position_size": 0.642,
+      "stop_loss_pct": 10.5,
+      "take_profit_pct": 20.9,
+      "rules_fired": [
+        {
+          "rule": "R3_VOL_SIZING",
+          "detail": "Trailing daily volatility is 2.34%; sizing to a 1.5% risk target gives 64% of the allocation.",
+          "plain": "This stock has been moving about 2.34% a day recently. We only want to risk about 1.5% a day, so we buy 64% of a normal amount."
+        },
+        {
+          "rule": "R7_STOP_LOSS",
+          "detail": "Stop-loss 10.5% / take-profit 20.9% = 1x / 2x the trailing 20-day sigma (10.5%).",
+          "plain": "Over a month this stock typically swings about 10.5%. So we sell automatically if it drops 10.5% (cut the loss), or if it gains 20.9% (take the win)."
+        }
+      ]
+    },
+    "synthesis": "The market is currently in a stable, sideways phase with low volatility, which provides a calm environment for new positions. Simultaneously, Adani Ports is showing strong positive momentum driven by favorable legal rulings and major infrastructure expansion plans. Because of this promising outlook, the system has decided to initiate a buy, but is limiting the position size to 64% to maintain prudent risk management and protect against potential market shifts.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "ASHOKLEY|2025-04-09": {
+    "synthesis": "Although the broader market is currently in a bearish phase with high volatility, Ashok Leyland shows strong positive momentum driven by new dealership expansions, strategic banking partnerships, and recent government contracts. Because the market environment is uncertain and prone to price swings, the system has opted for a cautious 'shrink' approach, limiting the position size to 23% to manage risk. This strategy allows us to capitalize on the company's specific operational growth while maintaining a defensive buffer against the prevailing downward market trend.",
+    "confidence_label": "Medium"
+  },
+  "IOC|2025-08-26": {
+    "synthesis": "Although the broader market is in a stable, bullish phase, the specific outlook for IOC remains neutral due to conflicting pressures from rising crude oil costs and offsetting supply benefits. Because the news sentiment lacks a clear, decisive trend, the system's risk rules have triggered a 'no direction' signal. Consequently, the system has opted to reject any new trade to avoid exposure to this uncertainty.",
+    "confidence_label": "Medium"
+  },
+  "IOC|2026-07-14": {
+    "synthesis": "The decision to sell 80% of the IOC position is driven by a combination of a broader bearish market environment and specific negative pressures on the company. With the market currently in a downward trend and expected to remain volatile, the system has triggered protective stop-loss measures to mitigate risk. Furthermore, rising crude oil costs and operational security issues are squeezing the company's profitability, necessitating a significant reduction in exposure to protect capital.",
+    "confidence_label": "High"
+  },
+  "ASHOKLEY|2025-04-15": {
+    "synthesis": "The system has decided to reject any trade for ASHOKLEY today because there is no clear direction to justify taking a risk. While the broader market is currently in a bearish phase and showing signs of instability, there is a complete lack of recent news regarding this specific stock to provide a catalyst for movement. Consequently, the risk rules have triggered a 'no direction' alert, leading the system to maintain a neutral position of zero percent to protect against uncertainty.",
+    "confidence_label": "High"
+  },
+  "BHARTIARTL|2026-02-18": {
+    "synthesis": "The system has decided to initiate a 70% position in Bharti Airtel because the stock shows strong operational momentum and positive institutional backing, despite the broader market remaining in a calm, sideways trend. While the market environment is stable, the specific news regarding Airtel's new fintech capabilities and AI-integrated 5G infrastructure provides a compelling reason to buy. The risk-managed sizing reflects a balance between the stock's individual growth potential and the current lack of aggressive market-wide momentum.",
+    "confidence_label": "High"
+  },
+  "ADANIPORTS|2025-07-10": {
+    "synthesis": "The market is currently in a calm, sideways phase with low volatility, which provides a stable environment for new positions. Simultaneously, Adani Ports is showing strong operational growth and positive analyst sentiment, supporting a favorable outlook for the stock. Because the market conditions are steady and the company's internal momentum is high, the system has decided to initiate a buy position at a 70% size to balance growth potential with prudent risk management.",
+    "confidence_label": "High"
+  },
+  "INDHOTEL|2025-02-24": {
+    "synthesis": "While the broader market is currently in a bearish phase with a downward trend, Indian Hotels is showing strong individual growth potential through its aggressive expansion and operational momentum. Because of this conflicting environment, the system has opted to 'shrink' the position size to a conservative 22% to balance the stock's positive outlook against the wider market's weakness. This measured approach allows us to capitalize on the company's specific growth opportunities while maintaining strict risk controls to protect against broader market volatility.",
+    "confidence_label": "Medium"
+  },
+  "BHARTIARTL|2025-12-03|NONE|0.000|REJECT": {
+    "synthesis": "The system has decided against trading Bharti Airtel today because the market environment is currently stagnant and lacks a clear trend. While the company shows some long-term potential, recent news is balanced by conflicting factors like subscriber churn and promoter activity, providing no strong signal to move. Consequently, the risk rules have triggered a rejection of any trade to avoid entering a position during this period of inactivity and uncertainty.",
+    "confidence_label": "High"
+  },
+  "IOC|2026-05-08|SELL|0.768|SHRINK": {
+    "synthesis": "The decision to sell a significant portion of the position is driven by a combination of stagnant market conditions and specific negative pressures on IOC's profitability. While the broader market has been moving sideways, the expected shift toward a downward trend, coupled with rising oil costs and safety-related legal concerns, creates a high-risk environment. Consequently, the system has triggered a protective sell-off to lock in value and mitigate potential losses ahead of an uncertain earnings report.",
+    "confidence_label": "High"
+  },
+  "IOC|2025-08-26|NONE|0.000|REJECT": {
+    "synthesis": "Although the broader market is in a stable, bullish phase, the specific outlook for IOC remains neutral due to conflicting pressures from rising crude oil costs and discounted supply buffers. Because the news sentiment lacks a clear, decisive trend, the system's risk rules have triggered a 'no direction' signal. Consequently, the system has opted to remain on the sidelines with no position to avoid exposure to this uncertainty.",
+    "confidence_label": "Medium"
+  },
+  "IOC|2026-03-30|NONE|0.000|REJECT": {
+    "synthesis": "The system has decided to hold off on trading IOC because there is no clear directional signal to justify a position. While the market is currently flat, the outlook is turning increasingly negative, and recent news regarding the company remains neutral noise rather than a compelling growth story. Consequently, the risk rules have triggered a rejection of the trade to avoid exposure during this period of uncertainty.",
+    "confidence_label": "High"
+  },
+  "IOC|2026-07-14|SELL|0.800|SHRINK": {
+    "synthesis": "The decision to sell 80% of the IOC position is driven by a combination of a broader bearish market environment and specific negative pressures on the company. With the market currently in a downward trend and expected to remain volatile, the system has triggered protective stop-loss measures to mitigate risk. Furthermore, rising crude oil costs and operational security issues are squeezing the company's profitability, necessitating a significant reduction in exposure to protect capital.",
+    "confidence_label": "High"
+  },
+  "ASHOKLEY|2025-04-15|NONE|0.000|REJECT": {
+    "synthesis": "The system has decided to reject any trade for ASHOKLEY today because there is no clear direction to justify taking a risk. While the broader market is currently in a bearish phase and showing signs of instability, there is a complete lack of recent news regarding this specific stock to provide a catalyst for movement. Consequently, the risk rules have triggered a 'no direction' alert, leading the system to maintain a neutral position of zero percent to protect against uncertainty.",
+    "confidence_label": "High"
+  },
+  "BHARTIARTL|2026-02-18|BUY|0.700|SHRINK": {
+    "synthesis": "The system has decided to initiate a 70% position in Bharti Airtel because the stock shows strong operational momentum and positive institutional backing, despite the broader market remaining in a calm, sideways trend. While the market environment is stable, the specific news regarding Airtel's new fintech capabilities and AI-integrated infrastructure provides a compelling reason to buy. The risk-managed sizing reflects a balance between the stock's individual growth potential and the current lack of strong upward momentum in the overall market.",
+    "confidence_label": "High"
+  },
+  "ADANIPORTS|2026-04-16|BUY|0.179|SHRINK": {
+    "synthesis": "While Adani Ports shows strong operational growth and positive technical momentum, the broader market is currently stuck in a flat trend with a high probability of a downturn ahead. To balance these conflicting signals, the system has decided to initiate a buy position but is keeping the size conservative at 18%. This approach allows us to capture potential gains from the stock's specific positive news while maintaining strict risk controls to protect against the expected market-wide decline.",
+    "confidence_label": "Medium"
+  },
+  "IOC|2025-04-16|BUY|0.554|SHRINK": {
+    "synthesis": "While the broader market is currently in a bearish and erratic phase, our analysis indicates a likely shift toward a sideways trend in the near future. Indian Oil Corporation shows strong long-term growth potential due to its strategic expansion into high-margin petrochemicals, which justifies taking a position despite the current market headwinds. Consequently, we are initiating a buy order at a reduced position size of 55% to balance the company's positive outlook against the ongoing market volatility and strict risk management requirements.",
+    "confidence_label": "Medium"
+  },
+  "INDHOTEL|2025-04-28|BUY|0.300|SHRINK": {
+    "synthesis": "While the broader market is currently in a bearish phase with limited upward momentum, the specific outlook for INDHOTEL remains positive due to its aggressive expansion and strong long-term growth strategy. Because the market is expected to shift from its current decline into a sideways pattern soon, our risk management rules dictate a cautious approach. Consequently, we are initiating a smaller 30% position to capture the stock's individual growth potential while maintaining strict protective measures against the prevailing market volatility.",
+    "confidence_label": "Medium"
+  },
+  "ASHOKLEY|2026-03-30|NONE|0.000|REJECT": {
+    "synthesis": "The system has decided against trading Ashok Leyland because the current market environment is too uncertain to justify a new position. While the company is investing in long-term growth, these efforts are being overshadowed by a broader sector sell-off and a high probability that the market will turn downward soon. Because the conflicting news and the lack of a clear price trend make it impossible to establish a reliable direction, the system has triggered a safety rule to avoid taking any action.",
+    "confidence_label": "High"
+  },
+  "ADANIPORTS|2025-10-30|BUY|1.000|APPROVE": {
+    "synthesis": "The market is currently in a stable, bullish phase with low volatility, providing a secure environment for new investments. Simultaneously, Adani Ports is showing strong growth potential driven by major infrastructure projects and strategic expansions that bolster its long-term outlook. Because the broader market conditions are calm and the company-specific news is highly positive, the system has approved a full-position buy to capitalize on this momentum while maintaining strict risk management protocols.",
+    "confidence_label": "High"
+  },
+  "BHARTIARTL|2025-10-28|BUY|1.000|APPROVE": {
+    "synthesis": "The decision to buy Bharti Airtel at full position size is supported by a stable, bullish market environment where investor confidence is high and volatility remains low. This positive backdrop is reinforced by the company's strong individual performance, characterized by record-high stock prices and successful growth in its 5G and cloud service sectors. Because the market conditions and company-specific momentum are both aligned, the risk management system has approved a full-sized entry while maintaining necessary safety protocols to protect the investment.",
+    "confidence_label": "High"
+  },
+  "IOC|2026-04-24|NONE|0.000|REJECT": {
+    "synthesis": "The system has decided against trading IOC today because the market lacks a clear, actionable direction. While the company is securing promising long-term contracts, these gains are currently being canceled out by concerns over rising global oil costs and a broader market trend that is expected to turn downward soon. Because the stock is stuck in a flat, sideways pattern without a strong catalyst to push it higher, the risk rules have triggered a 'no trade' decision to protect capital.",
+    "confidence_label": "High"
+  },
+  "INDHOTEL|2025-08-21|BUY|1.000|APPROVE": {
+    "synthesis": "The market is currently in a stable, upward-trending phase, providing a supportive environment for new investments. Indian Hotels is specifically benefiting from aggressive expansion plans and positive analyst sentiment, which reinforces the potential for continued growth. Because both the broad market conditions and the company-specific news are aligned in a positive direction, the system has approved a full-position buy order while maintaining strict risk management protocols.",
+    "confidence_label": "High"
+  },
+  "ADANIPORTS|2025-10-06|NONE|0.000|REJECT": {
+    "synthesis": "Although the broader market is currently in a calm, bullish phase, our system requires a clear signal from recent news to justify a new trade. Because there has been almost no news coverage for ADANIPORTS over the past week, the system lacks the necessary information to form a reliable outlook. Consequently, the risk rules have triggered a rejection of this trade to avoid acting without sufficient evidence.",
+    "confidence_label": "High"
+  },
+  "ASHOKLEY|2026-05-08|BUY|0.212|SHRINK": {
+    "synthesis": "While the broader market is currently stuck in a flat, sideways pattern with a potential downward shift ahead, Ashok Leyland is showing strong individual momentum driven by impressive 14% sales growth. Because the stock is performing well despite the stagnant market environment, the system has decided to initiate a buy position. We are limiting the position size to 21% to balance the stock's positive growth potential against the risk of a broader market downturn.",
+    "confidence_label": "Medium"
+  },
+  "BHARTIARTL|2026-04-16|BUY|0.320|SHRINK": {
+    "synthesis": "Although the broader market is currently stagnant and expected to turn downward soon, the specific outlook for Bharti Airtel remains positive due to strong analyst support and favorable entry points. Because of this conflicting environment, the system has opted to take a cautious approach by initiating a buy position at a moderate 32% size. This strategy allows us to capitalize on the stock's individual growth potential while maintaining strict risk controls to protect against the anticipated market decline.",
+    "confidence_label": "Medium"
+  },
+  "INDHOTEL|2025-04-15|BUY|0.268|SHRINK": {
+    "synthesis": "While the broader market is currently in a bearish and erratic phase, Indian Hotels is showing strong individual growth momentum driven by portfolio expansion and favorable regulatory news. Because the market is expected to shift from its current decline toward a sideways trend soon, our system is taking a cautious approach. We have decided to initiate a buy position at a reduced size of 27% to capitalize on the company's specific positive outlook while maintaining strict risk controls to protect against wider market instability.",
+    "confidence_label": "Medium"
+  },
+  "BHARTIARTL|2025-09-02|NONE|0.000|REJECT": {
+    "synthesis": "Although the broader market is currently in a stable, bullish phase, our system has decided against trading Bharti Airtel today. This decision was driven by a complete lack of recent news coverage for the stock, which prevented the system from establishing a clear directional outlook. Because the risk rules require a confirmed market signal to proceed, the absence of specific news led to a rejection of the trade.",
+    "confidence_label": "High"
+  },
+  "INDHOTEL|2025-03-07|BUY|0.254|SHRINK": {
+    "synthesis": "Although the broader market is currently in a bearish trend, Indian Hotels is showing strong growth potential through its aggressive expansion and new property openings. Because the overall market environment remains risky and volatile, our system has opted for a cautious approach by limiting the position size to 25%. This strategy allows us to capitalize on the company's positive momentum while maintaining strict risk controls to protect against the prevailing market downturn.",
+    "confidence_label": "Medium"
+  },
+  "BHARTIARTL|2025-06-11|BUY|0.700|SHRINK": {
+    "synthesis": "The system has decided to initiate a 70% position in Bharti Airtel because the stock is benefiting from strong analyst upgrades and positive institutional interest, which aligns with our positive outlook for the company. While the broader market is currently moving sideways with little expected change, the stock's individual momentum justifies a buy. Our risk management rules have triggered a 'shrink' verdict to ensure we maintain a disciplined position size that balances this growth potential against the current flat market environment.",
+    "confidence_label": "High"
+  },
+  "IOC|2025-07-03|SELL|0.700|SHRINK": {
+    "synthesis": "The decision to sell 70% of the position in IOC is driven by a combination of immediate operational risks and a cautious market environment. While the broader market remains in a stagnant, sideways trend, the company is currently facing significant labor unrest and project delays that threaten its short-term performance. Consequently, the system has triggered protective risk rules to reduce exposure and lock in capital, prioritizing the mitigation of these specific negative headwinds over long-term strategic potential.",
+    "confidence_label": "High"
+  },
+  "ASHOKLEY|2025-06-19|NONE|0.000|REJECT": {
+    "synthesis": "The system has decided against trading Ashok Leyland today because the market is currently stuck in a stagnant, sideways pattern with very little price movement. While the company is making steady operational progress, recent news is not strong enough to suggest a significant shift in profitability or demand. Because there is no clear momentum or compelling catalyst to drive the stock price in either direction, the risk rules have triggered a rejection of any new position.",
+    "confidence_label": "High"
+  },
+  "ADANIPORTS|2025-01-02|BUY|0.641|SHRINK": {
+    "synthesis": "While the broader market is currently stuck in a flat, sideways trend, Adani Ports is showing strong individual momentum driven by positive news regarding infrastructure expansion and capital investment. Because the market environment is calm and stable, our risk management rules have triggered a buy signal to capitalize on this specific stock's growth potential. We have set the position size at 64% to balance this opportunity with protective measures, ensuring we remain disciplined despite the lack of overall market movement.",
+    "confidence_label": "Medium"
+  },
+  "INDHOTEL|2025-06-17|BUY|0.689|SHRINK": {
+    "synthesis": "The market is currently in a calm, sideways phase, which provides a stable environment for the system to execute a strategic entry. While the broader market lacks strong momentum, Indian Hotels is showing clear growth potential through its aggressive property expansion, justifying a positive outlook. Consequently, the system has decided to initiate a buy position at a 69% size, balancing the stock's specific growth opportunities with strict risk management protocols to protect against potential volatility.",
+    "confidence_label": "High"
+  },
+  "BHARTIARTL|2025-04-28|BUY|0.489|SHRINK": {
+    "synthesis": "Although the broader market is currently in a bearish phase with stagnant growth, Bharti Airtel is bucking the trend due to strong competitive gains and strategic 5G expansion. Because the market is expected to shift from its current decline into a sideways pattern soon, our risk protocols have triggered a cautious entry. We are initiating a buy position at 49% of the target size to capitalize on the company's specific momentum while maintaining a defensive buffer against the overall market's instability.",
+    "confidence_label": "Medium"
+  },
+  "INDHOTEL|2026-03-30|BUY|0.190|SHRINK": {
+    "synthesis": "While Indian Hotels Company shows strong operational growth and expansion, the broader market is currently stuck in a stagnant phase with a high probability of a downturn ahead. Because the market is volatile and investors are showing signs of nervousness, our risk protocols have triggered a cautious approach. Consequently, we are initiating a smaller 19% position to capture the company's specific momentum while maintaining strict protective measures against the expected market decline.",
+    "confidence_label": "Medium"
+  },
+  "ADANIPORTS|2025-04-15|BUY|0.413|SHRINK": {
+    "synthesis": "While the broader market is currently in a bearish and erratic phase, the specific news regarding Adani Ports' successful operational milestones and new funding provides a strong counter-narrative for growth. Because the market is expected to shift toward a sideways trend soon, our risk management rules have triggered a cautious 'shrink' approach to position sizing. By limiting the buy to 41% of the portfolio, we are capturing the stock's positive momentum while maintaining a defensive buffer against the current market instability.",
+    "confidence_label": "Medium"
+  },
+  "INDHOTEL|2026-04-16|BUY|0.169|SHRINK": {
+    "synthesis": "While the broader market is currently stagnant and expected to turn downward, Indian Hotels is showing strong individual growth driven by a successful expansion strategy and a record-breaking pipeline of new properties. Because of this disconnect between the company's positive momentum and the uncertain market environment, the system has opted for a cautious approach. We are initiating a buy position at a reduced size of 17% to capture the stock's specific growth potential while maintaining strict risk controls to protect against the forecasted market decline.",
+    "confidence_label": "Medium"
+  },
+  "IOC|2025-01-14|NONE|0.000|REJECT": {
+    "synthesis": "The system has decided to take no action on IOC because the market is currently stuck in a stagnant, sideways pattern with no clear momentum. Furthermore, there is a complete lack of significant news to provide any reason for a price shift, leaving the stock without a defined direction. Because the market environment is flat and lacks a catalyst, the risk rules have triggered a rejection of any trade to protect capital.",
+    "confidence_label": "High"
+  },
+  "IOC|2025-10-09": {
+    "stock": "IOC",
+    "date": "2025-10-09",
+    "regime": {
+      "decision": "BULL",
+      "regime_today": "BULL",
+      "will_change": false,
+      "p_change": 0.065,
+      "reasons": [
+        "recent volatility is 0.50% daily",
+        "vol_60 = 0.01",
+        "this regime is 61 days old"
+      ]
+    },
+    "news": {
+      "decision": "NEUTRAL",
+      "confidence": 0.7,
+      "explanation": "The news is dominated by administrative changes, specifically the appointment of a new Director (Marketing), which is routine and has a neutral impact on near-term profitability. While there are reports of a tragic workplace accident and potential geopolitical payment shifts, these do not significantly alter the fundamental margin outlook for a refiner compared to broader oil market volatility. Market reports of falling spot prices suggest a mixed environment for refining margins, justifying a neutral stance."
+    },
+    "risk": {
+      "verdict": "REJECT",
+      "action": "NONE",
+      "position_size": 0.0,
+      "stop_loss_pct": null,
+      "take_profit_pct": null,
+      "rules_fired": [
+        {
+          "rule": "R1_NO_DIRECTION",
+          "detail": "Sentiment Agent found no clear direction - no honest basis to trade.",
+          "plain": "The news didn't point clearly up or down, so there's nothing to act on."
+        }
+      ]
+    },
+    "synthesis": "Although the broader market is currently in a stable bull regime, the system has decided against trading IOC at this time. The news surrounding the company is currently neutral, driven by routine administrative updates and mixed refining margins that do not provide a clear catalyst for growth. Because there is no strong directional signal to justify a new position, the risk management rules have triggered a rejection of the trade to preserve capital.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "ASHOKLEY|2025-10-09": {
+    "stock": "ASHOKLEY",
+    "date": "2025-10-09",
+    "regime": {
+      "decision": "BULL",
+      "regime_today": "BULL",
+      "will_change": false,
+      "p_change": 0.065,
+      "reasons": [
+        "recent volatility is 0.50% daily",
+        "vol_60 = 0.01",
+        "this regime is 61 days old"
+      ]
+    },
+    "news": {
+      "decision": "UP",
+      "confidence": 0.8,
+      "explanation": "Ashok Leyland is benefiting from a broader recovery in India's automotive sector, with September sales showing healthy growth fueled by festive demand. Additionally, the company's strategic expansion into the electric vehicle space with a dedicated bus production line in Lucknow provides a positive long-term growth narrative. Inclusion in broker Diwali stock picks further signals optimistic institutional sentiment for the near term."
+    },
+    "risk": {
+      "verdict": "APPROVE",
+      "action": "BUY",
+      "position_size": 1.0,
+      "stop_loss_pct": 5.6,
+      "take_profit_pct": 11.3,
+      "rules_fired": [
+        {
+          "rule": "R3_VOL_SIZING",
+          "detail": "Trailing daily volatility is 1.26%; sizing to a 1.5% risk target gives 100% of the allocation.",
+          "plain": "This stock has been moving about 1.26% a day recently. We only want to risk about 1.5% a day, so we buy 100% of a normal amount."
+        },
+        {
+          "rule": "R7_STOP_LOSS",
+          "detail": "Stop-loss 5.6% / take-profit 11.3% = 1x / 2x the trailing 20-day sigma (5.6%).",
+          "plain": "Over a month this stock typically swings about 5.6%. So we sell automatically if it drops 5.6% (cut the loss), or if it gains 11.3% (take the win)."
+        }
+      ]
+    },
+    "synthesis": "The decision to fully invest in Ashok Leyland is supported by a stable, bullish market environment that shows no signs of immediate reversal. This positive outlook is reinforced by strong company-specific news, including robust sales growth and strategic expansion into electric vehicles that have captured institutional interest. Because the market regime is steady and the stock's momentum is backed by both festive demand and favorable broker sentiment, the risk management system has approved a full position size while maintaining necessary protective stop-loss measures.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "ADANIPORTS|2025-10-09": {
+    "stock": "ADANIPORTS",
+    "date": "2025-10-09",
+    "regime": {
+      "decision": "BULL",
+      "regime_today": "BULL",
+      "will_change": false,
+      "p_change": 0.065,
+      "reasons": [
+        "recent volatility is 0.50% daily",
+        "vol_60 = 0.01",
+        "this regime is 61 days old"
+      ]
+    },
+    "news": {
+      "decision": "NEUTRAL",
+      "confidence": 0.0,
+      "explanation": "Only 1 headline(s) in the last 7 days - not enough fresh news to form an honest view."
+    },
+    "risk": {
+      "verdict": "REJECT",
+      "action": "NONE",
+      "position_size": 0.0,
+      "stop_loss_pct": null,
+      "take_profit_pct": null,
+      "rules_fired": [
+        {
+          "rule": "R1_NO_DIRECTION",
+          "detail": "Sentiment Agent found no clear direction - no honest basis to trade.",
+          "plain": "The news didn't point clearly up or down, so there's nothing to act on."
+        }
+      ]
+    },
+    "synthesis": "Although the broader market is currently in a stable, bullish phase, there is a complete lack of significant news regarding ADANIPORTS over the past week. Because there is no clear catalyst or directional signal specific to this stock, our risk management protocols require us to remain on the sidelines. Consequently, the system has rejected the trade to avoid exposure to an asset with no identifiable momentum.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "INDHOTEL|2025-10-09": {
+    "stock": "INDHOTEL",
+    "date": "2025-10-09",
+    "regime": {
+      "decision": "BULL",
+      "regime_today": "BULL",
+      "will_change": false,
+      "p_change": 0.065,
+      "reasons": [
+        "recent volatility is 0.50% daily",
+        "vol_60 = 0.01",
+        "this regime is 61 days old"
+      ]
+    },
+    "news": {
+      "decision": "NEUTRAL",
+      "confidence": 0.0,
+      "explanation": "Only 2 headline(s) in the last 7 days - not enough fresh news to form an honest view."
+    },
+    "risk": {
+      "verdict": "REJECT",
+      "action": "NONE",
+      "position_size": 0.0,
+      "stop_loss_pct": null,
+      "take_profit_pct": null,
+      "rules_fired": [
+        {
+          "rule": "R1_NO_DIRECTION",
+          "detail": "Sentiment Agent found no clear direction - no honest basis to trade.",
+          "plain": "The news didn't point clearly up or down, so there's nothing to act on."
+        }
+      ]
+    },
+    "synthesis": "Although the broader market is currently in a stable, bullish phase, our system has decided against trading INDHOTEL today. This decision stems from a lack of significant recent news, which prevents us from forming a reliable outlook on the stock's specific performance. Because there is no clear directional signal to justify an entry, the risk management rules have triggered a rejection of the trade to protect your capital.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "BHARTIARTL|2025-10-09": {
+    "stock": "BHARTIARTL",
+    "date": "2025-10-09",
+    "regime": {
+      "decision": "BULL",
+      "regime_today": "BULL",
+      "will_change": false,
+      "p_change": 0.065,
+      "reasons": [
+        "recent volatility is 0.50% daily",
+        "vol_60 = 0.01",
+        "this regime is 61 days old"
+      ]
+    },
+    "news": {
+      "decision": "UP",
+      "confidence": 0.75,
+      "explanation": "Bharti Airtel is showing positive momentum driven by technical indicators and strategic B2B expansion into cybersecurity services for Indian Railways. While headlines mention market-wide volatility impacting large caps, the company's focus on fraud prevention and enterprise services signals a robust operational outlook. The combination of favorable RSI momentum and active revenue-diversification efforts supports a bullish sentiment."
+    },
+    "risk": {
+      "verdict": "APPROVE",
+      "action": "BUY",
+      "position_size": 1.0,
+      "stop_loss_pct": 4.0,
+      "take_profit_pct": 8.0,
+      "rules_fired": [
+        {
+          "rule": "R3_VOL_SIZING",
+          "detail": "Trailing daily volatility is 0.90%; sizing to a 1.5% risk target gives 100% of the allocation.",
+          "plain": "This stock has been moving about 0.90% a day recently. We only want to risk about 1.5% a day, so we buy 100% of a normal amount."
+        },
+        {
+          "rule": "R7_STOP_LOSS",
+          "detail": "Stop-loss 4.0% / take-profit 8.0% = 1x / 2x the trailing 20-day sigma (4.0%).",
+          "plain": "Over a month this stock typically swings about 4.0%. So we sell automatically if it drops 4.0% (cut the loss), or if it gains 8.0% (take the win)."
+        }
+      ]
+    },
+    "synthesis": "The system has approved a full-position buy for Bharti Airtel because the market is currently in a stable, bullish phase with low volatility. This positive outlook is reinforced by the company's strong operational momentum, driven by successful expansion into cybersecurity services and favorable technical indicators. By aligning these growth signals with our established risk management protocols, the system has confirmed that the current environment is optimal for a maximum position size.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "IOC|2025-06-27": {
+    "stock": "IOC",
+    "date": "2025-06-27",
+    "regime": {
+      "decision": "BULL",
+      "regime_today": "SIDEWAYS",
+      "will_change": true,
+      "p_change": 0.54,
+      "reasons": [
+        "the market is +10.7% over 100 days",
+        "5 of 5 stocks are above their 200-day average",
+        "in_bull = 0.00"
+      ]
+    },
+    "news": {
+      "decision": "NEUTRAL",
+      "confidence": 0.7,
+      "explanation": "The recent news for Indian Oil Corporation is primarily administrative or speculative, focusing on board appointments and collaborative mineral bidding rather than core refining operations. While the delay in the Nagapattinam refinery project is a negative development, it is balanced by the potential long-term diversification into critical minerals, resulting in an overall neutral outlook."
+    },
+    "risk": {
+      "verdict": "REJECT",
+      "action": "NONE",
+      "position_size": 0.0,
+      "stop_loss_pct": null,
+      "take_profit_pct": null,
+      "rules_fired": [
+        {
+          "rule": "R1_NO_DIRECTION",
+          "detail": "Sentiment Agent found no clear direction - no honest basis to trade.",
+          "plain": "The news didn't point clearly up or down, so there's nothing to act on."
+        }
+      ]
+    },
+    "synthesis": "The system has decided against trading Indian Oil Corporation today because the current market environment is stagnant and lacks a clear directional trend. While there is a potential for future growth, recent news regarding the company remains mixed and lacks the strong catalyst needed to justify a new position. Consequently, the risk management rules have triggered a rejection of the trade to preserve capital until a more definitive market or company-specific signal emerges.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "BHARTIARTL|2025-06-27": {
+    "stock": "BHARTIARTL",
+    "date": "2025-06-27",
+    "regime": {
+      "decision": "BULL",
+      "regime_today": "SIDEWAYS",
+      "will_change": true,
+      "p_change": 0.54,
+      "reasons": [
+        "the market is +10.7% over 100 days",
+        "5 of 5 stocks are above their 200-day average",
+        "in_bull = 0.00"
+      ]
+    },
+    "news": {
+      "decision": "UP",
+      "confidence": 0.85,
+      "explanation": "Bharti Airtel is demonstrating strong market momentum, recently crossing the \u20b92 trillion market cap milestone and enjoying favorable analyst coverage. Strategic expansions into home entertainment via IPTV suggest future revenue growth, outweighing minor regulatory penalties. The stock remains on a consistent uptrend supported by strong investor sentiment."
+    },
+    "risk": {
+      "verdict": "SHRINK",
+      "action": "BUY",
+      "position_size": 0.8,
+      "stop_loss_pct": 4.9,
+      "take_profit_pct": 9.8,
+      "rules_fired": [
+        {
+          "rule": "R3_VOL_SIZING",
+          "detail": "Trailing daily volatility is 1.09%; sizing to a 1.5% risk target gives 100% of the allocation.",
+          "plain": "This stock has been moving about 1.09% a day recently. We only want to risk about 1.5% a day, so we buy 100% of a normal amount."
+        },
+        {
+          "rule": "R4B_CHANGE_EXPECTED",
+          "detail": "a regime change is expected (54%); position scaled by 0.80.",
+          "plain": "The market looks like it is about to change, so we trim the position further, to 80% of that."
+        },
+        {
+          "rule": "R7_STOP_LOSS",
+          "detail": "Stop-loss 4.9% / take-profit 9.8% = 1x / 2x the trailing 20-day sigma (4.9%).",
+          "plain": "Over a month this stock typically swings about 4.9%. So we sell automatically if it drops 4.9% (cut the loss), or if it gains 9.8% (take the win)."
+        }
+      ]
+    },
+    "synthesis": "Although the broader market is currently moving sideways, our analysis indicates a high probability of a shift toward a bullish trend in the coming weeks. Bharti Airtel is showing strong individual momentum driven by successful business expansions and positive analyst sentiment, which supports our decision to increase our stake. Consequently, we are initiating a buy order at an 80% position size, balancing this growth potential with strict risk management protocols to protect against market volatility.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "BHARTIARTL|2025-01-02": {
+    "stock": "BHARTIARTL",
+    "date": "2025-01-02",
+    "regime": {
+      "decision": "SIDEWAYS",
+      "regime_today": "SIDEWAYS",
+      "will_change": false,
+      "p_change": 0.041,
+      "reasons": [
+        "this regime is 15 days old",
+        "it has been 65 days since the last high",
+        "the fear index is at 13.7"
+      ]
+    },
+    "news": {
+      "decision": "NEUTRAL",
+      "confidence": 0.8,
+      "explanation": "The recent news for Bharti Airtel consists of a routine year-end summary, a report on service disruptions, and a personal interest story regarding the chairman's family. None of these updates suggest a material change in the company's financial outlook, profit margins, or competitive standing. Consequently, the information provided is insufficient to justify a directional move for the stock."
+    },
+    "risk": {
+      "verdict": "REJECT",
+      "action": "NONE",
+      "position_size": 0.0,
+      "stop_loss_pct": null,
+      "take_profit_pct": null,
+      "rules_fired": [
+        {
+          "rule": "R1_NO_DIRECTION",
+          "detail": "Sentiment Agent found no clear direction - no honest basis to trade.",
+          "plain": "The news didn't point clearly up or down, so there's nothing to act on."
+        }
+      ]
+    },
+    "synthesis": "The market is currently in a stable, sideways trend with no significant volatility, suggesting a lack of momentum for new positions. Simultaneously, recent news regarding Bharti Airtel is purely routine and lacks any material impact on the company's financial outlook. Because there is no clear directional signal from either the broader market or company-specific news, the system has rejected the trade to avoid unnecessary risk.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "BHARTIARTL|2025-02-24": {
+    "stock": "BHARTIARTL",
+    "date": "2025-02-24",
+    "regime": {
+      "decision": "BEAR",
+      "regime_today": "BEAR",
+      "will_change": false,
+      "p_change": 0.033,
+      "reasons": [
+        "this regime is 1 days old",
+        "the market is -12.6% over 100 days",
+        "it has been 102 days since the last high"
+      ]
+    },
+    "news": {
+      "decision": "NEUTRAL",
+      "confidence": 0.6,
+      "explanation": "The sentiment is balanced between strong operational and strategic growth signals, such as hitting 120 million 5G users and increasing its stake in the Africa unit, and significant selling pressure from the promoter group. The large block deals, totaling over Rs 8,400 crore, suggest institutional supply that offsets the positive analyst outlook and infrastructure developments."
+    },
+    "risk": {
+      "verdict": "REJECT",
+      "action": "NONE",
+      "position_size": 0.0,
+      "stop_loss_pct": null,
+      "take_profit_pct": null,
+      "rules_fired": [
+        {
+          "rule": "R1_NO_DIRECTION",
+          "detail": "Sentiment Agent found no clear direction - no honest basis to trade.",
+          "plain": "The news didn't point clearly up or down, so there's nothing to act on."
+        }
+      ]
+    },
+    "synthesis": "The system has decided against trading Bharti Airtel today because the broader market is currently in a bearish trend, characterized by a significant decline over the past few months. While the company shows positive operational growth, this is being neutralized by heavy institutional selling pressure and large block deals that create uncertainty. Because these conflicting signals prevent a clear, actionable direction, the risk management rules have triggered a rejection to protect capital.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "BHARTIARTL|2025-11-07": {
+    "stock": "BHARTIARTL",
+    "date": "2025-11-07",
+    "regime": {
+      "decision": "BULL",
+      "regime_today": "BULL",
+      "will_change": false,
+      "p_change": 0.221,
+      "reasons": [
+        "recent volatility is 0.50% daily",
+        "this regime is 80 days old",
+        "the 50-day average is +3.4% against the 200-day"
+      ]
+    },
+    "news": {
+      "decision": "UP",
+      "confidence": 0.7,
+      "explanation": "Despite short-term volatility caused by Singtel's block deal, the fundamental sentiment remains positive due to strong brokerage support and clear ARPU growth outperformance against competitors. The company also received a favorable Supreme Court ruling regarding tax demands, further strengthening its financial outlook."
+    },
+    "risk": {
+      "verdict": "SHRINK",
+      "action": "BUY",
+      "position_size": 0.926,
+      "stop_loss_pct": 7.2,
+      "take_profit_pct": 14.5,
+      "rules_fired": [
+        {
+          "rule": "R3_VOL_SIZING",
+          "detail": "Trailing daily volatility is 1.62%; sizing to a 1.5% risk target gives 93% of the allocation.",
+          "plain": "This stock has been moving about 1.62% a day recently. We only want to risk about 1.5% a day, so we buy 93% of a normal amount."
+        },
+        {
+          "rule": "R7_STOP_LOSS",
+          "detail": "Stop-loss 7.2% / take-profit 14.5% = 1x / 2x the trailing 20-day sigma (7.2%).",
+          "plain": "Over a month this stock typically swings about 7.2%. So we sell automatically if it drops 7.2% (cut the loss), or if it gains 14.5% (take the win)."
+        }
+      ]
+    },
+    "synthesis": "The market is currently in a stable, long-term bullish phase, which provides a supportive backdrop for Bharti Airtel. Positive news, including a favorable Supreme Court ruling and strong financial performance, reinforces this upward momentum despite recent minor volatility. Consequently, the system has authorized a large 93% position size to capitalize on these favorable conditions while maintaining strict risk management protocols to protect against potential market shifts.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "BHARTIARTL|2025-05-22": {
+    "stock": "BHARTIARTL",
+    "date": "2025-05-22",
+    "regime": {
+      "decision": "SIDEWAYS",
+      "regime_today": "SIDEWAYS",
+      "will_change": false,
+      "p_change": 0.051,
+      "reasons": [
+        "this regime is 16 days old",
+        "it has been 158 days since the last high",
+        "the stocks are moving together at 0.48 correlation"
+      ]
+    },
+    "news": {
+      "decision": "DOWN",
+      "confidence": 0.85,
+      "explanation": "The stock is facing significant downward pressure due to a massive, multi-day block sale of shares by a major investor, Singtel, which has already triggered a decline in share price. Additionally, the Supreme Court's rejection of the AGR waiver plea removes a potential positive catalyst and maintains a negative overhang on the company's long-term liabilities."
+    },
+    "risk": {
+      "verdict": "SHRINK",
+      "action": "SELL",
+      "position_size": 0.7,
+      "stop_loss_pct": 6.6,
+      "take_profit_pct": 13.2,
+      "rules_fired": [
+        {
+          "rule": "R3_VOL_SIZING",
+          "detail": "Trailing daily volatility is 1.47%; sizing to a 1.5% risk target gives 100% of the allocation.",
+          "plain": "This stock has been moving about 1.47% a day recently. We only want to risk about 1.5% a day, so we buy 100% of a normal amount."
+        },
+        {
+          "rule": "R4_MARKET_FIT",
+          "detail": "the market is drifting - it offers no support either way; position scaled by 0.70.",
+          "plain": "Because the market is drifting, so it gives us no help either way, we cut the position to 70% of what it would otherwise be."
+        },
+        {
+          "rule": "R7_STOP_LOSS",
+          "detail": "Stop-loss 6.6% / take-profit 13.2% = 1x / 2x the trailing 20-day sigma (6.6%).",
+          "plain": "Over a month this stock typically swings about 6.6%. So we sell automatically if it drops 6.6% (cut the loss), or if it gains 13.2% (take the win)."
+        }
+      ]
+    },
+    "synthesis": "The decision to sell 70% of the position is driven by a combination of negative company-specific news and strict risk management protocols. While the broader market is currently stuck in a sideways trend, the stock is facing intense downward pressure from a major investor's block sale and unfavorable legal developments regarding its liabilities. Consequently, our risk rules have triggered a stop-loss and a reduction in exposure to protect the portfolio from further volatility associated with these specific headwinds.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "ASHOKLEY|2025-05-22": {
+    "stock": "ASHOKLEY",
+    "date": "2025-05-22",
+    "regime": {
+      "decision": "SIDEWAYS",
+      "regime_today": "SIDEWAYS",
+      "will_change": false,
+      "p_change": 0.051,
+      "reasons": [
+        "this regime is 16 days old",
+        "it has been 158 days since the last high",
+        "the stocks are moving together at 0.48 correlation"
+      ]
+    },
+    "news": {
+      "decision": "UP",
+      "confidence": 0.85,
+      "explanation": "The sentiment is driven by positive market reactions to the upcoming bonus issue consideration, which historically signals management's confidence in financial health. Additionally, the declaration of a second interim dividend provides immediate value to shareholders, reinforcing a bullish short-term outlook ahead of the Q4 earnings announcement."
+    },
+    "risk": {
+      "verdict": "SHRINK",
+      "action": "BUY",
+      "position_size": 0.576,
+      "stop_loss_pct": 8.1,
+      "take_profit_pct": 16.3,
+      "rules_fired": [
+        {
+          "rule": "R3_VOL_SIZING",
+          "detail": "Trailing daily volatility is 1.82%; sizing to a 1.5% risk target gives 82% of the allocation.",
+          "plain": "This stock has been moving about 1.82% a day recently. We only want to risk about 1.5% a day, so we buy 82% of a normal amount."
+        },
+        {
+          "rule": "R4_MARKET_FIT",
+          "detail": "the market is drifting - it offers no support either way; position scaled by 0.70.",
+          "plain": "Because the market is drifting, so it gives us no help either way, we cut the position to 70% of what it would otherwise be."
+        },
+        {
+          "rule": "R7_STOP_LOSS",
+          "detail": "Stop-loss 8.1% / take-profit 16.3% = 1x / 2x the trailing 20-day sigma (8.1%).",
+          "plain": "Over a month this stock typically swings about 8.1%. So we sell automatically if it drops 8.1% (cut the loss), or if it gains 16.3% (take the win)."
+        }
+      ]
+    },
+    "synthesis": "The system has decided to initiate a buy position for ASHOKLEY, though it is keeping the size at a moderate 58% to account for the current sideways market environment. While the broader market is showing little directional movement, the stock itself is benefiting from positive news regarding a bonus issue and dividend payments, which are boosting investor confidence. By limiting the position size, the system balances the potential for short-term gains from this positive news against the lack of a clear, strong trend in the overall market.",
+    "confidence_label": "Medium",
+    "source": "REAL"
+  },
+  "ASHOKLEY|2025-06-24": {
+    "stock": "ASHOKLEY",
+    "date": "2025-06-24",
+    "regime": {
+      "decision": "SIDEWAYS",
+      "regime_today": "SIDEWAYS",
+      "will_change": false,
+      "p_change": 0.069,
+      "reasons": [
+        "recent volatility is 0.60% daily",
+        "5 of 5 stocks are above their 200-day average",
+        "it has been 181 days since the last high"
+      ]
+    },
+    "news": {
+      "decision": "NEUTRAL",
+      "confidence": 0.0,
+      "explanation": "LLM call failed: ServerError"
+    },
+    "risk": {
+      "verdict": "REJECT",
+      "action": "NONE",
+      "position_size": 0.0,
+      "stop_loss_pct": null,
+      "take_profit_pct": null,
+      "rules_fired": [
+        {
+          "rule": "R1_NO_DIRECTION",
+          "detail": "Sentiment Agent found no clear direction - no honest basis to trade.",
+          "plain": "The news didn't point clearly up or down, so there's nothing to act on."
+        }
+      ]
+    },
+    "synthesis": "The system has decided against trading ASHOKLEY today because there is no clear market signal to justify a position. While the broader market is currently stable and moving sideways, the news analysis for this specific stock failed to provide any actionable information. Consequently, the risk management rules require us to remain on the sidelines until a definitive trend or positive news catalyst emerges.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "ASHOKLEY|2025-01-02": {
+    "stock": "ASHOKLEY",
+    "date": "2025-01-02",
+    "regime": {
+      "decision": "SIDEWAYS",
+      "regime_today": "SIDEWAYS",
+      "will_change": false,
+      "p_change": 0.041,
+      "reasons": [
+        "this regime is 15 days old",
+        "it has been 65 days since the last high",
+        "the fear index is at 13.7"
+      ]
+    },
+    "news": {
+      "decision": "NEUTRAL",
+      "confidence": 0.0,
+      "explanation": "Only 1 headline(s) in the last 7 days - not enough fresh news to form an honest view."
+    },
+    "risk": {
+      "verdict": "REJECT",
+      "action": "NONE",
+      "position_size": 0.0,
+      "stop_loss_pct": null,
+      "take_profit_pct": null,
+      "rules_fired": [
+        {
+          "rule": "R1_NO_DIRECTION",
+          "detail": "Sentiment Agent found no clear direction - no honest basis to trade.",
+          "plain": "The news didn't point clearly up or down, so there's nothing to act on."
+        }
+      ]
+    },
+    "synthesis": "The system has decided against trading ASHOKLEY today because there is no clear momentum to justify a position. The market is currently stuck in a sideways trend with very low volatility, and there is a complete lack of fresh news regarding this specific stock to provide a catalyst. Consequently, the risk rules have triggered a rejection to avoid entering a stagnant market without a defined direction.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "ASHOKLEY|2025-02-27": {
+    "stock": "ASHOKLEY",
+    "date": "2025-02-27",
+    "regime": {
+      "decision": "BEAR",
+      "regime_today": "BEAR",
+      "will_change": false,
+      "p_change": 0.056,
+      "reasons": [
+        "this regime is 3 days old",
+        "the market is -10.7% over 100 days",
+        "the 50-day average is -2.9% against the 200-day"
+      ]
+    },
+    "news": {
+      "decision": "NEUTRAL",
+      "confidence": 0.0,
+      "explanation": "Only 2 headline(s) in the last 7 days - not enough fresh news to form an honest view."
+    },
+    "risk": {
+      "verdict": "REJECT",
+      "action": "NONE",
+      "position_size": 0.0,
+      "stop_loss_pct": null,
+      "take_profit_pct": null,
+      "rules_fired": [
+        {
+          "rule": "R1_NO_DIRECTION",
+          "detail": "Sentiment Agent found no clear direction - no honest basis to trade.",
+          "plain": "The news didn't point clearly up or down, so there's nothing to act on."
+        }
+      ]
+    },
+    "synthesis": "The system has decided against trading ASHOKLEY today because there is a lack of clear, actionable information. While the broader market is currently in a bearish trend, the news regarding this specific stock is too sparse to provide a reliable signal. Consequently, the risk rules have triggered a rejection of the trade to avoid entering a position without a confirmed direction.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "ASHOKLEY|2025-03-20": {
+    "stock": "ASHOKLEY",
+    "date": "2025-03-20",
+    "regime": {
+      "decision": "BEAR",
+      "regime_today": "BEAR",
+      "will_change": false,
+      "p_change": 0.058,
+      "reasons": [
+        "this regime is 17 days old",
+        "the 50-day average is -4.5% against the 200-day",
+        "the stocks are moving together at 0.34 correlation"
+      ]
+    },
+    "news": {
+      "decision": "UP",
+      "confidence": 0.85,
+      "explanation": "Ashok Leyland has secured positive momentum through the commissioning of a new bus manufacturing facility in Andhra Pradesh, which expands its production capacity for both diesel and electric buses. Furthermore, a significant \u20b9197.35 crore defense contract with the Indian Army for 500 buses provides immediate revenue visibility and strengthens the company's order book. These developments suggest improved operational scale and strong institutional demand for the next month."
+    },
+    "risk": {
+      "verdict": "SHRINK",
+      "action": "BUY",
+      "position_size": 0.3,
+      "stop_loss_pct": 8.9,
+      "take_profit_pct": 17.9,
+      "rules_fired": [
+        {
+          "rule": "R3_VOL_SIZING",
+          "detail": "Trailing daily volatility is 2.00%; sizing to a 1.5% risk target gives 75% of the allocation.",
+          "plain": "This stock has been moving about 2.00% a day recently. We only want to risk about 1.5% a day, so we buy 75% of a normal amount."
+        },
+        {
+          "rule": "R4_MARKET_FIT",
+          "detail": "news says BUY but the market is BEAR - trading against it; position scaled by 0.40.",
+          "plain": "Because we would be buying while the market falls, we cut the position to 40% of what it would otherwise be."
+        },
+        {
+          "rule": "R7_STOP_LOSS",
+          "detail": "Stop-loss 8.9% / take-profit 17.9% = 1x / 2x the trailing 20-day sigma (8.9%).",
+          "plain": "Over a month this stock typically swings about 8.9%. So we sell automatically if it drops 8.9% (cut the loss), or if it gains 17.9% (take the win)."
+        }
+      ]
+    },
+    "synthesis": "While the broader market remains in a bearish trend, Ashok Leyland is showing strong individual growth potential due to a new manufacturing facility and a major defense contract. Because the market environment is currently unfavorable, the system has opted for a cautious 'shrink' approach, limiting the position size to 30% to balance the stock's positive momentum against wider economic risks. This strategy ensures we capture the company's specific growth opportunities while maintaining strict stop-loss protections to guard against the prevailing market downturn.",
+    "confidence_label": "Medium",
+    "source": "REAL"
+  },
+  "ASHOKLEY|2025-04-11": {
+    "stock": "ASHOKLEY",
+    "date": "2025-04-11",
+    "regime": {
+      "decision": "SIDEWAYS",
+      "regime_today": "BEAR",
+      "will_change": true,
+      "p_change": 0.596,
+      "reasons": [
+        "it has been 132 days since the last high",
+        "the stocks are moving together at 0.35 correlation",
+        "the market is -4.4% over 100 days"
+      ]
+    },
+    "news": {
+      "decision": "NEUTRAL",
+      "confidence": 0.0,
+      "explanation": "Only 2 headline(s) in the last 7 days - not enough fresh news to form an honest view."
+    },
+    "risk": {
+      "verdict": "REJECT",
+      "action": "NONE",
+      "position_size": 0.0,
+      "stop_loss_pct": null,
+      "take_profit_pct": null,
+      "rules_fired": [
+        {
+          "rule": "R1_NO_DIRECTION",
+          "detail": "Sentiment Agent found no clear direction - no honest basis to trade.",
+          "plain": "The news didn't point clearly up or down, so there's nothing to act on."
+        }
+      ]
+    },
+    "synthesis": "The system has decided against trading ASHOKLEY today because there is a lack of clear, actionable information. While the broader market is currently in a bearish phase with expectations of moving sideways, there is simply not enough recent news regarding this specific stock to form a reliable outlook. Consequently, the risk management rules have triggered a rejection of the trade to avoid unnecessary exposure during this period of uncertainty.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "BHARTIARTL|2025-04-11": {
+    "stock": "BHARTIARTL",
+    "date": "2025-04-11",
+    "regime": {
+      "decision": "SIDEWAYS",
+      "regime_today": "BEAR",
+      "will_change": true,
+      "p_change": 0.596,
+      "reasons": [
+        "it has been 132 days since the last high",
+        "the stocks are moving together at 0.35 correlation",
+        "the market is -4.4% over 100 days"
+      ]
+    },
+    "news": {
+      "decision": "NEUTRAL",
+      "confidence": 0.6,
+      "explanation": "The recent news presents a mixed outlook for Bharti Airtel. While the potential collaboration with SpaceX signals strategic technological growth, the halting of the infrastructure sale by Bharti Hexacom introduces uncertainty regarding capital allocation and regulatory hurdles. Overall, these conflicting developments provide no clear directional momentum for the stock in the near term."
+    },
+    "risk": {
+      "verdict": "REJECT",
+      "action": "NONE",
+      "position_size": 0.0,
+      "stop_loss_pct": null,
+      "take_profit_pct": null,
+      "rules_fired": [
+        {
+          "rule": "R1_NO_DIRECTION",
+          "detail": "Sentiment Agent found no clear direction - no honest basis to trade.",
+          "plain": "The news didn't point clearly up or down, so there's nothing to act on."
+        }
+      ]
+    },
+    "synthesis": "The system has decided against trading Bharti Airtel because the current market environment is bearish and lacks a clear upward trend. While the company is exploring new technological partnerships, recent news remains neutral due to regulatory uncertainties surrounding its infrastructure sales. Because there is no strong directional momentum to support a profitable move, the risk-based rules have triggered a rejection to protect capital.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "ADANIPORTS|2025-04-11": {
+    "stock": "ADANIPORTS",
+    "date": "2025-04-11",
+    "regime": {
+      "decision": "SIDEWAYS",
+      "regime_today": "BEAR",
+      "will_change": true,
+      "p_change": 0.596,
+      "reasons": [
+        "it has been 132 days since the last high",
+        "the stocks are moving together at 0.35 correlation",
+        "the market is -4.4% over 100 days"
+      ]
+    },
+    "news": {
+      "decision": "UP",
+      "confidence": 0.85,
+      "explanation": "Adani Ports has demonstrated strong operational progress with the official commencement of operations at the Colombo West International Terminal and significant milestones at the Vizhinjam Port. The securing of viability gap funding for Vizhinjam further bolsters the project's financial viability and long-term expansion goals. These developments indicate a positive growth trajectory in their regional maritime infrastructure capacity."
+    },
+    "risk": {
+      "verdict": "SHRINK",
+      "action": "BUY",
+      "position_size": 0.452,
+      "stop_loss_pct": 8.3,
+      "take_profit_pct": 16.6,
+      "rules_fired": [
+        {
+          "rule": "R3_VOL_SIZING",
+          "detail": "Trailing daily volatility is 1.86%; sizing to a 1.5% risk target gives 81% of the allocation.",
+          "plain": "This stock has been moving about 1.86% a day recently. We only want to risk about 1.5% a day, so we buy 81% of a normal amount."
+        },
+        {
+          "rule": "R4_MARKET_FIT",
+          "detail": "the market is drifting - it offers no support either way; position scaled by 0.70.",
+          "plain": "Because the market is drifting, so it gives us no help either way, we cut the position to 70% of what it would otherwise be."
+        },
+        {
+          "rule": "R4B_CHANGE_EXPECTED",
+          "detail": "a regime change is expected (60%); position scaled by 0.80.",
+          "plain": "The market looks like it is about to change, so we trim the position further, to 80% of that."
+        },
+        {
+          "rule": "R7_STOP_LOSS",
+          "detail": "Stop-loss 8.3% / take-profit 16.6% = 1x / 2x the trailing 20-day sigma (8.3%).",
+          "plain": "Over a month this stock typically swings about 8.3%. So we sell automatically if it drops 8.3% (cut the loss), or if it gains 16.6% (take the win)."
+        }
+      ]
+    },
+    "synthesis": "While the broader market is currently in a bearish phase with expectations of sideways movement, Adani Ports is showing strong individual growth potential due to successful infrastructure expansions in Colombo and Vizhinjam. Because of this disconnect between the struggling market and the company's positive operational news, our risk management rules have triggered a cautious approach. We are initiating a buy position at a reduced size of 45% to capitalize on the stock's specific momentum while maintaining a defensive buffer against the wider market's instability.",
+    "confidence_label": "Medium",
+    "source": "REAL"
+  },
+  "IOC|2025-12-02": {
+    "stock": "IOC",
+    "date": "2025-12-02",
+    "regime": {
+      "decision": "SIDEWAYS",
+      "regime_today": "SIDEWAYS",
+      "will_change": false,
+      "p_change": 0.017,
+      "reasons": [
+        "this regime is 13 days old",
+        "recent volatility is 0.49% daily",
+        "vol_60 = 0.00"
+      ]
+    },
+    "news": {
+      "decision": "NEUTRAL",
+      "confidence": 0.7,
+      "explanation": "The recent news presents a mix of operational activity and dividend anticipation against a backdrop of ongoing crude procurement. While the potential for a second interim dividend provides a positive signal for shareholders, the operational realities of active crude buying and refinery processing are standard business for an oil refiner. Overall, these headlines do not suggest a clear directional shift in profitability over the next month."
+    },
+    "risk": {
+      "verdict": "REJECT",
+      "action": "NONE",
+      "position_size": 0.0,
+      "stop_loss_pct": null,
+      "take_profit_pct": null,
+      "rules_fired": [
+        {
+          "rule": "R1_NO_DIRECTION",
+          "detail": "Sentiment Agent found no clear direction - no honest basis to trade.",
+          "plain": "The news didn't point clearly up or down, so there's nothing to act on."
+        }
+      ]
+    },
+    "synthesis": "The market is currently in a stable, sideways trend with very low volatility, suggesting no clear momentum for IOC. Simultaneously, recent news regarding the company remains neutral, as standard operational activities are being balanced out by dividend expectations. Because neither the broader market environment nor the specific company news provides a compelling reason to move, the system has rejected the trade to avoid unnecessary risk.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "ASHOKLEY|2025-12-02": {
+    "stock": "ASHOKLEY",
+    "date": "2025-12-02",
+    "regime": {
+      "decision": "SIDEWAYS",
+      "regime_today": "SIDEWAYS",
+      "will_change": false,
+      "p_change": 0.017,
+      "reasons": [
+        "this regime is 13 days old",
+        "recent volatility is 0.49% daily",
+        "vol_60 = 0.00"
+      ]
+    },
+    "news": {
+      "decision": "UP",
+      "confidence": 0.9,
+      "explanation": "Ashok Leyland is showing strong momentum driven by significantly higher-than-expected November sales growth of 29-32% and a strategic expansion into the Middle East market via a new Saudi subsidiary. The stock has responded with record-high breakouts and strong price appreciation, signaling investor confidence in the company's current volume growth and long-term geographical diversification."
+    },
+    "risk": {
+      "verdict": "SHRINK",
+      "action": "BUY",
+      "position_size": 0.459,
+      "stop_loss_pct": 10.2,
+      "take_profit_pct": 20.5,
+      "rules_fired": [
+        {
+          "rule": "R3_VOL_SIZING",
+          "detail": "Trailing daily volatility is 2.29%; sizing to a 1.5% risk target gives 66% of the allocation.",
+          "plain": "This stock has been moving about 2.29% a day recently. We only want to risk about 1.5% a day, so we buy 66% of a normal amount."
+        },
+        {
+          "rule": "R4_MARKET_FIT",
+          "detail": "the market is drifting - it offers no support either way; position scaled by 0.70.",
+          "plain": "Because the market is drifting, so it gives us no help either way, we cut the position to 70% of what it would otherwise be."
+        },
+        {
+          "rule": "R7_STOP_LOSS",
+          "detail": "Stop-loss 10.2% / take-profit 20.5% = 1x / 2x the trailing 20-day sigma (10.2%).",
+          "plain": "Over a month this stock typically swings about 10.2%. So we sell automatically if it drops 10.2% (cut the loss), or if it gains 20.5% (take the win)."
+        }
+      ]
+    },
+    "synthesis": "The system has decided to initiate a buy position for Ashok Leyland, sized at 46% of the portfolio, to capitalize on the company's strong momentum following impressive November sales growth and successful international expansion. While the broader market is currently in a sideways trend with very low volatility, the stock's individual performance is exceptionally bullish, justifying a strategic entry. The risk management rules have triggered a 'shrink' verdict to maintain a cautious position size, ensuring we capture the stock's growth potential while strictly adhering to our volatility and stop-loss safety protocols.",
+    "confidence_label": "High",
+    "source": "REAL"
+  },
+  "ASHOKLEY|2025-06-10": {
+    "stock": "ASHOKLEY",
+    "date": "2025-06-10",
+    "regime": {
+      "decision": "SIDEWAYS",
+      "regime_today": "SIDEWAYS",
+      "will_change": false,
+      "p_change": 0.054,
+      "reasons": [
+        "the stocks are moving together at 0.46 correlation",
+        "this regime is 29 days old",
+        "trend_r2_60 = 0.77"
+      ]
+    },
+    "news": {
+      "decision": "UP",
+      "confidence": 0.85,
+      "explanation": "Ashok Leyland has received significant positive momentum from multiple large bus orders from the TNSTC, totaling nearly 400 crore rupees in value. Furthermore, the RBI rate cut acts as a major tailwind for the cyclical commercial vehicle sector, with Morgan Stanley validating the bullish outlook through a price target hike."
+    },
+    "risk": {
+      "verdict": "SHRINK",
+      "action": "BUY",
+      "position_size": 0.7,
+      "stop_loss_pct": 5.5,
+      "take_profit_pct": 11.0,
+      "rules_fired": [
+        {
+          "rule": "R3_VOL_SIZING",
+          "detail": "Trailing daily volatility is 1.23%; sizing to a 1.5% risk target gives 100% of the allocation.",
+          "plain": "This stock has been moving about 1.23% a day recently. We only want to risk about 1.5% a day, so we buy 100% of a normal amount."
+        },
+        {
+          "rule": "R4_MARKET_FIT",
+          "detail": "the market is drifting - it offers no support either way; position scaled by 0.70.",
+          "plain": "Because the market is drifting, so it gives us no help either way, we cut the position to 70% of what it would otherwise be."
+        },
+        {
+          "rule": "R7_STOP_LOSS",
+          "detail": "Stop-loss 5.5% / take-profit 11.0% = 1x / 2x the trailing 20-day sigma (5.5%).",
+          "plain": "Over a month this stock typically swings about 5.5%. So we sell automatically if it drops 5.5% (cut the loss), or if it gains 11.0% (take the win)."
+        }
+      ]
+    },
+    "synthesis": "Although the broader market is currently moving sideways without a clear trend, Ashok Leyland is showing strong individual momentum driven by major new government bus orders and favorable interest rate cuts. Because the market environment is stable but lacks a strong directional push, our risk management rules have opted to initiate a buy position at a 70% size to capture this specific growth opportunity while maintaining a disciplined safety buffer. This approach balances the stock's positive news outlook with the reality of a neutral, non-trending market regime.",
+    "confidence_label": "High",
+    "source": "REAL"
+  }
+}

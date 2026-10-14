@@ -1,0 +1,3 @@
+chosen_prediction_column,pred_xgb_no_ret120
+n_features,25
+features,ret_5|ret_20|ret_60|px_vs_sma50|px_vs_sma200|sma50_vs_sma200|macd_hist|ret_100|flip_margin|adx_14|trend_r2_60|vix_level|vix_chg_20|vol_20|vol_60|bb_width|drawdown|days_since_high|breadth_above_sma200|avg_correlation|rsi_14|in_bull|in_sideways|in_bear|days_in_regime

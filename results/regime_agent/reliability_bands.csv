@@ -1,0 +1,5 @@
+band,n,accuracy
+borderline,34,0.618
+moderate,66,0.409
+confident,101,0.535
+very confident,180,0.894

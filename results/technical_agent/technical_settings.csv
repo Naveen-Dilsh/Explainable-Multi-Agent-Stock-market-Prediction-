@@ -1,0 +1,4 @@
+threshold,1.9289206662537095
+horizon,20
+n_features,25
+features,mkt_vol_20|mkt_vol_60|vix_level|vix_chg_20|mkt_ret_20|mkt_drawdown|mkt_range|avg_correlation|vol_5|vol_20|vol_60|vol_ratio|ret_20|ret_60|px_vs_sma50|px_vs_sma200|drawdown|vol_chg|bb_width|rel_vol|is_IOC|is_BHARTIARTL|is_ASHOKLEY|is_ADANIPORTS|is_INDHOTEL

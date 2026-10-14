@@ -1,0 +1,11 @@
+pandas>=3.0.0
+numpy>=2.2.6
+xgboost>=3.4.1
+scikit-learn>=1.8.0
+shap>=0.52.0
+matplotlib>=3.10.8
+yfinance>=1.2.0
+streamlit>=1.62.0
+python-dotenv>=1.2.1
+google-genai>=2.19.0
+pytest>=9.1.1
